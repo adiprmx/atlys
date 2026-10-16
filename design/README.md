@@ -10,6 +10,8 @@ These are the taste-makers: brief-reading, audit-first playbooks that push an ag
 
 > New here? Start with `taste-skill` (the design direction), `impeccable-design` (the full review pass), and `accessibility` (before you ship).
 
+![design skill map](../assets/skillmap-design.svg)
+
 | Skill | What it does |
 |---|---|
 | `taste-skill` | Anti-slop frontend for landing pages, portfolios, and redesigns. Reads the brief, infers the right design direction, and ships interfaces that don't look templated. Strict pre-flight check included. |

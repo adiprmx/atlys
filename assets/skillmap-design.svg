@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 308" width="1120" height="308">
+<rect width="1120" height="308" rx="18" fill="#0b0b0d"/>
+<text x="32" y="24" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#8b5cf6" letter-spacing="4">DESIGN</text>
+<text x="167" y="24" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#71717a" letter-spacing="1">Interfaces with taste</text>
+<rect x="32" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="32" y="34" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="134.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">accessibility</text>
+<rect x="246" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="246" y="34" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="348.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">accessibility-testing</text>
+<rect x="460" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="460" y="34" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="562.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">brandkit</text>
+<rect x="674" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="674" y="34" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="776.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">brutalist-skill</text>
+<rect x="888" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="888" y="34" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="990.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">frontend-image-direction</text>
+<rect x="32" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="32" y="104" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="134.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">gpt-tasteskill</text>
+<rect x="246" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="246" y="104" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="348.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">image-to-code-skill</text>
+<rect x="460" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="460" y="104" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="562.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">imagegen-frontend-mobile</text>
+<rect x="674" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="674" y="104" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="776.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">imagegen-frontend-web</text>
+<rect x="888" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="888" y="104" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="990.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">impeccable-design</text>
+<rect x="32" y="174" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="32" y="174" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="134.0" y="207.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">minimalist-skill</text>
+<rect x="246" y="174" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="246" y="174" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="348.0" y="207.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">premium-frontend-engineering</text>
+<rect x="460" y="174" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="460" y="174" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="562.0" y="207.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">redesign-skill</text>
+<rect x="674" y="174" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="674" y="174" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="776.0" y="207.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">soft-skill</text>
+<rect x="888" y="174" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="888" y="174" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="990.0" y="207.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">stitch-skill</text>
+<rect x="32" y="244" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="32" y="244" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="134.0" y="277.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">taste-skill</text>
+<rect x="246" y="244" width="200" height="56" rx="10" fill="#141417" stroke="#8b5cf6" stroke-width="1.5" opacity="0.95"/>
+<rect x="246" y="244" width="4" height="56" rx="2" fill="#8b5cf6"/>
+<text x="348.0" y="277.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">taste-skill-v1</text>
+</svg>

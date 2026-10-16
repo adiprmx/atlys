@@ -83,7 +83,7 @@ Skills that are thin, generic, or duplicated by a stronger skill already in the 
 
 ```
 atlys/
-├── assets/                  # brand visuals (hero, icon, category banners)
+├── assets/                  # brand visuals (hero, icon, banners, skill maps)
 ├── design/                  # 🎨 17 frontend & design skills
 │   ├── taste-skill/
 │   ├── redesign-skill/
@@ -106,25 +106,9 @@ atlys/
 |:---:|:---:|:---:|
 | **Design** — interfaces with taste<br/><sub>Start with `taste-skill` · `impeccable-design`</sub> | **Writing** — prose that reads human<br/><sub>Start with `antislop-core` · `humanizer`</sub> | **Engineering** — backends that ship<br/><sub>Start with `output-skill` · `hexagonal-python`</sub> |
 
-```mermaid
-flowchart TD
-    A["atlys — 47 skills"] --> D["Design — 17"]
-    A --> W["Writing — 12"]
-    A --> E["Engineering — 18"]
-    D --> D1["taste-skill"]
-    D --> D2["impeccable-design"]
-    D --> D3["accessibility"]
-    W --> W1["antislop-core"]
-    W --> W2["humanizer"]
-    W --> W3["stop-slop"]
-    E --> E1["hexagonal-python"]
-    E --> E2["docker-compose-patterns"]
-    E --> E3["output-skill"]
-    style A fill:#3b82f6,color:#fff,stroke:none
-    style D fill:#8b5cf6,color:#fff,stroke:none
-    style W fill:#f59e0b,color:#fff,stroke:none
-    style E fill:#06b6d4,color:#fff,stroke:none
-```
+### Skill map
+
+![atlys skill map — all 47 skills](assets/skillmap.svg)
 
 ## The collection
 

@@ -10,6 +10,8 @@ Backend architecture, containers, Go, Android, databases — plus the QA skills 
 
 > New here? Start with `output-skill` (complete code, always), `hexagonal-python` or `golang-concurrency` (your stack's architecture), and `docker-compose-patterns` (containers done right).
 
+![engineering skill map](../assets/skillmap-engineering.svg)
+
 | Skill | What it does |
 |---|---|
 | `output-skill` | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. |

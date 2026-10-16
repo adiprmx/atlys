@@ -10,6 +10,8 @@ Two jobs here: **de-slopping** (strip the AI tics — em-dashes everywhere, "del
 
 > New here? Start with `antislop-core` (the always-on filter), `humanizer` (fix the voice), and `stop-slop` (cut the filler).
 
+![writing skill map](../assets/skillmap-writing.svg)
+
 | Skill | What it does |
 |---|---|
 | `antislop-core` | The core filter. Rules every AI coding agent should follow to stop generic AI slop. Load always. |

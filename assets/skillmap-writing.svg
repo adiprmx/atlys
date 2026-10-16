@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 238" width="1120" height="238">
+<rect width="1120" height="238" rx="18" fill="#0b0b0d"/>
+<text x="32" y="24" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f59e0b" letter-spacing="4">WRITING</text>
+<text x="186" y="24" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#71717a" letter-spacing="1">Prose that reads human</text>
+<rect x="32" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="32" y="34" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="134.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">antislop-code</text>
+<rect x="246" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="246" y="34" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="348.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">antislop-copywriting</text>
+<rect x="460" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="460" y="34" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="562.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">antislop-core</text>
+<rect x="674" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="674" y="34" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="776.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">antislop-human</text>
+<rect x="888" y="34" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="888" y="34" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="990.0" y="67.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">antislop-layoutmobile</text>
+<rect x="32" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="32" y="104" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="134.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">antislop-ui</text>
+<rect x="246" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="246" y="104" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="348.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">avoid-ai-writing</text>
+<rect x="460" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="460" y="104" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="562.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">crafting-effective-readmes</text>
+<rect x="674" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="674" y="104" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="776.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">humanizer</text>
+<rect x="888" y="104" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="888" y="104" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="990.0" y="137.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">no-ai-slop</text>
+<rect x="32" y="174" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="32" y="174" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="134.0" y="207.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">stop-slop</text>
+<rect x="246" y="174" width="200" height="56" rx="10" fill="#141417" stroke="#f59e0b" stroke-width="1.5" opacity="0.95"/>
+<rect x="246" y="174" width="4" height="56" rx="2" fill="#f59e0b"/>
+<text x="348.0" y="207.0" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#e4e4e7" text-anchor="middle">writing-quality</text>
+</svg>

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.7.4
+
+- Skill maps: hand-coded SVG maps of the full 47-skill collection (main README) and per-category maps (each category README). Visuals now distributed across every level. Repo About set: 18 topics.
+
 ## 2026-10-16 — v1.7.3
 
 - Main README rebalanced: "Why atlys exists" tightened, plus an ecosystem map diagram (categories → flagship skills) in Browse the collection.
