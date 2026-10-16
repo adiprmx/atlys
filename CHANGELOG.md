@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.7.0
+
+- All visuals are now hand-made SVG: category banners, hero, and icon redrawn in code — crisp, typographic, intentional. No AI-generated imagery anywhere in the repo.
+
 ## 2026-10-16 — v1.6.0
 
 - Visual identity: custom category banners (Design/Writing/Engineering) now head every category README and every skill README; main README gained clickable banner cards for browsing the collection.

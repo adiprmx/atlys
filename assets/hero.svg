@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480">
+  <rect width="1200" height="480" fill="#0b0b0d"/>
+  <!-- hexagonal tiles, slotting together -->
+  <g fill="none" stroke="#3b82f6" stroke-width="2.5">
+    <polygon points="1010.6,235 950,270 889.4,235 889.4,165 950,130 1010.6,165" opacity="0.9"/>
+    <polygon points="1085,340 1040,365.9 995,340 995,288.2 1040,262.3 1085,288.2" opacity="0.45"/>
+    <polygon points="940,110 910,127.3 880,110 880,75.4 910,58.1 940,75.4" opacity="0.6"/>
+  </g>
+  <g fill="#3b82f6">
+    <circle cx="950" cy="200" r="9" opacity="0.95"/>
+    <circle cx="1040" cy="314" r="6" opacity="0.5"/>
+  </g>
+  <g fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.25">
+    <path d="M 950 270 V 288"/>
+    <path d="M 910 127 V 165" opacity="0.7"/>
+  </g>
+  <!-- wordmark -->
+  <text x="76" y="252" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="148" font-weight="800" fill="#ffffff" letter-spacing="-6">atlys</text>
+  <rect x="80" y="292" width="64" height="5" fill="#3b82f6"/>
+  <text x="80" y="344" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#a1a1aa" letter-spacing="5">A CURATED COLLECTION OF SKILLS</text>
+  <text x="80" y="382" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#71717a" letter-spacing="5">FOR AI CODING AGENTS</text>
+</svg>

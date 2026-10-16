@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <rect width="1200" height="420" fill="#0b0b0d"/>
+  <!-- editorial motif: text lines of varying widths -->
+  <g fill="#f59e0b" opacity="0.85">
+    <rect x="880" y="90" width="240" height="10" rx="5"/>
+    <rect x="880" y="118" width="200" height="10" rx="5" opacity="0.6"/>
+    <rect x="880" y="146" width="240" height="10" rx="5" opacity="0.45"/>
+    <rect x="880" y="174" width="160" height="10" rx="5" opacity="0.6"/>
+    <rect x="880" y="230" width="240" height="10" rx="5" opacity="0.35"/>
+    <rect x="880" y="258" width="220" height="10" rx="5" opacity="0.55"/>
+    <rect x="880" y="286" width="180" height="10" rx="5" opacity="0.4"/>
+  </g>
+  <g fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5">
+    <path d="M 820 60 L 1150 60"/>
+    <path d="M 820 340 L 1150 340" opacity="0.6"/>
+  </g>
+  <g fill="#f59e0b">
+    <circle cx="820" cy="200" r="7" opacity="0.9"/>
+  </g>
+  <!-- typography -->
+  <text x="80" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" fill="#ffffff" letter-spacing="-1">Writing</text>
+  <rect x="82" y="238" width="72" height="4" fill="#f59e0b"/>
+  <text x="80" y="290" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#a1a1aa" letter-spacing="6">12 SKILLS</text>
+  <text x="80" y="330" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#71717a" letter-spacing="2">Prose that reads human</text>
+</svg>

@@ -1,4 +1,4 @@
-![atlys — a curated collection of skills for AI coding agents](assets/hero.webp)
+![atlys — a curated collection of skills for AI coding agents](assets/hero.svg)
 
 <div align="center">
 
@@ -105,7 +105,7 @@ atlys/
 
 ## Browse the collection
 
-| [![Design — 17 skills](assets/banner-design.webp)](design/) | [![Writing — 12 skills](assets/banner-writing.webp)](writing/) | [![Engineering — 18 skills](assets/banner-engineering.webp)](engineering/) |
+| [![Design — 17 skills](assets/banner-design.svg)](design/) | [![Writing — 12 skills](assets/banner-writing.svg)](writing/) | [![Engineering — 18 skills](assets/banner-engineering.svg)](engineering/) |
 |:---:|:---:|:---:|
 | **Design** — interfaces with taste | **Writing** — prose that reads human | **Engineering** — backends that ship |
 

@@ -1,4 +1,4 @@
-![Writing — atlys](../../assets/banner-writing.webp)
+![Writing — atlys](../../assets/banner-writing.svg)
 
 # antislop-layoutmobile
 

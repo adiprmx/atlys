@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <rect width="1200" height="420" fill="#0b0b0d"/>
+  <!-- blueprint grid -->
+  <g stroke="#06b6d4" stroke-width="1" opacity="0.18">
+    <path d="M 760 0 V 420 M 840 0 V 420 M 920 0 V 420 M 1000 0 V 420 M 1080 0 V 420 M 1160 0 V 420"/>
+    <path d="M 720 70 H 1200 M 720 140 H 1200 M 720 210 H 1200 M 720 280 H 1200 M 720 350 H 1200"/>
+  </g>
+  <!-- circuit traces and nodes -->
+  <g fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.85">
+    <path d="M 800 320 H 900 V 240 H 1000"/>
+    <path d="M 1120 120 H 1040 V 190" opacity="0.6"/>
+    <path d="M 860 100 H 960" opacity="0.5"/>
+  </g>
+  <g fill="#06b6d4">
+    <circle cx="800" cy="320" r="8"/>
+    <circle cx="1000" cy="240" r="8" opacity="0.85"/>
+    <circle cx="1120" cy="120" r="8" opacity="0.7"/>
+    <circle cx="860" cy="100" r="6" opacity="0.5"/>
+  </g>
+  <g fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.7">
+    <polygon points="1060,300 1085,285 1085,315"/>
+    <polygon points="1060,300 1035,285 1035,315" opacity="0.4"/>
+  </g>
+  <!-- typography -->
+  <text x="80" y="200" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="96" font-weight="700" fill="#ffffff" letter-spacing="-2">Engineering</text>
+  <rect x="82" y="238" width="72" height="4" fill="#06b6d4"/>
+  <text x="80" y="290" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#a1a1aa" letter-spacing="6">18 SKILLS</text>
+  <text x="80" y="330" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#71717a" letter-spacing="2">Backends that ship</text>
+</svg>

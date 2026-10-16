@@ -1,4 +1,4 @@
-![Engineering — atlys](../../assets/banner-engineering.webp)
+![Engineering — atlys](../../assets/banner-engineering.svg)
 
 # docker-build-strategies
 

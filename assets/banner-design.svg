@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <rect width="1200" height="420" fill="#0b0b0d"/>
+  <!-- geometric composition: overlapping circles and arcs -->
+  <g fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.9">
+    <circle cx="980" cy="210" r="150"/>
+    <circle cx="980" cy="210" r="105" opacity="0.55"/>
+    <circle cx="980" cy="210" r="60" opacity="0.35"/>
+  </g>
+  <g fill="#8b5cf6" opacity="0.9">
+    <circle cx="980" cy="210" r="10"/>
+  </g>
+  <g fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.35">
+    <path d="M 760 330 A 190 190 0 0 1 980 20"/>
+    <path d="M 830 360 A 240 240 0 0 1 1080 40" opacity="0.6"/>
+  </g>
+  <g fill="#8b5cf6" opacity="0.5">
+    <rect x="700" y="120" width="46" height="46"/>
+    <rect x="1090" y="300" width="30" height="30" opacity="0.7"/>
+  </g>
+  <!-- typography -->
+  <text x="80" y="200" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="104" font-weight="700" fill="#ffffff" letter-spacing="-2">Design</text>
+  <rect x="82" y="238" width="72" height="4" fill="#8b5cf6"/>
+  <text x="80" y="290" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#a1a1aa" letter-spacing="6">17 SKILLS</text>
+  <text x="80" y="330" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#71717a" letter-spacing="2">Interfaces with taste</text>
+</svg>

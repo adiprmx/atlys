@@ -1,4 +1,4 @@
-![Design — atlys](../../assets/banner-design.webp)
+![Design — atlys](../../assets/banner-design.svg)
 
 # brandkit
 
