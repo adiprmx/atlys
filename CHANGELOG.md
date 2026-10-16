@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.7.3
+
+- Main README rebalanced: "Why atlys exists" tightened, plus an ecosystem map diagram (categories → flagship skills) in Browse the collection.
+
 ## 2026-10-16 — v1.7.2
 
 - Text/visual rebalance: descriptions tightened (max 2 sentences), and "Pairs well with" is now a mermaid relationship mini-map per skill — visual, informative, generated from curated data.

@@ -16,13 +16,9 @@
 
 ## Why atlys exists
 
-You know the look. The landing page with the centered hero, the three feature cards, the purple gradient. The paragraph that starts "In today's fast-paced digital landscape." The code comment that says `// increment the counter` next to `i++`.
+You know the look: the centered hero, three feature cards, purple gradient. The paragraph starting "In today's fast-paced digital landscape." The comment `// increment the counter` next to `i++`. That's AI slop — the average of everything, reviewed by no one — and it's the default output of every AI agent.
 
-That's AI slop — output shaped by the average of everything, reviewed by no one. And it's everywhere, because the default behavior of every AI agent is to produce it.
-
-atlys is 47 skill playbooks that fight the default. Each one is a self-contained folder your agent reads when the task calls for it: how to read a design brief before touching code, how to hear the AI-ness in your own prose, how to structure a backend so it survives contact with reality.
-
-No build step. No dependencies. No lock-in. Just markdown (plus a few helper scripts) — curated, not scraped.
+atlys is 47 skill playbooks that fight the default. Self-contained folders your agent reads when the task calls for it: read a design brief before touching code, hear the AI-ness in your prose, structure a backend that survives reality. No build step, no dependencies, no lock-in — just markdown, curated not scraped.
 
 ### Slop vs taste
 
@@ -109,6 +105,26 @@ atlys/
 | [![Design — 17 skills](assets/banner-design.svg)](design/) | [![Writing — 12 skills](assets/banner-writing.svg)](writing/) | [![Engineering — 18 skills](assets/banner-engineering.svg)](engineering/) |
 |:---:|:---:|:---:|
 | **Design** — interfaces with taste<br/><sub>Start with `taste-skill` · `impeccable-design`</sub> | **Writing** — prose that reads human<br/><sub>Start with `antislop-core` · `humanizer`</sub> | **Engineering** — backends that ship<br/><sub>Start with `output-skill` · `hexagonal-python`</sub> |
+
+```mermaid
+flowchart TD
+    A["atlys — 47 skills"] --> D["Design — 17"]
+    A --> W["Writing — 12"]
+    A --> E["Engineering — 18"]
+    D --> D1["taste-skill"]
+    D --> D2["impeccable-design"]
+    D --> D3["accessibility"]
+    W --> W1["antislop-core"]
+    W --> W2["humanizer"]
+    W --> W3["stop-slop"]
+    E --> E1["hexagonal-python"]
+    E --> E2["docker-compose-patterns"]
+    E --> E3["output-skill"]
+    style A fill:#3b82f6,color:#fff,stroke:none
+    style D fill:#8b5cf6,color:#fff,stroke:none
+    style W fill:#f59e0b,color:#fff,stroke:none
+    style E fill:#06b6d4,color:#fff,stroke:none
+```
 
 ## The collection
 
