@@ -6,10 +6,8 @@ Use this skill when writing, reviewing, or optimizing Dockerfiles, even if the u
 
 ## When to use
 
-- Creating a new Dockerfile for any language or framework
-- Optimizing an existing Dockerfile for size, speed, or security
-- Reviewing a Dockerfile for best-practice compliance
-- Adding a .dockerignore file to a project
+- Writing or optimizing Dockerfiles
+- Slow builds or bloated images
 
 ## Contents
 
@@ -23,6 +21,10 @@ docker-build-strategies/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`docker-compose-patterns`](../engineering/docker-compose-patterns/) — for the compose side
 
 ## Install
 

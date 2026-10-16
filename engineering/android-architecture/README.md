@@ -4,12 +4,22 @@
 
 Expert guidance on setting up and maintaining a modern Android application architecture using Clean Architecture and Hilt. Use this when asked about project structure, module setup, or dependency injection.
 
+## When to use
+
+- Structuring an Android app with Clean Architecture and Hilt
+- Enforcing layer boundaries in a growing codebase
+
 ## Contents
 
 ```
 android-architecture/
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`android-testing`](../engineering/android-testing/) — to test the layers
+- [`android-compose-performance`](../engineering/android-compose-performance/) — for the UI layer
 
 ## Install
 

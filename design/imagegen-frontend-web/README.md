@@ -4,6 +4,11 @@
 
 Elite frontend image-direction skill for generating premium, conversion-aware website design references, one separate horizontal image per section, with composition variety and a single consistent palette.
 
+## When to use
+
+- You want AI-generated design references before coding a website
+- You need one consistent visual direction across all page sections
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ imagegen-frontend-web/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`frontend-image-direction`](../design/frontend-image-direction/) — to implement without drift
+- [`image-to-code-skill`](../design/image-to-code-skill/) — to convert references to code
 
 ## Install
 

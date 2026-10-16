@@ -6,6 +6,12 @@ Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent
 
 > Landing pages, portfolios, and redesigns. Not dashboards, not data tables, not multi-step product UI. Every rule below is contextual. None of it fires automatically. First read the brief, then pull only what fits.
 
+## When to use
+
+- Building a landing page, portfolio, or marketing site from a loose brief
+- You want the agent to infer a design direction instead of defaulting to generic AI aesthetics
+- Redesigning something that currently looks AI-generated
+
 ## Contents
 
 ```
@@ -13,6 +19,12 @@ taste-skill/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`redesign-skill`](../design/redesign-skill/) — for upgrading existing UIs
+- [`antislop-ui`](../writing/antislop-ui/) — to keep the visuals slop-free
+- [`premium-frontend-engineering`](../design/premium-frontend-engineering/) — to hand-code the direction it infers
 
 ## Install
 

@@ -4,6 +4,11 @@
 
 Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.
 
+## When to use
+
+- Creating a logo system, identity deck, or brand-guideline board
+- Exploring a brand across a specific aesthetic: luxury, dark-tech, editorial, cinematic
+
 ## Contents
 
 ```
@@ -11,6 +16,10 @@ brandkit/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — to apply the brand to interfaces
 
 ## Install
 

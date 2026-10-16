@@ -6,6 +6,11 @@ Production-ready Golang tests — table-driven tests, testify suites and mocks, 
 
 > Community default. A company skill that explicitly supersedes samber/cc-skills-golang@golang-testing skill takes precedence.
 
+## When to use
+
+- Writing production-ready Go tests
+- Table-driven tests, mocks, fuzzing, and parallel tests
+
 ## Contents
 
 ```
@@ -14,6 +19,11 @@ golang-testing/
 ├── references/  # reference docs
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`golang-concurrency`](../engineering/golang-concurrency/) — for what you're testing
+- [`go-service-scaffolder`](../engineering/go-service-scaffolder/) — for the service layout
 
 ## Install
 

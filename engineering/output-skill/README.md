@@ -4,6 +4,11 @@
 
 Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.
 
+## When to use
+
+- The agent keeps truncating code or leaving placeholder comments
+- Long generations that must survive token limits cleanly
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ output-skill/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`intent-pattern-qa`](../engineering/intent-pattern-qa/) — to verify generated patterns
+- [`batch-run-integrity`](../engineering/batch-run-integrity/) — for long honest runs
 
 ## Install
 

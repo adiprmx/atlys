@@ -6,12 +6,21 @@ Audit and improve Jetpack Compose runtime performance from code review and archi
 
 > Important: Ensure profiling is done on a release build with R8 enabled. Debug builds have significant overhead.
 
+## When to use
+
+- Diagnosing jank or slow rendering in Jetpack Compose
+- Auditing recomposition performance from code review
+
 ## Contents
 
 ```
 android-compose-performance/
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`android-architecture`](../engineering/android-architecture/) — for the app structure
 
 ## Install
 

@@ -4,6 +4,11 @@
 
 Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 diagrams, or generate context/container/component/deployment diagrams. Triggers include "architecture diagram", "C4 diagram", "system context", "container diagram", "component diagram", "deployment diagram", "document architecture", "visualize architecture".
 
+## When to use
+
+- Documenting system architecture with C4 diagrams
+- Context, container, component, and code views
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ c4-architecture/
 ├── references/  # reference docs
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`hexagonal-python`](../engineering/hexagonal-python/) — as an architecture to document
+- [`database-schema-designer`](../engineering/database-schema-designer/) — for the data view
 
 ## Install
 

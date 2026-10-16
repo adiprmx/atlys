@@ -4,6 +4,11 @@
 
 Teaches the AI to design like a high-end agency with exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive.
 
+## When to use
+
+- You want a high-end agency look: precise typography, spacing, shadows, motion
+- The design needs to feel expensive and deliberate
+
 ## Contents
 
 ```
@@ -11,6 +16,10 @@ soft-skill/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — for brief-reading before styling
 
 ## Install
 

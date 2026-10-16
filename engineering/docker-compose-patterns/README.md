@@ -6,10 +6,8 @@ Use this skill when creating, modifying, or debugging Docker Compose configurati
 
 ## When to use
 
-- Creating a new compose.yaml for a project
-- Adding or modifying services in an existing Compose file
-- Setting up development overrides with compose.override.yaml
-- Debugging service startup ordering or connectivity issues
+- Creating, modifying, or debugging docker-compose.yaml
+- Wiring services, health checks, volumes, and networks
 
 ## Contents
 
@@ -23,6 +21,11 @@ docker-compose-patterns/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`docker-build-strategies`](../engineering/docker-build-strategies/) — for the images it references
+- [`docker-project-foundations`](../engineering/docker-project-foundations/) — for greenfield setup
 
 ## Install
 

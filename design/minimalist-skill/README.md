@@ -4,6 +4,11 @@
 
 Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.
 
+## When to use
+
+- Editorial or content-focused interfaces
+- You want warm monochrome, strong typography, zero visual noise
+
 ## Contents
 
 ```
@@ -11,6 +16,10 @@ minimalist-skill/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — for brief-reading before styling
 
 ## Install
 

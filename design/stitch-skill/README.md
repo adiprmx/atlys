@@ -4,6 +4,11 @@
 
 Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.
 
+## When to use
+
+- Working with Google Stitch and need an agent-friendly DESIGN.md
+- Enforcing a design system through generated UI
+
 ## Contents
 
 ```
@@ -12,6 +17,10 @@ stitch-skill/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — for the underlying taste
 
 ## Install
 

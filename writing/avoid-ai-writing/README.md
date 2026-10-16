@@ -6,12 +6,22 @@ Avoid AI Writing: audit & rewrite untuk menghapus pola tulisan AI ('AI-isms'). M
 
 > Sumber: conorbronsdon/avoid-ai-writing v3.38.0 (MIT) oleh Conor Bronsdon. Diringkas dan diadaptasi ke Bahasa Indonesia; katalog pola penuh ada di repo sumber (references/patterns.md). Catatan bahasa: aturan dan detektor ini dikalibrasi untuk Bahasa Inggris. Untuk Bahasa Indonesia, pakai sebagai panduan pola STRUKTURAL (kontras biner, triad, staging, inflasi) — bukan daftar kata per kata.
 
+## When to use
+
+- You need a strict, repeatable editing contract
+- Iterating a draft to convergence across multiple passes
+
 ## Contents
 
 ```
 avoid-ai-writing/
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`humanizer`](../writing/humanizer/) — for the voice pass
+- [`stop-slop`](../writing/stop-slop/) — for the first cut
 
 ## Install
 

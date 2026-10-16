@@ -6,6 +6,11 @@ Golang concurrency design — goroutine lifecycle and leak prevention, channels 
 
 > Community default. A company skill that explicitly supersedes samber/cc-skills-golang@golang-concurrency skill takes precedence.
 
+## When to use
+
+- Writing or reviewing concurrent Go code
+- Choosing between channels and mutexes; preventing goroutine leaks
+
 ## Contents
 
 ```
@@ -14,6 +19,11 @@ golang-concurrency/
 ├── references/  # reference docs
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`golang-error-handling`](../engineering/golang-error-handling/) — for error design in concurrent code
+- [`golang-testing`](../engineering/golang-testing/) — to test it
 
 ## Install
 

@@ -6,12 +6,22 @@ Stop Slop: pangkas retorika & basa-basi AI dari prosa. 8 aturan inti (potong fil
 
 > Sumber: hardikpandya/stop-slop (MIT) oleh Hardik Pandya. Diadaptasi ke Bahasa Indonesia; daftar frasa Inggris dipertahankan karena polanya spesifik Bahasa Inggris.
 
+## When to use
+
+- Cutting filler, throat-clearing, and AI rhetoric from a draft
+- You want a scored pass with specific fixes
+
 ## Contents
 
 ```
 stop-slop/
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`humanizer`](../writing/humanizer/) — to fix voice after cutting
+- [`no-ai-slop`](../writing/no-ai-slop/) — for detect-then-edit passes
 
 ## Install
 

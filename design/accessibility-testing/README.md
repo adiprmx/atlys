@@ -4,12 +4,21 @@
 
 Use for testing the accessibility of a web project
 
+## When to use
+
+- Setting up a repeatable accessibility testing methodology
+- You need a process, not just a checklist
+
 ## Contents
 
 ```
 accessibility-testing/
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`accessibility`](../design/accessibility/) — for the QA guidance
 
 ## Install
 

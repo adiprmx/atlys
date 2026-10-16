@@ -6,12 +6,22 @@ No AI Slop: edit draf jadi tajam dan manusiawi sambil menjaga suara penulis, ata
 
 > Sumber: petergyang/no-ai-slop (MIT). Diadaptasi ke Bahasa Indonesia; pola Inggris dipertahankan karena spesifik Bahasa Inggris.
 
+## When to use
+
+- Editing a draft with minimal changes (Edit mode)
+- Auditing text to name exactly which AI patterns appear (Detect mode)
+
 ## Contents
 
 ```
 no-ai-slop/
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`humanizer`](../writing/humanizer/) — for the voice pass
+- [`avoid-ai-writing`](../writing/avoid-ai-writing/) — for convergence across passes
 
 ## Install
 

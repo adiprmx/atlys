@@ -4,6 +4,11 @@
 
 Scaffold a production-ready Go HTTP service with OpenTelemetry observability, TLS, lifecycle management, Dockerfile, GitHub Actions CI/CD, and golangci-lint. Use when creating or regenerating a full Go service skeleton (project layout, config package, server package, CI workflows, and container build files).
 
+## When to use
+
+- Scaffolding a new production Go HTTP service
+- You want observability, TLS, graceful shutdown, and CI out of the box
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ go-service-scaffolder/
 ├── references/  # reference docs
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`golang-testing`](../engineering/golang-testing/) — to test the scaffold
+- [`hexagonal-python`](../engineering/hexagonal-python/) — for the architecture inside
 
 ## Install
 

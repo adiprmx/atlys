@@ -4,12 +4,22 @@
 
 Quality assurance for web accessibility and usability, particularly for users with disabilities. Use when involved in any web project.
 
+## When to use
+
+- QA pass on a web project for users with disabilities
+- Catching the accessibility pitfalls AI-generated markup usually has
+
 ## Contents
 
 ```
 accessibility/
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`accessibility-testing`](../design/accessibility-testing/) — for the testing methodology
+- [`antislop-human`](../writing/antislop-human/) — for human-first UI checks
 
 ## Install
 

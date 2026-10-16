@@ -4,6 +4,11 @@
 
 The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 install name only if you need exact backward compatibility.
 
+## When to use
+
+- You need the exact behavior of the original v1 taste-skill
+- An existing project was built with v1 and you want consistency
+
 ## Contents
 
 ```
@@ -11,6 +16,10 @@ taste-skill-v1/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — the current version
 
 ## Install
 

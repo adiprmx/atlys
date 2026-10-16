@@ -4,6 +4,11 @@
 
 Generate premium website section references, mobile app screen concepts, and brand-consistent image sets with one image per section or screen, locked cross-image consistency, and anti-generic art direction, then implement from the references without design drift.
 
+## When to use
+
+- You want image references and implementation without design drift
+- Multi-screen projects that need locked visual consistency
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ frontend-image-direction/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`image-to-code-skill`](../design/image-to-code-skill/) — for image-to-code fidelity
+- [`premium-frontend-engineering`](../design/premium-frontend-engineering/) — for hand-coded implementation
 
 ## Install
 

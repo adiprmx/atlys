@@ -6,6 +6,11 @@ Human and accessibility skill for antislop. Contrast, keyboard, focus, and state
 
 > Anti Slop: Rules for AI Coding Agents. Human skill Part of the antislop system. Read together with antislop.md (the core). This skill deep-dives the human concern: the UI must stay usable by people with different eyes, hands, and setups. Contrast, keyboard, focus, states, and the mobile details that exclude people.
 
+## When to use
+
+- Accessibility review: contrast, keyboard, focus, states
+- Designing for real people, not screenshots
+
 ## Contents
 
 ```
@@ -14,6 +19,11 @@ antislop-human/
 ├── contrast-check.py
 └── contrast-mcp.py
 ```
+
+## Pairs well with
+
+- [`antislop-core`](../writing/antislop-core/) — the base filter
+- [`accessibility`](../design/accessibility/) — for deeper a11y QA
 
 ## Install
 

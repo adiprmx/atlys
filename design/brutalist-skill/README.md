@@ -4,6 +4,11 @@
 
 Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.
 
+## When to use
+
+- Data-heavy dashboards, developer tools, or technical portfolios
+- You want a raw, mechanical, declassified-blueprint feel
+
 ## Contents
 
 ```
@@ -11,6 +16,10 @@ brutalist-skill/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — for brief-reading before styling
 
 ## Install
 

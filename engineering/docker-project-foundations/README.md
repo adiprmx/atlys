@@ -6,10 +6,8 @@ Use this skill when setting up, initializing, or Dockerizing a project, even if 
 
 ## When to use
 
-- A user asks you to set up, initialize, or Dockerize a project
-- A project needs an initial Dockerfile, compose.yaml, or .dockerignore and does not have one
-- A user wants to add a service dependency (database, cache, message queue) to a project
-- A user asks how to run or develop a project locally and Docker is available
+- Dockerizing a project from scratch
+- Setting up conventions for a new containerized project
 
 ## Contents
 
@@ -23,6 +21,11 @@ docker-project-foundations/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`docker-compose-patterns`](../engineering/docker-compose-patterns/) — for compose patterns
+- [`docker-destructive-guardrails`](../engineering/docker-destructive-guardrails/) — before running anything destructive
 
 ## Install
 

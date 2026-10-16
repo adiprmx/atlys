@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.4.0
+
+- Skill READMEs leveled up: hand-written "When to use" triggers for all 47 skills (no more template filler), plus "Pairs well with" cross-links so the collection reads as one connected system. Main README gained a How-it-works diagram.
+
 ## 2026-10-16 — v1.3.1
 
 - README overhaul: all 47 skill READMEs rewritten — no more emoji-soup headers or filler boilerplate; each now carries real extracted content (scope quotes and "When to use" bullets pulled from its own SKILL.md), annotated contents, and a per-skill install command. Main README gained "The atlys bar" (curation philosophy) and FAQ. Category READMEs gained intro paragraphs.

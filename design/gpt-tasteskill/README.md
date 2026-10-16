@@ -4,6 +4,11 @@
 
 Elite UX and UI plus advanced GSAP motion engineering with AIDA page structure, wide editorial typography, gapless bento grids, and strict GSAP ScrollTriggers.
 
+## When to use
+
+- Landing pages with advanced GSAP motion and scroll choreography
+- AIDA-structured pages with wide editorial typography
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ gpt-tasteskill/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — for the design read
+- [`premium-frontend-engineering`](../design/premium-frontend-engineering/) — for motion implementation
 
 ## Install
 

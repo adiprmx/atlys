@@ -6,9 +6,8 @@ Use this skill before running, or recommending, any Docker command that deletes,
 
 ## When to use
 
-- The user asks to "clean up", "clear the cache", "start fresh", "wipe everything", "nuke it", "reset", "force remove", or "tear down" Docker resources without naming a specific command
-- The agent is considering docker rm, docker rm -f, docker container prune, docker kill, docker stop, docker system prune, docker rmi, docker image rm, docker image prune -a, docker network rm, docker network prune, docker builder prune, docker buildx rm, docker context rm, or standalone (non-Compose) docker volume rm/docker volume prune as a fix for an unrelated problem (disk space, a stuck container, a stale network, a broken build cache, an old builder or volume)
-- The user wants a cross-product overview of destructive commands across Docker skills
+- Before running prune, rm, or any command that deletes Docker state
+- Reviewing AI-suggested Docker commands that destroy things
 
 ## Contents
 
@@ -20,6 +19,10 @@ docker-destructive-guardrails/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`docker-compose-patterns`](../engineering/docker-compose-patterns/) — for the compose side
 
 ## Install
 

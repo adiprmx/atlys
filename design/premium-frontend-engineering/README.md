@@ -4,6 +4,11 @@
 
 Build premium, non-generic coded frontend with brief-driven design dials, bias-corrected typography and color, intentional GSAP or Motion choreography, and a strict pre-flight check before shipping.
 
+## When to use
+
+- Hand-coding a premium site with intentional motion design
+- Typography and color decisions should be deliberate, not defaults
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ premium-frontend-engineering/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — for the design direction
+- [`output-skill`](../engineering/output-skill/) — to keep long generations complete
 
 ## Install
 

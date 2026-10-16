@@ -4,6 +4,11 @@
 
 Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimization. Ensures data integrity, query performance, and maintainable data models.
 
+## When to use
+
+- Designing a new database schema, SQL or NoSQL
+- Reviewing normalization, indexing, and migration strategy
+
 ## Contents
 
 ```
@@ -12,6 +17,11 @@ database-schema-designer/
 ├── references/  # reference docs
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`hexagonal-python`](../engineering/hexagonal-python/) — for the repository layer
+- [`c4-architecture`](../engineering/c4-architecture/) — to document it
 
 ## Install
 

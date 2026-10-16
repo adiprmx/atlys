@@ -4,6 +4,11 @@
 
 Use when writing or improving README files. Not all READMEs are the same — provides templates and guidance matched to your audience and project type.
 
+## When to use
+
+- Writing or rewriting a project README
+- READMEs people actually read instead of skimming past
+
 ## Contents
 
 ```
@@ -15,6 +20,10 @@ crafting-effective-readmes/
 ├── style-guide.md
 └── using-references.md
 ```
+
+## Pairs well with
+
+- [`writing-quality`](../writing/writing-quality/) — for the prose quality pass
 
 ## Install
 

@@ -6,12 +6,22 @@ Humanizer: ubah tulisan beraroma AI jadi terdengar seperti manusia tanpa menguba
 
 > Sumber: blader/humanizer (MIT) — pola dari Wikipedia "Signs of AI writing". Diadaptasi ke Bahasa Indonesia; pola dan contoh Inggris dipertahankan karena polanya spesifik Bahasa Inggris.
 
+## When to use
+
+- A draft is correct but smells like AI
+- Keep the content, change the voice
+
 ## Contents
 
 ```
 humanizer/
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`stop-slop`](../writing/stop-slop/) — to cut filler first
+- [`avoid-ai-writing`](../writing/avoid-ai-writing/) — for the strict editing contract
 
 ## Install
 

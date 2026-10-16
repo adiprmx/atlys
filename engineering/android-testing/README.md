@@ -4,12 +4,21 @@
 
 Comprehensive testing strategy involving Unit, Integration, Hilt, and Screenshot tests.
 
+## When to use
+
+- Setting up an Android testing strategy
+- Unit, integration, Hilt, and screenshot tests
+
 ## Contents
 
 ```
 android-testing/
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`android-architecture`](../engineering/android-architecture/) — for what you're testing
 
 ## Install
 

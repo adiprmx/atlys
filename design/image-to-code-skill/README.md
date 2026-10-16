@@ -4,6 +4,11 @@
 
 Elite website image-to-code skill. Generate the design images first, deeply analyze them, then implement the website to match them as closely as possible.
 
+## When to use
+
+- You have design images and want code that matches them closely
+- Fidelity to a reference matters more than creative reinterpretation
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ image-to-code-skill/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — to judge the result
+- [`premium-frontend-engineering`](../design/premium-frontend-engineering/) — for the implementation pass
 
 ## Install
 

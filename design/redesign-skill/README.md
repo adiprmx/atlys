@@ -4,6 +4,11 @@
 
 Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.
 
+## When to use
+
+- Upgrading an existing site or app's visual quality without breaking functionality
+- Auditing a UI for generic AI patterns before shipping
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ redesign-skill/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`taste-skill`](../design/taste-skill/) — for the design direction
+- [`impeccable-design`](../design/impeccable-design/) — for the full review pass
 
 ## Install
 

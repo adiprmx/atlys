@@ -4,6 +4,11 @@
 
 Budgets RAM before fanning out parallel workers that each load the full intent brain, so verification workers never starve the live bot — use before any parallel verification, dedupe, or probe fan-out.
 
+## When to use
+
+- Fanning out parallel workers on a constrained machine
+- Verification workers are starving the live system
+
 ## Contents
 
 ```
@@ -11,6 +16,10 @@ worker-resource-budgeting/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`batch-run-integrity`](../engineering/batch-run-integrity/) — for the batch discipline
 
 ## Install
 

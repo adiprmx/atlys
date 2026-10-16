@@ -31,6 +31,13 @@ cp -r atlys/writing/antislop-core ~/.claude/skills/
 
 Then tell your agent to load the skill when relevant — or wire it into your agent's skill discovery so it's picked up automatically. Every skill ships with `SKILL.md` frontmatter (`name`, `description`) so agents that auto-index skills just work. See [Anatomy of a skill](#anatomy-of-a-skill).
 
+```mermaid
+flowchart LR
+    A["Pick a skill<br/>from the collection"] --> B["Copy the folder<br/>to your agent's skills dir"]
+    B --> C["Agent reads SKILL.md<br/>when the task matches"]
+    C --> D["Output with taste:<br/>designed UI, human prose,<br/>complete code"]
+```
+
 ## The atlys bar
 
 Not every skill on the internet belongs here. A skill makes it into atlys only if:

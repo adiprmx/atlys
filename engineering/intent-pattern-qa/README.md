@@ -4,6 +4,11 @@
 
 Dynamic QA checklist that catches silent regex-pattern death (patterns that compile but never match) via positive-match probes and byte-level asserts — use when authoring or verifying intent batches.
 
+## When to use
+
+- You maintain regex pattern sets (intents, classifiers)
+- Some patterns compile fine but might never match anything
+
 ## Contents
 
 ```
@@ -11,6 +16,11 @@ intent-pattern-qa/
 ├── SKILL.md  # the playbook — when to load, how to apply
 └── skill.yaml  # machine-readable metadata
 ```
+
+## Pairs well with
+
+- [`output-skill`](../engineering/output-skill/) — to keep generations complete
+- [`batch-run-integrity`](../engineering/batch-run-integrity/) — for batch verification
 
 ## Install
 

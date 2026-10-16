@@ -6,6 +6,11 @@ Idiomatic Golang error handling — creation, wrapping with %w, errors.Is/As, er
 
 > Community default. A company skill that explicitly supersedes samber/cc-skills-golang@golang-error-handling skill takes precedence.
 
+## When to use
+
+- Designing error handling in a Go codebase
+- Wrapping, sentinel errors, and errors.Is/As/Join usage
+
 ## Contents
 
 ```
@@ -14,6 +19,11 @@ golang-error-handling/
 ├── references/  # reference docs
 └── SKILL.md  # the playbook — when to load, how to apply
 ```
+
+## Pairs well with
+
+- [`golang-concurrency`](../engineering/golang-concurrency/) — for the concurrency side
+- [`golang-testing`](../engineering/golang-testing/) — to test it
 
 ## Install
 
