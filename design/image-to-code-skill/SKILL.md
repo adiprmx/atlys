@@ -1,3 +1,9 @@
+---
+description: Generates the design images first, analyzes them deeply, then implements
+  the website to match as closely as possible.
+name: image-to-code-skill
+---
+
 # Image-first website design to code - retired
 
 This skill has been consolidated into `local_frontend_image_direction`.

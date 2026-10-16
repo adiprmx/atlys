@@ -1,3 +1,10 @@
+---
+description: Anti-slop frontend for landing pages, portfolios, and redesigns. Reads
+  the brief, infers the right design direction, and ships interfaces that do not look
+  templated. Strict pre-flight check included.
+name: taste-skill
+---
+
 
 
 # tasteskill: Anti-Slop Frontend Skill

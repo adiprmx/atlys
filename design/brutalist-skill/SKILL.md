@@ -1,3 +1,10 @@
+---
+description: Raw mechanical interfaces fusing Swiss typographic print with military
+  terminal aesthetics. For data-heavy dashboards and portfolios that should feel like
+  declassified blueprints.
+name: brutalist-skill
+---
+
 
 
 # SKILL: Industrial Brutalism & Tactical Telemetry UI

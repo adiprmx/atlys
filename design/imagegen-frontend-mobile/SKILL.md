@@ -1,3 +1,9 @@
+---
+description: Mobile app screen concepts and flows (iOS/Android/cross-platform), presented
+  in phone mockups. Image generation only.
+name: imagegen-frontend-mobile
+---
+
 
 
 # CORE DIRECTIVE: PREMIUM MOBILE APP IMAGE DIRECTION

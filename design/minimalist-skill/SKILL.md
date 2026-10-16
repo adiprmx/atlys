@@ -1,3 +1,9 @@
+---
+description: 'Clean editorial interfaces: warm monochrome, typographic contrast, flat
+  bento grids. No gradients, no heavy shadows.'
+name: minimalist-skill
+---
+
 
 
 # Protocol: Premium Utilitarian Minimalism UI Architect

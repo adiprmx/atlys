@@ -1,3 +1,9 @@
+---
+description: 'Brand-kit image generation: logo systems, identity decks, and brand-guideline
+  boards across minimalist, cinematic, editorial, dark-tech, luxury, and more.'
+name: brandkit
+---
+
 
 
 # BRANDKIT IMAGE GENERATION SKILL

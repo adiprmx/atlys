@@ -1,3 +1,9 @@
+---
+description: Upgrades existing websites and apps without breaking functionality. Audit-first;
+  hunts down generic AI patterns.
+name: redesign-skill
+---
+
 
 
 # Redesign Skill

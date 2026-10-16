@@ -3,6 +3,7 @@
 ## 2026-10-16 — v1.8.4
 
 - Main README: removed the table of contents entirely — section headers carry the navigation, no old-school link list.
+- All 47 skills now carry valid SKILL.md frontmatter (`name` + `description`) — 18 were missing it, which hurt agent auto-discovery. Verified end-to-end: agent indexes 47/47, queries resolve to the right skills.
 
 ## 2026-10-16 — v1.8.3
 

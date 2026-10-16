@@ -1,3 +1,9 @@
+---
+description: Semantic design-system skill for Google Stitch. Generates agent-friendly
+  DESIGN.md files enforcing anti-generic UI standards.
+name: stitch-skill
+---
+
 
 
 # Stitch Design Taste — Semantic Design System Skill

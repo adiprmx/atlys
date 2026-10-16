@@ -1,3 +1,9 @@
+---
+description: 'Hand-coded frontend: brief-driven design dials, bias-corrected typography
+  and color, intentional GSAP/Motion choreography, strict pre-flight check.'
+name: premium-frontend-engineering
+---
+
 # Premium frontend engineering
 
 ## Read the brief and set the dials

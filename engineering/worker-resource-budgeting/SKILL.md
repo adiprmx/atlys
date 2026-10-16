@@ -1,3 +1,9 @@
+---
+description: Budgets RAM before fanning out parallel workers, so verification workers
+  never starve the live system.
+name: worker-resource-budgeting
+---
+
 
 
 # Worker Resource Budgeting

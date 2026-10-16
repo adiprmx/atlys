@@ -1,3 +1,9 @@
+---
+description: 'Agency-grade polish: exact fonts, spacing, shadows, card structures,
+  and animations that make a site feel expensive.'
+name: soft-skill
+---
+
 # Agency-grade UI architecture - retired
 
 This skill has been consolidated into `local_premium_frontend_engineering`.

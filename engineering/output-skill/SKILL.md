@@ -1,3 +1,9 @@
+---
+description: Overrides default LLM truncation behavior. Enforces complete code generation,
+  bans placeholder patterns, and handles token-limit splits cleanly.
+name: output-skill
+---
+
 
 
 # Full-Output Enforcement

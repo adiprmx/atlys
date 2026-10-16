@@ -1,3 +1,9 @@
+---
+description: The original v1 of taste-skill, preserved for projects depending on its
+  exact behavior.
+name: taste-skill-v1
+---
+
 
 
 # High-Agency Frontend Skill

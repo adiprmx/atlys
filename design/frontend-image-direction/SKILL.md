@@ -1,3 +1,10 @@
+---
+description: Section references, mobile screen concepts, and brand-consistent image
+  sets with locked cross-image consistency, then implements from the references without
+  design drift.
+name: frontend-image-direction
+---
+
 # Frontend image direction
 
 ## Lock the design direction first

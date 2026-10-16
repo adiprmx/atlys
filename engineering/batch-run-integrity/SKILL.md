@@ -1,3 +1,9 @@
+---
+description: 'Keeps long multi-chunk batch jobs honest and resumable: incremental
+  on-disk checkpoints, completion claims reconciled against artifacts on disk.'
+name: batch-run-integrity
+---
+
 
 
 # Batch Run Integrity

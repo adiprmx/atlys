@@ -1,3 +1,9 @@
+---
+description: 'UX/UI plus advanced GSAP motion engineering: AIDA page structure, wide
+  editorial typography, gapless bento grids, strict ScrollTriggers.'
+name: gpt-tasteskill
+---
+
 # Awwwards-level design engineering - retired
 
 This skill has been consolidated into `local_premium_frontend_engineering`.

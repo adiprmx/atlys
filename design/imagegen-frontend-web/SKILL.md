@@ -1,3 +1,9 @@
+---
+description: 'Generates conversion-aware website design references: one horizontal
+  image per section, one consistent palette.'
+name: imagegen-frontend-web
+---
+
 # Frontend image direction web - retired
 
 This skill has been consolidated into `local_frontend_image_direction`.

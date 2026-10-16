@@ -1,3 +1,9 @@
+---
+description: Catches silent regex-pattern death (patterns that compile but never match)
+  via positive-match probes and byte-level asserts.
+name: intent-pattern-qa
+---
+
 
 
 # Intent Pattern QA
