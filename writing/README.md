@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="../assets/icon.webp" width="72" alt="atlys">
+</div>
+
 # ✍️ Anti-AI-slop writing
 
 12 skills for prose that reads human, not generated.

@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="../assets/icon.webp" width="72" alt="atlys">
+</div>
+
 # ⚙️ Engineering & QA
 
 18 skills for reliable backends, solid DevOps, and complete, well-resourced agent work.

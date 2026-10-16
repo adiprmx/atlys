@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="../assets/icon.webp" width="72" alt="atlys">
+</div>
+
 # 🎨 Design & frontend
 
 17 skills for interfaces that feel designed, not generated.
