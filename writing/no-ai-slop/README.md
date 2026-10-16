@@ -32,7 +32,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`humanizer`](../writing/humanizer/), [`avoid-ai-writing`](../writing/avoid-ai-writing/)
+Also: [`humanizer`](../humanizer/), [`avoid-ai-writing`](../avoid-ai-writing/)
 
 ## Install
 

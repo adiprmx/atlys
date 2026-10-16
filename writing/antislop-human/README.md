@@ -34,7 +34,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`antislop-core`](../writing/antislop-core/), [`accessibility`](../design/accessibility/)
+Also: [`antislop-core`](../antislop-core/), [`accessibility`](../../design/accessibility/)
 
 ## Install
 

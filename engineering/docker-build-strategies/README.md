@@ -35,7 +35,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`docker-compose-patterns`](../engineering/docker-compose-patterns/)
+Also: [`docker-compose-patterns`](../docker-compose-patterns/)
 
 ## Install
 

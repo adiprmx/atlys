@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.9.1
+
+- CI: GitHub Actions validates every push (47 frontmatters, skill counts, badge count, 81 relative links — the link checker caught and fixed 81 broken "Also" links). Install demo: real `npx skills add` terminal output as a hand-drawn SVG.
+
 ## 2026-10-16 — v1.9.0
 
 - Main README radically trimmed (269 → ~185 lines): yapping cut — "Why atlys exists", "Slop vs taste", "Repository structure", and FAQ removed. Install leads, "Start here" condensed, "The bar" is one paragraph, credits collapsed. Essentials only.

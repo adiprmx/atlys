@@ -33,7 +33,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`antislop-ui`](../writing/antislop-ui/), [`antislop-copywriting`](../writing/antislop-copywriting/)
+Also: [`antislop-ui`](../antislop-ui/), [`antislop-copywriting`](../antislop-copywriting/)
 
 ## Install
 

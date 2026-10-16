@@ -35,7 +35,7 @@ flowchart LR
     style me fill:#8b5cf6,color:#fff,stroke:none
 ```
 
-Also: [`redesign-skill`](../design/redesign-skill/), [`antislop-ui`](../writing/antislop-ui/), [`premium-frontend-engineering`](../design/premium-frontend-engineering/)
+Also: [`redesign-skill`](../redesign-skill/), [`antislop-ui`](../../writing/antislop-ui/), [`premium-frontend-engineering`](../premium-frontend-engineering/)
 
 ## Install
 

@@ -29,7 +29,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`android-architecture`](../engineering/android-architecture/)
+Also: [`android-architecture`](../android-architecture/)
 
 ## Install
 

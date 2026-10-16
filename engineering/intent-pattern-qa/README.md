@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`output-skill`](../engineering/output-skill/), [`batch-run-integrity`](../engineering/batch-run-integrity/)
+Also: [`output-skill`](../output-skill/), [`batch-run-integrity`](../batch-run-integrity/)
 
 ## Install
 

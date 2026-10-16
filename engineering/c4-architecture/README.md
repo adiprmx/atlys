@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`hexagonal-python`](../engineering/hexagonal-python/), [`database-schema-designer`](../engineering/database-schema-designer/)
+Also: [`hexagonal-python`](../hexagonal-python/), [`database-schema-designer`](../database-schema-designer/)
 
 ## Install
 

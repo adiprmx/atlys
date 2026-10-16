@@ -34,7 +34,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`golang-concurrency`](../engineering/golang-concurrency/), [`go-service-scaffolder`](../engineering/go-service-scaffolder/)
+Also: [`golang-concurrency`](../golang-concurrency/), [`go-service-scaffolder`](../go-service-scaffolder/)
 
 ## Install
 

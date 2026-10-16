@@ -32,7 +32,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`antislop-core`](../writing/antislop-core/), [`output-skill`](../engineering/output-skill/)
+Also: [`antislop-core`](../antislop-core/), [`output-skill`](../../engineering/output-skill/)
 
 ## Install
 

@@ -30,7 +30,7 @@ flowchart LR
     style me fill:#8b5cf6,color:#fff,stroke:none
 ```
 
-Also: [`accessibility-testing`](../design/accessibility-testing/), [`antislop-human`](../writing/antislop-human/)
+Also: [`accessibility-testing`](../accessibility-testing/), [`antislop-human`](../../writing/antislop-human/)
 
 ## Install
 

@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#8b5cf6,color:#fff,stroke:none
 ```
 
-Also: [`image-to-code-skill`](../design/image-to-code-skill/), [`premium-frontend-engineering`](../design/premium-frontend-engineering/)
+Also: [`image-to-code-skill`](../image-to-code-skill/), [`premium-frontend-engineering`](../premium-frontend-engineering/)
 
 ## Install
 

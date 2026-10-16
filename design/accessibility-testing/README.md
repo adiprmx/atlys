@@ -29,7 +29,7 @@ flowchart LR
     style me fill:#8b5cf6,color:#fff,stroke:none
 ```
 
-Also: [`accessibility`](../design/accessibility/)
+Also: [`accessibility`](../accessibility/)
 
 ## Install
 

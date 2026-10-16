@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`golang-testing`](../engineering/golang-testing/), [`hexagonal-python`](../engineering/hexagonal-python/)
+Also: [`golang-testing`](../golang-testing/), [`hexagonal-python`](../hexagonal-python/)
 
 ## Install
 

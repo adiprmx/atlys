@@ -32,7 +32,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`antislop-core`](../writing/antislop-core/), [`taste-skill`](../design/taste-skill/)
+Also: [`antislop-core`](../antislop-core/), [`taste-skill`](../../design/taste-skill/)
 
 ## Install
 

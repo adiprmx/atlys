@@ -30,7 +30,7 @@ flowchart LR
     style me fill:#8b5cf6,color:#fff,stroke:none
 ```
 
-Also: [`frontend-image-direction`](../design/frontend-image-direction/)
+Also: [`frontend-image-direction`](../frontend-image-direction/)
 
 ## Install
 

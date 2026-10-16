@@ -34,7 +34,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`golang-error-handling`](../engineering/golang-error-handling/), [`golang-testing`](../engineering/golang-testing/)
+Also: [`golang-error-handling`](../golang-error-handling/), [`golang-testing`](../golang-testing/)
 
 ## Install
 

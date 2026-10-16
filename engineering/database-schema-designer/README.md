@@ -32,7 +32,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`hexagonal-python`](../engineering/hexagonal-python/), [`c4-architecture`](../engineering/c4-architecture/)
+Also: [`hexagonal-python`](../hexagonal-python/), [`c4-architecture`](../c4-architecture/)
 
 ## Install
 

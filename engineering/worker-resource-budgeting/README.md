@@ -30,7 +30,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`batch-run-integrity`](../engineering/batch-run-integrity/)
+Also: [`batch-run-integrity`](../batch-run-integrity/)
 
 ## Install
 

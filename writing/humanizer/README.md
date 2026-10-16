@@ -32,7 +32,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`stop-slop`](../writing/stop-slop/), [`avoid-ai-writing`](../writing/avoid-ai-writing/)
+Also: [`stop-slop`](../stop-slop/), [`avoid-ai-writing`](../avoid-ai-writing/)
 
 ## Install
 

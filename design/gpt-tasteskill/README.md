@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#8b5cf6,color:#fff,stroke:none
 ```
 
-Also: [`taste-skill`](../design/taste-skill/), [`premium-frontend-engineering`](../design/premium-frontend-engineering/)
+Also: [`taste-skill`](../taste-skill/), [`premium-frontend-engineering`](../premium-frontend-engineering/)
 
 ## Install
 

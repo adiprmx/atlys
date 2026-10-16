@@ -33,7 +33,7 @@ flowchart LR
     style me fill:#8b5cf6,color:#fff,stroke:none
 ```
 
-Also: [`antislop-ui`](../writing/antislop-ui/), [`accessibility`](../design/accessibility/)
+Also: [`antislop-ui`](../../writing/antislop-ui/), [`accessibility`](../accessibility/)
 
 ## Install
 

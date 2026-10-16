@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`worker-resource-budgeting`](../engineering/worker-resource-budgeting/), [`intent-pattern-qa`](../engineering/intent-pattern-qa/)
+Also: [`worker-resource-budgeting`](../worker-resource-budgeting/), [`intent-pattern-qa`](../intent-pattern-qa/)
 
 ## Install
 

@@ -34,7 +34,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`writing-quality`](../writing/writing-quality/)
+Also: [`writing-quality`](../writing-quality/)
 
 ## Install
 

@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#8b5cf6,color:#fff,stroke:none
 ```
 
-Also: [`taste-skill`](../design/taste-skill/), [`output-skill`](../engineering/output-skill/)
+Also: [`taste-skill`](../taste-skill/), [`output-skill`](../../engineering/output-skill/)
 
 ## Install
 

@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`database-schema-designer`](../engineering/database-schema-designer/), [`c4-architecture`](../engineering/c4-architecture/)
+Also: [`database-schema-designer`](../database-schema-designer/), [`c4-architecture`](../c4-architecture/)
 
 ## Install
 

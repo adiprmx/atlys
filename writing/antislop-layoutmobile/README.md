@@ -32,7 +32,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`antislop-core`](../writing/antislop-core/), [`antislop-ui`](../writing/antislop-ui/)
+Also: [`antislop-core`](../antislop-core/), [`antislop-ui`](../antislop-ui/)
 
 ## Install
 

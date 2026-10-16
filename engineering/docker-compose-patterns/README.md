@@ -36,7 +36,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`docker-build-strategies`](../engineering/docker-build-strategies/), [`docker-project-foundations`](../engineering/docker-project-foundations/)
+Also: [`docker-build-strategies`](../docker-build-strategies/), [`docker-project-foundations`](../docker-project-foundations/)
 
 ## Install
 

@@ -5,6 +5,7 @@
 **A curated collection of skills for AI coding agents.**
 
 [![Skills](https://img.shields.io/badge/skills-47-2563eb)](https://github.com/adiprmx/atlys)
+[![Validate](https://github.com/adiprmx/atlys/actions/workflows/validate.yml/badge.svg)](https://github.com/adiprmx/atlys/actions/workflows/validate.yml)
 [![Release](https://img.shields.io/github/v/release/adiprmx/atlys)](https://github.com/adiprmx/atlys/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-16a34a.svg)](LICENSE)
 
@@ -27,6 +28,8 @@ npx skills add adiprmx/atlys -s taste-skill   # one skill only
 ```
 
 Manual: `git clone https://github.com/adiprmx/atlys.git`, then copy any folder to your agent's skills dir (`~/.claude/skills/`).
+
+![Installing taste-skill from atlys — real terminal output](assets/demo-install.svg)
 
 ### Start here
 

@@ -30,7 +30,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`android-testing`](../engineering/android-testing/), [`android-compose-performance`](../engineering/android-compose-performance/)
+Also: [`android-testing`](../android-testing/), [`android-compose-performance`](../android-compose-performance/)
 
 ## Install
 

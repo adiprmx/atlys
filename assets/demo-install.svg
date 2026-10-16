@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 376" width="760" height="376">
+<rect width="760" height="376" rx="14" fill="#0b0b0d"/>
+<rect width="760" height="44" rx="14" fill="#131316"/>
+<rect y="30" width="760" height="14" fill="#131316"/>
+<circle cx="30" cy="22" r="6" fill="#f87171"/>
+<circle cx="52" cy="22" r="6" fill="#fbbf24"/>
+<circle cx="74" cy="22" r="6" fill="#4ade80"/>
+<text x="380.0" y="27" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#71717a" text-anchor="middle">atlys — install demo</text>
+<text x="28" y="72" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#e4e4e7">$ npx skills add adiprmx/atlys -s taste-skill</text>
+<text x="28" y="98" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#71717a">&gt;  Source: https://github.com/adiprmx/atlys.git</text>
+<text x="28" y="124" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#4ade80">+  Repository cloned</text>
+<text x="28" y="150" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#4ade80">+  Found 47 skills</text>
+<text x="28" y="176" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#60a5fa">*  Selected 1 skill: taste-skill</text>
+<text x="28" y="202" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#71717a">&gt;  Installing to all agents</text>
+<text x="28" y="228" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#4ade80">+  ./.agents/skills/taste-skill installed</text>
+<text x="28" y="254" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#71717a"></text>
+<text x="28" y="280" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#e4e4e7">$ ls .agents/skills/taste-skill/</text>
+<text x="28" y="306" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#a1a1aa">SKILL.md  skill.yaml  README.md</text>
+</svg>

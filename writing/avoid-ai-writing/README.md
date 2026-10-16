@@ -32,7 +32,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`humanizer`](../writing/humanizer/), [`stop-slop`](../writing/stop-slop/)
+Also: [`humanizer`](../humanizer/), [`stop-slop`](../stop-slop/)
 
 ## Install
 

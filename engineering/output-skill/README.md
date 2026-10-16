@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#06b6d4,color:#fff,stroke:none
 ```
 
-Also: [`intent-pattern-qa`](../engineering/intent-pattern-qa/), [`batch-run-integrity`](../engineering/batch-run-integrity/)
+Also: [`intent-pattern-qa`](../intent-pattern-qa/), [`batch-run-integrity`](../batch-run-integrity/)
 
 ## Install
 

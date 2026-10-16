@@ -33,7 +33,7 @@ flowchart LR
     style me fill:#f59e0b,color:#fff,stroke:none
 ```
 
-Also: [`humanizer`](../writing/humanizer/), [`crafting-effective-readmes`](../writing/crafting-effective-readmes/)
+Also: [`humanizer`](../humanizer/), [`crafting-effective-readmes`](../crafting-effective-readmes/)
 
 ## Install
 

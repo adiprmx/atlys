@@ -31,7 +31,7 @@ flowchart LR
     style me fill:#8b5cf6,color:#fff,stroke:none
 ```
 
-Also: [`taste-skill`](../design/taste-skill/), [`impeccable-design`](../design/impeccable-design/)
+Also: [`taste-skill`](../taste-skill/), [`impeccable-design`](../impeccable-design/)
 
 ## Install
 
