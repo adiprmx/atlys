@@ -158,6 +158,8 @@ Every skill here earned its place: it must visibly change the agent's output, be
 
 ![atlys skill map — all 47 skills](assets/skillmap.svg)
 
+Machine-readable index: [`skills.json`](skills.json) · [`llms.txt`](llms.txt)
+
 <details>
 <summary><strong>Credits & sources</strong></summary>
 
