@@ -14,59 +14,27 @@
 
 ---
 
-## Why atlys exists
-
-You know the look: the centered hero, three feature cards, purple gradient. The paragraph starting "In today's fast-paced digital landscape." The comment `// increment the counter` next to `i++`. That's AI slop — the average of everything, reviewed by no one — and it's the default output of every AI agent.
-
-atlys is 47 skill playbooks that fight the default. Self-contained folders your agent reads when the task calls for it: read a design brief before touching code, hear the AI-ness in your prose, structure a backend that survives reality. No build step, no dependencies, no lock-in — just markdown, curated not scraped.
-
-### Slop vs taste
-
-Same task, different input. Ask an agent to "make a landing page":
-
-| Without atlys | With `taste-skill` |
-|---|---|
-| Centered hero, gradient text, three cards | Reads your brief first, picks a direction on purpose |
-| "In today's fast-paced world…" | Copy that sounds like it was written by someone |
-| Looks like the last 500 AI landing pages | Looks like a decision was made |
-
-Ask it to "clean up this draft":
-
-| Without atlys | With `humanizer` + `stop-slop` |
-|---|---|
-| Fixes typos, keeps the AI rhythm | Cuts the throat-clearing, fixes the voice |
-| "Moreover, it's worth noting…" survives | Every sentence earns its place |
-
-The difference isn't magic. It's just taste, written down.
-
-### Start here
-
-**I build interfaces** — `taste-skill` + `antislop-core`. The design direction and the slop filter. Add `redesign-skill` if you're fixing something existing, `accessibility` before you ship.
-
-**I write** — `antislop-core` + `humanizer` + `stop-slop`. The filter, the voice fix, the cut. Add `avoid-ai-writing` when you need the process to be repeatable.
-
-**I build backends** — `hexagonal-python` (or `golang-*`) + `docker-compose-patterns` + `output-skill`. Architecture, containers, and the guarantee the code comes out complete.
-
-Then browse [the collection](#the-collection) and take what matches your work. You don't need all 47.
-
-## Quick start
+## Install
 
 ```sh
 npx skills add adiprmx/atlys
 ```
 
-That's it. Pick the skills you want, pick your agent (Claude Code, Cursor, Codex, …), done. Just one skill? Add `-s`:
+Pick the skills you want, pick your agent (Claude Code, Cursor, Codex, …), done.
 
 ```sh
-npx skills add adiprmx/atlys -s taste-skill
+npx skills add adiprmx/atlys -s taste-skill   # one skill only
 ```
 
-Prefer manual? Clone and copy:
+Manual: `git clone https://github.com/adiprmx/atlys.git`, then copy any folder to your agent's skills dir (`~/.claude/skills/`).
 
-```sh
-git clone https://github.com/adiprmx/atlys.git
-cp -r atlys/design/taste-skill ~/.claude/skills/
-```
+### Start here
+
+**Interfaces** — `taste-skill` + `antislop-core`. Add `redesign-skill` for existing work, `accessibility` before you ship.
+**Writing** — `antislop-core` + `humanizer` + `stop-slop`.
+**Backends** — `hexagonal-python` (or `golang-*`) + `docker-compose-patterns` + `output-skill`.
+
+You don't need all 47 — take what matches your work.
 
 Only want one category? Clone it sparsely:
 
@@ -97,39 +65,11 @@ design/taste-skill/
 
 `SKILL.md` starts with frontmatter (`name`, `description`, `allowed-tools`) so agents can index and auto-load it. Everything else is plain markdown written to be read by both humans and models.
 
-## The atlys bar
+## The bar
 
-Not every skill on the internet belongs here. A skill makes it into atlys only if:
+Every skill here earned its place: it must visibly change the agent's output, be specific (rules and examples, not vague advice), and respect the reader (no filler). Thin or duplicated skills get cut.
 
-1. **It changes the output.** Reading it must visibly change what the agent produces — not restate the obvious.
-2. **It's specific.** Concrete rules, real examples, named anti-patterns. Vague advice ("write clean code") doesn't make the cut.
-3. **It's field-tested.** Either proven in real projects or distilled from recognized expert sources.
-4. **It respects the reader.** No filler, no motivational fluff, no 500 lines saying what 50 could.
-
-Skills that are thin, generic, or duplicated by a stronger skill already in the collection get cut or merged. That's the whole curation policy.
-
-## Repository structure
-
-```
-atlys/
-├── assets/                  # brand visuals (hero, icon, banners, skill maps)
-├── design/                  # 17 frontend & design skills
-│   ├── taste-skill/
-│   ├── redesign-skill/
-│   └── ...
-├── writing/                 # 12 anti-AI-slop writing skills
-│   ├── antislop-core/
-│   ├── humanizer/
-│   └── ...
-├── engineering/             # 18 engineering, backend & QA skills
-│   ├── output-skill/
-│   └── ...
-├── README.md
-├── CHANGELOG.md
-└── LICENSE
-```
-
-## The collection
+## What's inside
 
 | [![Design — 17 skills](assets/banner-design.svg)](design/) | [![Writing — 12 skills](assets/banner-writing.svg)](writing/) | [![Engineering — 18 skills](assets/banner-engineering.svg)](engineering/) |
 |:---:|:---:|:---:|
@@ -142,11 +82,11 @@ atlys/
 |---|---|
 | `taste-skill` | Anti-slop frontend for landing pages, portfolios, and redesigns. Reads the brief, infers the right design direction, and ships interfaces that don't look templated. Strict pre-flight check included. |
 | `taste-skill-v1` | The original v1 of taste-skill, preserved for projects depending on its exact behavior. |
-| `redesign-skill` | Upgrades existing websites and apps to premium quality without breaking functionality. Audit-first; hunts down generic AI patterns. |
+| `redesign-skill` | Upgrades existing websites and apps without breaking functionality. Audit-first; hunts down generic AI patterns. |
 | `soft-skill` | Agency-grade polish: exact fonts, spacing, shadows, card structures, and animations that make a site feel expensive. |
 | `minimalist-skill` | Clean editorial interfaces — warm monochrome, typographic contrast, flat bento grids. No gradients, no heavy shadows. |
 | `brutalist-skill` | Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. For data-heavy dashboards and portfolios that should feel like declassified blueprints. |
-| `stitch-skill` | Semantic design-system skill for Google Stitch. Generates agent-friendly `DESIGN.md` files enforcing premium, anti-generic UI standards. |
+| `stitch-skill` | Semantic design-system skill for Google Stitch. Generates agent-friendly `DESIGN.md` files enforcing anti-generic UI standards. |
 | `brandkit` | Brand-kit image generation: logo systems, identity decks, and brand-guideline boards across minimalist, cinematic, editorial, dark-tech, luxury, and more. |
 | `gpt-tasteskill` | UX/UI plus advanced GSAP motion engineering — AIDA page structure, wide editorial typography, gapless bento grids, strict ScrollTriggers. |
 | `imagegen-frontend-web` | Generates conversion-aware website design references — one horizontal image per section, one consistent palette. |
@@ -212,32 +152,10 @@ atlys/
 
 ![atlys skill map — all 47 skills](assets/skillmap.svg)
 
-## FAQ
+<details>
+<summary><strong>Credits & sources</strong></summary>
 
-**Do I need all 47 skills?**
-No. Copy the ones matching your work. A frontend agent might take `taste-skill` + `antislop-core`; a backend agent `hexagonal-python` + `docker-compose-patterns` + `output-skill`. Each folder is self-contained.
-
-**Are these tied to a specific AI agent?**
-No. A skill is just a folder with `SKILL.md` (markdown + YAML frontmatter) — the open Agent Skills convention. Any agent that reads markdown can use them: Claude Code, Cursor, Windsurf, Copilot, or your own harness.
-
-**Can I use these commercially?**
-The collection itself is MIT. Individual skills adapted from external sources keep their original licenses (MIT or Apache-2.0 — both permissive for commercial use). Check the Source section in each skill's README.
-
-**Some descriptions are in Indonesian — why?**
-A few skills were adapted and translated for Indonesian-speaking builders. The technical content stays in English where the source was English; the adaptation notes say what changed.
-
-**How do I know what's new?**
-See [CHANGELOG.md](CHANGELOG.md). Every addition, rename, or removal is recorded there.
-
-**How is this versioned?**
-With GitHub Releases. New skills and improvements bump the minor version; renames and removals are called out in the release notes and CHANGELOG so you can update your copies.
-
-**I found a bug or a better skill.**
-Open an issue or PR — see [Contributing](#contributing).
-
-## Credits
-
-atlys is **curated and maintained by [adiprmx](https://github.com/adiprmx)** — skill selection, naming, `skill.yaml` metadata, Indonesian-language adaptations, and ongoing expansion of select skills.
+atlys is curated and maintained by [adiprmx](https://github.com/adiprmx) — skill selection, naming, `skill.yaml` metadata, Indonesian-language adaptations, and ongoing expansion of select skills.
 
 Several skills are adapted from excellent open-source work. They retain their original licenses (see each skill folder), and this collection wouldn't exist without them:
 
@@ -256,14 +174,12 @@ Several skills are adapted from excellent open-source work. They retain their or
 - `go-service-scaffolder`, `writing-quality` — [ItalyPaleAle/skills](https://github.com/ItalyPaleAle/skills) (MIT)
 - `android-*` family — [new-silvermoon/awesome-android-agent-skills](https://github.com/new-silvermoon/awesome-android-agent-skills) (Apache-2.0)
 
+</details>
+
 ## Contributing
 
-Found a skill worth including, or improved one that's here? Open an issue or PR with:
-
-1. The skill folder (`SKILL.md` + `skill.yaml` required) under the right category (`design/`, `writing/`, or `engineering/`)
-2. A one-paragraph description of what makes it non-generic
-3. Its provenance — original work or adapted (with source link)
+Open an issue or PR with the skill folder (`SKILL.md` + `skill.yaml`), a paragraph on what makes it non-generic, and its provenance (original or adapted, with source link).
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Skills adapted from external sources remain under their original licenses.
+MIT — see [LICENSE](LICENSE). Skills adapted from external sources keep their original licenses (MIT/Apache-2.0, both commercial-friendly).

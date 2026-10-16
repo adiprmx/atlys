@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.9.0
+
+- Main README radically trimmed (269 → ~185 lines): yapping cut — "Why atlys exists", "Slop vs taste", "Repository structure", and FAQ removed. Install leads, "Start here" condensed, "The bar" is one paragraph, credits collapsed. Essentials only.
+
 ## 2026-10-16 — v1.8.5
 
 - Quick start simplified: `npx skills add adiprmx/atlys` is now the primary install path (verified: the skills CLI discovers all 47 skills in this repo's layout). Manual clone+copy kept as the alternative.
