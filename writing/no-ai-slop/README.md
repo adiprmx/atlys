@@ -4,9 +4,9 @@
 
 ![writing](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-No AI Slop: edit draf jadi tajam dan manusiawi sambil menjaga suara penulis, atau deteksi pola AI-slop tanpa menulis ulang. Dua mode: Edit (minimum effective edit + What changed) dan Detect (sebut pola, kutip baris, beri fix singkat). Pakai saat user minta draf lebih jelas, lebih direct, lebih beropini, atau bertanya apakah tulisannya terdengar AI.
+*Two tools in one: a careful editor that changes as little as possible, and a detector that points at the exact line and names the pattern.*
 
-Two tools in one: a careful editor that changes as little as possible, and a detector that points at the exact line and names the pattern.
+No AI Slop: edit draf jadi tajam dan manusiawi sambil menjaga suara penulis, atau deteksi pola AI-slop tanpa menulis ulang. Dua mode: Edit (minimum effective edit + What changed) dan Detect (sebut pola, kutip baris, beri fix singkat). Pakai saat user minta draf lebih jelas, lebih direct, lebih beropini, atau bertanya apakah tulisannya terdengar AI.
 
 > Sumber: petergyang/no-ai-slop (MIT). Diadaptasi ke Bahasa Indonesia; pola Inggris dipertahankan karena spesifik Bahasa Inggris.
 

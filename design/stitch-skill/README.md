@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.
+*Google Stitch generates UI fast — and generic just as fast. This bakes a real design system into what Stitch produces, so the output has standards, not just speed.*
 
-Google Stitch generates UI fast — and generic just as fast. This bakes a real design system into what Stitch produces, so the output has standards, not just speed.
+Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.
 
 ## When to use
 

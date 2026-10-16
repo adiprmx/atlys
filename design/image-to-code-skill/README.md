@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Elite website image-to-code skill. Generate the design images first, deeply analyze them, then implement the website to match them as closely as possible.
+*When you already know what it should look like, don't let the agent reinterpret. Generate the reference, analyze it deeply, match it.*
 
-When you already know what it should look like, don't let the agent reinterpret. Generate the reference, analyze it deeply, match it.
+Elite website image-to-code skill. Generate the design images first, deeply analyze them, then implement the website to match them as closely as possible.
 
 ## When to use
 

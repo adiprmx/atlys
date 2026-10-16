@@ -4,9 +4,9 @@
 
 ![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Dynamic QA checklist that catches silent regex-pattern death (patterns that compile but never match) via positive-match probes and byte-level asserts — use when authoring or verifying intent batches.
+*Regex that compiles but never matches is a silent bug — everything looks fine, nothing ever fires. This hunts those down with proof.*
 
-Regex that compiles but never matches is a silent bug — everything looks fine, nothing ever fires. This hunts those down with proof.
+Dynamic QA checklist that catches silent regex-pattern death (patterns that compile but never match) via positive-match probes and byte-level asserts — use when authoring or verifying intent batches.
 
 ## When to use
 

@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.
+*Redesigns usually fail two ways: they break what worked, or they change nothing that matters. This skill audits first, then upgrades — keeping the bones, fixing the taste.*
 
-Redesigns usually fail two ways: they break what worked, or they change nothing that matters. This skill audits first, then upgrades — keeping the bones, fixing the taste.
+Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.
 
 ## When to use
 

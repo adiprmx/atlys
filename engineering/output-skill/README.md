@@ -4,9 +4,9 @@
 
 ![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.
+*The classic agent failure: code that trails off into placeholder comments. This bans truncation and placeholders, period.*
 
-The classic agent failure: code that trails off into placeholder comments. This bans truncation and placeholders, period.
+Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.
 
 ## When to use
 

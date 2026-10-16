@@ -4,9 +4,9 @@
 
 ![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Keeps long multi-chunk batch jobs honest and resumable — incremental on-disk checkpoints, completion claims reconciled against artifacts on disk, race-sensitive allocations re-verified at deploy time; use for serapan, tumpah-ilmu, mining, or any batch run.
+*Long runs lie. Done when half the chunks failed, progress lost on interrupt. This makes batch jobs resumable and completion claims checkable.*
 
-Long runs lie. Done when half the chunks failed, progress lost on interrupt. This makes batch jobs resumable and completion claims checkable.
+Keeps long multi-chunk batch jobs honest and resumable — incremental on-disk checkpoints, completion claims reconciled against artifacts on disk, race-sensitive allocations re-verified at deploy time; use for serapan, tumpah-ilmu, mining, or any batch run.
 
 ## When to use
 

@@ -4,9 +4,9 @@
 
 ![writing](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Apply on every turn that drafts or edits human-facing prose, even when writing is not the main task. Covers chat replies, explanations, emails, documents, pull request descriptions, issue comments, and review reports. Keep writing natural, direct, plain, and aligned with the user's voice. Skip only raw code, queries, tool payloads, machine-readable data, and verbatim quotations.
+*Every chat reply, every explanation, every email the agent drafts — this is the quality bar for all of it.*
 
-Every chat reply, every explanation, every email the agent drafts — this is the quality bar for all of it.
+Apply on every turn that drafts or edits human-facing prose, even when writing is not the main task. Covers chat replies, explanations, emails, documents, pull request descriptions, issue comments, and review reports. Keep writing natural, direct, plain, and aligned with the user's voice. Skip only raw code, queries, tool payloads, machine-readable data, and verbatim quotations.
 
 ## When to use
 

@@ -4,9 +4,9 @@
 
 ![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-Apache--2.0-16a34a)
 
-Comprehensive testing strategy involving Unit, Integration, Hilt, and Screenshot tests.
+*Untested Android code rots fast. Unit, integration, Hilt, screenshots — the full strategy, not just write more tests.*
 
-Untested Android code rots fast. Unit, integration, Hilt, screenshots — the full strategy, not just write more tests.
+Comprehensive testing strategy involving Unit, Integration, Hilt, and Screenshot tests.
 
 ## When to use
 

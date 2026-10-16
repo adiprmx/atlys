@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Use for testing the accessibility of a web project
+*A checklist you run once isn't a methodology. This is the repeatable process for proving a project is actually accessible.*
 
-A checklist you run once isn't a methodology. This is the repeatable process for proving a project is actually accessible.
+Use for testing the accessibility of a web project
 
 ## When to use
 

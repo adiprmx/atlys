@@ -4,9 +4,9 @@
 
 ![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-Apache--2.0-16a34a)
 
-Audit and improve Jetpack Compose runtime performance from code review and architecture. Use when asked to diagnose slow rendering, janky scrolling, excessive recompositions, or performance issues in Compose UI.
+*Jank is death by a thousand recompositions. This finds them from code review — before your users feel them.*
 
-Jank is death by a thousand recompositions. This finds them from code review — before your users feel them.
+Audit and improve Jetpack Compose runtime performance from code review and architecture. Use when asked to diagnose slow rendering, janky scrolling, excessive recompositions, or performance issues in Compose UI.
 
 > Important: Ensure profiling is done on a release build with R8 enabled. Debug builds have significant overhead.
 

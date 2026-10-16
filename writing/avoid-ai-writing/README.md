@@ -4,9 +4,9 @@
 
 ![writing](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Avoid AI Writing: audit & rewrite untuk menghapus pola tulisan AI ('AI-isms'). Mode detect-only, edit-in-place, profil suara (casual/professional/technical/warm/blunt), dan pass iterasi-sampai-konvergen. Punya kontrak editing ketat: deteksi bukan vonis, temuan bukan edit otomatis. Dikalibrasi untuk Bahasa Inggris; untuk Bahasa Indonesia pakai sebagai panduan pola struktural.
+*For when 'make it sound human' needs to be a repeatable process, not a vibe. Strict contract, tiered patterns, iterate until it converges.*
 
-For when 'make it sound human' needs to be a repeatable process, not a vibe. Strict contract, tiered patterns, iterate until it converges.
+Avoid AI Writing: audit & rewrite untuk menghapus pola tulisan AI ('AI-isms'). Mode detect-only, edit-in-place, profil suara (casual/professional/technical/warm/blunt), dan pass iterasi-sampai-konvergen. Punya kontrak editing ketat: deteksi bukan vonis, temuan bukan edit otomatis. Dikalibrasi untuk Bahasa Inggris; untuk Bahasa Indonesia pakai sebagai panduan pola struktural.
 
 > Sumber: conorbronsdon/avoid-ai-writing v3.38.0 (MIT) oleh Conor Bronsdon. Diringkas dan diadaptasi ke Bahasa Indonesia; katalog pola penuh ada di repo sumber (references/patterns.md). Catatan bahasa: aturan dan detektor ini dikalibrasi untuk Bahasa Inggris. Untuk Bahasa Indonesia, pakai sebagai panduan pola STRUKTURAL (kontras biner, triad, staging, inflasi) — bukan daftar kata per kata.
 

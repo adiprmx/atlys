@@ -4,9 +4,9 @@
 
 ![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Budgets RAM before fanning out parallel workers that each load the full intent brain, so verification workers never starve the live bot — use before any parallel verification, dedupe, or probe fan-out.
+*Sixteen workers on a small box doesn't make things faster. This budgets RAM first so workers don't starve each other.*
 
-Sixteen workers on a small box doesn't make things faster. This budgets RAM first so workers don't starve each other.
+Budgets RAM before fanning out parallel workers that each load the full intent brain, so verification workers never starve the live bot — use before any parallel verification, dedupe, or probe fan-out.
 
 ## When to use
 

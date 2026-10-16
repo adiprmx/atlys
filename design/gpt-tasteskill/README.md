@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Elite UX and UI plus advanced GSAP motion engineering with AIDA page structure, wide editorial typography, gapless bento grids, and strict GSAP ScrollTriggers.
+*Landing pages live or die on motion and rhythm. This is the full choreography: AIDA structure, editorial type, GSAP scroll work that feels intentional instead of decorative.*
 
-Landing pages live or die on motion and rhythm. This is the full choreography: AIDA structure, editorial type, GSAP scroll work that feels intentional instead of decorative.
+Elite UX and UI plus advanced GSAP motion engineering with AIDA page structure, wide editorial typography, gapless bento grids, and strict GSAP ScrollTriggers.
 
 ## When to use
 

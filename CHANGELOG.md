@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.7.1
+
+- Layout polish: skill READMEs now open with the human "Why" hook as the lede; category READMEs gained "Start with" flagship picks; main README gained a release badge and richer category cards with starter picks.
+
 ## 2026-10-16 — v1.7.0
 
 - All visuals are now hand-made SVG: category banners, hero, and icon redrawn in code — crisp, typographic, intentional. No AI-generated imagery anywhere in the repo.

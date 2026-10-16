@@ -8,6 +8,8 @@ Two jobs here: **de-slopping** (strip the AI tics — em-dashes everywhere, "del
 
 12 skills for prose that reads human, not generated.
 
+> New here? Start with `antislop-core` (the always-on filter), `humanizer` (fix the voice), and `stop-slop` (cut the filler).
+
 | Skill | What it does |
 |---|---|
 | `antislop-core` | The core filter. Rules every AI coding agent should follow to stop generic AI slop. Load always. |

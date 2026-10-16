@@ -8,6 +8,8 @@ Backend architecture, containers, Go, Android, databases — plus the QA skills 
 
 18 skills for reliable backends, solid DevOps, and complete, well-resourced agent work.
 
+> New here? Start with `output-skill` (complete code, always), `hexagonal-python` or `golang-concurrency` (your stack's architecture), and `docker-compose-patterns` (containers done right).
+
 | Skill | What it does |
 |---|---|
 | `output-skill` | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. |

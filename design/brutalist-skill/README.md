@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.
+*Some interfaces should feel like machinery, not marketing. Raw grids, terminal honesty, zero pretense. Built for dashboards and tools where clarity beats charm.*
 
-Some interfaces should feel like machinery, not marketing. Raw grids, terminal honesty, zero pretense. Built for dashboards and tools where clarity beats charm.
+Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.
 
 ## When to use
 

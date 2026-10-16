@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Quality assurance for web accessibility and usability, particularly for users with disabilities. Use when involved in any web project.
+*AI-generated markup fails accessibility in predictable ways — divs as buttons, missing labels, contrast that looks fine until it isn't. This is the expert QA pass that catches them.*
 
-AI-generated markup fails accessibility in predictable ways — divs as buttons, missing labels, contrast that looks fine until it isn't. This is the expert QA pass that catches them.
+Quality assurance for web accessibility and usability, particularly for users with disabilities. Use when involved in any web project.
 
 ## When to use
 

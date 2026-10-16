@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Build premium, non-generic coded frontend with brief-driven design dials, bias-corrected typography and color, intentional GSAP or Motion choreography, and a strict pre-flight check before shipping.
+*Hand-coded, not generated-and-prayed. Every type choice, color, and animation decided deliberately — with a pre-flight check that catches the lazy defaults.*
 
-Hand-coded, not generated-and-prayed. Every type choice, color, and animation decided deliberately — with a pre-flight check that catches the lazy defaults.
+Build premium, non-generic coded frontend with brief-driven design dials, bias-corrected typography and color, intentional GSAP or Motion choreography, and a strict pre-flight check before shipping.
 
 ## When to use
 

@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.
+*Minimalism isn't empty. It's confidence — warm monochrome, type doing the heavy lifting, nothing decorative. For when the content deserves the spotlight.*
 
-Minimalism isn't empty. It's confidence — warm monochrome, type doing the heavy lifting, nothing decorative. For when the content deserves the spotlight.
+Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.
 
 ## When to use
 

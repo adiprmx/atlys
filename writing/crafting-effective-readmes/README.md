@@ -4,9 +4,9 @@
 
 ![writing](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Use when writing or improving README files. Not all READMEs are the same — provides templates and guidance matched to your audience and project type.
+*Nobody reads READMEs that read like documentation. This is about writing the one page that decides whether someone tries your project.*
 
-Nobody reads READMEs that read like documentation. This is about writing the one page that decides whether someone tries your project.
+Use when writing or improving README files. Not all READMEs are the same — provides templates and guidance matched to your audience and project type.
 
 ## When to use
 

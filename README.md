@@ -5,6 +5,7 @@
 **A curated collection of skills for AI coding agents.**
 
 [![Skills](https://img.shields.io/badge/skills-47-2563eb)](https://github.com/adiprmx/atlys)
+[![Release](https://img.shields.io/github/v/release/adiprmx/atlys)](https://github.com/adiprmx/atlys/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-16a34a.svg)](LICENSE)
 
 *Design taste, anti-slop writing, and engineering QA — as drop-in playbooks.*
@@ -107,7 +108,7 @@ atlys/
 
 | [![Design — 17 skills](assets/banner-design.svg)](design/) | [![Writing — 12 skills](assets/banner-writing.svg)](writing/) | [![Engineering — 18 skills](assets/banner-engineering.svg)](engineering/) |
 |:---:|:---:|:---:|
-| **Design** — interfaces with taste | **Writing** — prose that reads human | **Engineering** — backends that ship |
+| **Design** — interfaces with taste<br/><sub>Start with `taste-skill` · `impeccable-design`</sub> | **Writing** — prose that reads human<br/><sub>Start with `antislop-core` · `humanizer`</sub> | **Engineering** — backends that ship<br/><sub>Start with `output-skill` · `hexagonal-python`</sub> |
 
 ## The collection
 

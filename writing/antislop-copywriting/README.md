@@ -4,9 +4,9 @@
 
 ![writing](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.
+*Most AI copy is interchangeable: swap the product name and nothing changes. This is about writing that could only be about your thing.*
 
-Most AI copy is interchangeable: swap the product name and nothing changes. This is about writing that could only be about your thing.
+Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.
 
 > Anti Slop: Rules for AI Coding Agents. Copy & Text skill Part of the antislop system. Read together with antislop.md (the core). This skill deep-dives the copy and text concern: headlines, CTAs, tone, value propositions, and the patterns that make AI-written prose easy to spot. It references core rules by number and never duplicates or renumbers them. Load it when the task writes or edits marketing copy, product copy, landing-page text, or any prose meant for people to read.
 

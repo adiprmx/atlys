@@ -4,9 +4,9 @@
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-Elite frontend image-direction skill for generating premium, conversion-aware website design references, one separate horizontal image per section, with composition variety and a single consistent palette.
+*Coding straight from a blank brief is how you get template number four thousand. Generate the design direction as images first, agree on the look, then build.*
 
-Coding straight from a blank brief is how you get template number four thousand. Generate the design direction as images first, agree on the look, then build.
+Elite frontend image-direction skill for generating premium, conversion-aware website design references, one separate horizontal image per section, with composition variety and a single consistent palette.
 
 ## When to use
 
