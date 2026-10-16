@@ -4,6 +4,8 @@
 
 Human and accessibility skill for antislop. Contrast, keyboard, focus, and states for real people. Includes the contrast checker.
 
+Designed for screenshots, broken for people. Contrast ratios, keyboard paths, focus states — the unglamorous checks that decide whether humans can actually use it.
+
 > Anti Slop: Rules for AI Coding Agents. Human skill Part of the antislop system. Read together with antislop.md (the core). This skill deep-dives the human concern: the UI must stay usable by people with different eyes, hands, and setups. Contrast, keyboard, focus, states, and the mobile details that exclude people.
 
 ## When to use

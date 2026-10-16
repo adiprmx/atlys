@@ -4,6 +4,8 @@
 
 The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 install name only if you need exact backward compatibility.
 
+Kept around for one reason: some projects were built on v1 and still depend on its exact behavior. If that's not you, use taste-skill.
+
 ## When to use
 
 - You need the exact behavior of the original v1 taste-skill

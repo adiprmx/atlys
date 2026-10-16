@@ -4,6 +4,8 @@
 
 Scaffold a production-ready Go HTTP service with OpenTelemetry observability, TLS, lifecycle management, Dockerfile, GitHub Actions CI/CD, and golangci-lint. Use when creating or regenerating a full Go service skeleton (project layout, config package, server package, CI workflows, and container build files).
 
+Every new service needs the same boring excellence: observability, TLS, graceful shutdown, CI. Scaffold it once, correctly.
+
 ## When to use
 
 - Scaffolding a new production Go HTTP service

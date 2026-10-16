@@ -4,6 +4,8 @@
 
 Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 diagrams, or generate context/container/component/deployment diagrams. Triggers include "architecture diagram", "C4 diagram", "system context", "container diagram", "component diagram", "deployment diagram", "document architecture", "visualize architecture".
 
+Nobody reads a forty-page architecture doc. Four diagrams — context, container, component, code — that a new hire can absorb in an hour.
+
 ## When to use
 
 - Documenting system architecture with C4 diagrams

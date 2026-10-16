@@ -4,6 +4,8 @@
 
 Code comment hygiene for AI coding agents: remove generic AI-slop comments, keep the valuable ones, never touch the code.
 
+AI comments narrate the code back to you — increment counter next to i++. This keeps the comments that earn their place and strips the rest.
+
 > Anti Slop: Rules for AI Coding Agents. Code Comments skill Part of the antislop system. Read together with antislop.md (the core). This skill filters comments that read as generically AI (decorative, restating the obvious, stiff, loud) while preserving the comments that carry real information. It references core rules by number and never duplicates or renumbers them. Load it when the task writes or edits code comments.
 
 ## When to use

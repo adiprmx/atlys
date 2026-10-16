@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.5.0
+
+- Main README rewritten in a human voice: visceral "why", Slop-vs-taste comparison tables, and guided "Start here" paths for interface builders, writers, and backend engineers. Every skill README gained a hand-written "Why" hook (47/47) explaining the problem it exists to solve — no slop, no filler.
+
 ## 2026-10-16 — v1.4.0
 
 - Skill READMEs leveled up: hand-written "When to use" triggers for all 47 skills (no more template filler), plus "Pairs well with" cross-links so the collection reads as one connected system. Main README gained a How-it-works diagram.

@@ -4,6 +4,8 @@
 
 Mobile layout skill for antislop. Use for layouts that reflow across screen sizes, phone to desktop: grids, overflow, tap targets. Load with the core.
 
+Desktop-first thinking breaks on phones: overflow, tiny tap targets, grids that collapse wrong. This is the reflow discipline.
+
 > Anti Slop: Rules for AI Coding Agents. Mobile Layout skill Part of the antislop system. Read together with antislop.md (the core). This skill deep-dives the responsive layout concern: how a layout must reflow across screen sizes, phone to desktop. Breakpoints, scale, grids, overflow, tap targets, and navigation. It references core rules by number and never duplicates or renumbers them. Load it when the task builds or edits a layout that has to hold up at any screen width.
 
 ## When to use

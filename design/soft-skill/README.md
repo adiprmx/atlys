@@ -4,6 +4,8 @@
 
 Teaches the AI to design like a high-end agency with exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive.
 
+There's a specific look that says an expensive agency did this: exact type scales, restrained shadows, motion that doesn't show off. This is the recipe.
+
 ## When to use
 
 - You want a high-end agency look: precise typography, spacing, shadows, motion

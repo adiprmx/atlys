@@ -4,6 +4,8 @@
 
 Stop Slop: pangkas retorika & basa-basi AI dari prosa. 8 aturan inti (potong filler, hancurkan struktur formulaik, aktif, spesifik, variasi ritme) + daftar frasa yang wajib dibuang + cek kilat + skor 1-10 per dimensi. Pakai saat menulis, mengedit, atau mereview teks agar langsung ke poin.
 
+First drafts drown in throat-clearing. This cuts with a scalpel and scores what it did, so you can see the before and after.
+
 > Sumber: hardikpandya/stop-slop (MIT) oleh Hardik Pandya. Diadaptasi ke Bahasa Indonesia; daftar frasa Inggris dipertahankan karena polanya spesifik Bahasa Inggris.
 
 ## When to use

@@ -4,6 +4,8 @@
 
 Build premium, non-generic coded frontend with brief-driven design dials, bias-corrected typography and color, intentional GSAP or Motion choreography, and a strict pre-flight check before shipping.
 
+Hand-coded, not generated-and-prayed. Every type choice, color, and animation decided deliberately — with a pre-flight check that catches the lazy defaults.
+
 ## When to use
 
 - Hand-coding a premium site with intentional motion design

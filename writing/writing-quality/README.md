@@ -4,6 +4,8 @@
 
 Apply on every turn that drafts or edits human-facing prose, even when writing is not the main task. Covers chat replies, explanations, emails, documents, pull request descriptions, issue comments, and review reports. Keep writing natural, direct, plain, and aligned with the user's voice. Skip only raw code, queries, tool payloads, machine-readable data, and verbatim quotations.
 
+Every chat reply, every explanation, every email the agent drafts — this is the quality bar for all of it.
+
 ## When to use
 
 - Any agent turn drafting human-facing prose

@@ -4,6 +4,8 @@
 
 Expert guidance on setting up and maintaining a modern Android application architecture using Clean Architecture and Hilt. Use this when asked about project structure, module setup, or dependency injection.
 
+Activities calling the network directly is how Android apps become unmaintainable. Clean layers, Hilt wiring, boundaries that hold.
+
 ## When to use
 
 - Structuring an Android app with Clean Architecture and Hilt

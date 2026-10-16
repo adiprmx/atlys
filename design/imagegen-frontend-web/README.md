@@ -4,6 +4,8 @@
 
 Elite frontend image-direction skill for generating premium, conversion-aware website design references, one separate horizontal image per section, with composition variety and a single consistent palette.
 
+Coding straight from a blank brief is how you get template number four thousand. Generate the design direction as images first, agree on the look, then build.
+
 ## When to use
 
 - You want AI-generated design references before coding a website

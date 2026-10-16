@@ -4,6 +4,8 @@
 
 Use for testing the accessibility of a web project
 
+A checklist you run once isn't a methodology. This is the repeatable process for proving a project is actually accessible.
+
 ## When to use
 
 - Setting up a repeatable accessibility testing methodology

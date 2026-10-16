@@ -4,6 +4,8 @@
 
 Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.
 
+Google Stitch generates UI fast — and generic just as fast. This bakes a real design system into what Stitch produces, so the output has standards, not just speed.
+
 ## When to use
 
 - Working with Google Stitch and need an agent-friendly DESIGN.md

@@ -4,6 +4,8 @@
 
 UI and visual skill for antislop. Use when building or editing any interface: color, layout, components, motion. Load with the core.
 
+The visual half of the filter. Colors, spacing, components, motion — all the places where 'AI-generated' shows.
+
 > Anti Slop: Rules for AI Coding Agents. UI & Visual skill Part of the antislop system. Read together with antislop.md (the core). This skill deep-dives the UI/visual concern: color, layout, components, decoration, structural flow, and motion. It references core rules by number and never duplicates or renumbers them. Load it when the task builds or edits a website, web app, or any interface.
 
 ## When to use

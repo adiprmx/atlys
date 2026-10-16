@@ -4,6 +4,8 @@
 
 Production-ready Golang tests — table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures, goroutine leak detection with goleak, snapshot testing, code coverage, integration tests, idiomatic test naming. Use when writing or reviewing Go tests, choosing a testing approach, setting up Go test CI, or debugging flaky/slow tests. For testify-specific APIs see `samber/cc-skills-golang@golang-stretchr-testify`; for measurement methodology see `samber/cc-skills-golang@golang-benchmark`.
 
+Tests that actually protect a Go codebase: table-driven, parallel-safe, fuzzed where it matters, mocked where it must be.
+
 > Community default. A company skill that explicitly supersedes samber/cc-skills-golang@golang-testing skill takes precedence.
 
 ## When to use

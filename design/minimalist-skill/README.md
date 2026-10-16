@@ -4,6 +4,8 @@
 
 Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.
 
+Minimalism isn't empty. It's confidence — warm monochrome, type doing the heavy lifting, nothing decorative. For when the content deserves the spotlight.
+
 ## When to use
 
 - Editorial or content-focused interfaces

@@ -4,6 +4,8 @@
 
 Idiomatic Golang error handling — creation, wrapping with %w, errors.Is/As, errors.Join, custom error types, sentinel errors, panic/recover, the single handling rule, structured logging with slog, HTTP request logging middleware, and samber/oops for production errors. Built to make logs usable at scale with log aggregation 3rd-party tools. Apply when creating, wrapping, inspecting, or logging errors in Go code. For samber/oops specifics → See `samber/cc-skills-golang@golang-samber-oops` skill; for slog handler ecosystem → See `samber/cc-skills-golang@golang-samber-slog` skill.
 
+if err != nil on every line isn't a strategy. Wrapping, sentinels, errors.Is and As — errors as design, not afterthought.
+
 > Community default. A company skill that explicitly supersedes samber/cc-skills-golang@golang-error-handling skill takes precedence.
 
 ## When to use

@@ -4,6 +4,8 @@
 
 Use when writing or improving README files. Not all READMEs are the same — provides templates and guidance matched to your audience and project type.
 
+Nobody reads READMEs that read like documentation. This is about writing the one page that decides whether someone tries your project.
+
 ## When to use
 
 - Writing or rewriting a project README

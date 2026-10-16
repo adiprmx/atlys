@@ -4,6 +4,8 @@
 
 Elite website image-to-code skill. Generate the design images first, deeply analyze them, then implement the website to match them as closely as possible.
 
+When you already know what it should look like, don't let the agent reinterpret. Generate the reference, analyze it deeply, match it.
+
 ## When to use
 
 - You have design images and want code that matches them closely

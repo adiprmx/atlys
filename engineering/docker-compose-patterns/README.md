@@ -4,6 +4,8 @@
 
 Use this skill when creating, modifying, or debugging Docker Compose configurations, even if the user just says they need to wire services together, add a database to their stack, or set up a local development environment with multiple containers. Covers service definitions, health checks, dependency ordering, volumes, networks, environment variables, and development overrides.
 
+Compose files grow by copy-paste until nobody understands the startup order. This is the disciplined way: health checks, dependencies, overrides.
+
 ## When to use
 
 - Creating, modifying, or debugging docker-compose.yaml

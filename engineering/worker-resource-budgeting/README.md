@@ -4,6 +4,8 @@
 
 Budgets RAM before fanning out parallel workers that each load the full intent brain, so verification workers never starve the live bot — use before any parallel verification, dedupe, or probe fan-out.
 
+Sixteen workers on a small box doesn't make things faster. This budgets RAM first so workers don't starve each other.
+
 ## When to use
 
 - Fanning out parallel workers on a constrained machine

@@ -4,6 +4,8 @@
 
 Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.
 
+The classic agent failure: code that trails off into placeholder comments. This bans truncation and placeholders, period.
+
 ## When to use
 
 - The agent keeps truncating code or leaving placeholder comments

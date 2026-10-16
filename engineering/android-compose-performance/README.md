@@ -4,6 +4,8 @@
 
 Audit and improve Jetpack Compose runtime performance from code review and architecture. Use when asked to diagnose slow rendering, janky scrolling, excessive recompositions, or performance issues in Compose UI.
 
+Jank is death by a thousand recompositions. This finds them from code review — before your users feel them.
+
 > Important: Ensure profiling is done on a release build with R8 enabled. Debug builds have significant overhead.
 
 ## When to use

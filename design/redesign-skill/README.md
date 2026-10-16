@@ -4,6 +4,8 @@
 
 Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.
 
+Redesigns usually fail two ways: they break what worked, or they change nothing that matters. This skill audits first, then upgrades — keeping the bones, fixing the taste.
+
 ## When to use
 
 - Upgrading an existing site or app's visual quality without breaking functionality

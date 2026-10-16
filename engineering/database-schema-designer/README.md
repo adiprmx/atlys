@@ -4,6 +4,8 @@
 
 Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimization. Ensures data integrity, query performance, and maintainable data models.
 
+Schema mistakes are the most expensive kind — they outlive every refactor. Get normalization, indexing, and migrations right up front.
+
 ## When to use
 
 - Designing a new database schema, SQL or NoSQL

@@ -15,9 +15,42 @@
 
 ## Why atlys exists
 
-Most AI-generated output looks AI-generated: templated layouts, filler prose, placeholder comments, lifeless copy. atlys is a hand-picked arsenal against that — 47 field-tested skill playbooks that make agents produce work with **taste**: interfaces that feel designed, prose that reads human, and code that ships complete.
+You know the look. The landing page with the centered hero, the three feature cards, the purple gradient. The paragraph that starts "In today's fast-paced digital landscape." The code comment that says `// increment the counter` next to `i++`.
 
-Each skill is a self-contained folder. No build step, no dependencies, no lock-in — just markdown (plus a few helper scripts) your agent reads when the task calls for it.
+That's AI slop — output shaped by the average of everything, reviewed by no one. And it's everywhere, because the default behavior of every AI agent is to produce it.
+
+atlys is 47 skill playbooks that fight the default. Each one is a self-contained folder your agent reads when the task calls for it: how to read a design brief before touching code, how to hear the AI-ness in your own prose, how to structure a backend so it survives contact with reality.
+
+No build step. No dependencies. No lock-in. Just markdown (plus a few helper scripts) — curated, not scraped.
+
+### Slop vs taste
+
+Same task, different input. Ask an agent to "make a landing page":
+
+| Without atlys | With `taste-skill` |
+|---|---|
+| Centered hero, gradient text, three cards | Reads your brief first, picks a direction on purpose |
+| "In today's fast-paced world…" | Copy that sounds like it was written by someone |
+| Looks like the last 500 AI landing pages | Looks like a decision was made |
+
+Ask it to "clean up this draft":
+
+| Without atlys | With `humanizer` + `stop-slop` |
+|---|---|
+| Fixes typos, keeps the AI rhythm | Cuts the throat-clearing, fixes the voice |
+| "Moreover, it's worth noting…" survives | Every sentence earns its place |
+
+The difference isn't magic. It's just taste, written down.
+
+### Start here
+
+**I build interfaces** → `taste-skill` + `antislop-core`. The design direction and the slop filter. Add `redesign-skill` if you're fixing something existing, `accessibility` before you ship.
+
+**I write** → `antislop-core` + `humanizer` + `stop-slop`. The filter, the voice fix, the cut. Add `avoid-ai-writing` when you need the process to be repeatable.
+
+**I build backends** → `hexagonal-python` (or `golang-*`) + `docker-compose-patterns` + `output-skill`. Architecture, containers, and the guarantee the code comes out complete.
+
+Then browse [the collection](#the-collection) and take what matches your work. You don't need all 47.
 
 ## Quick start
 

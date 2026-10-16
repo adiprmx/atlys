@@ -4,6 +4,8 @@
 
 Comprehensive testing strategy involving Unit, Integration, Hilt, and Screenshot tests.
 
+Untested Android code rots fast. Unit, integration, Hilt, screenshots — the full strategy, not just write more tests.
+
 ## When to use
 
 - Setting up an Android testing strategy

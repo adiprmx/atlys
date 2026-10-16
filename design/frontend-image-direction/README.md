@@ -4,6 +4,8 @@
 
 Generate premium website section references, mobile app screen concepts, and brand-consistent image sets with one image per section or screen, locked cross-image consistency, and anti-generic art direction, then implement from the references without design drift.
 
+The usual failure: beautiful references, an implementation that drifts into something else. This locks the visual direction across images, then carries it into code without the drift.
+
 ## When to use
 
 - You want image references and implementation without design drift
