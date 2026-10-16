@@ -12,6 +12,10 @@
 
 </div>
 
+| 🎯 **Curated, not scraped** | 📦 **Drop-in by design** | 🧪 **Proven in the field** |
+|:---:|:---:|:---:|
+| Every skill earned its place. Thin, generic, or duplicated skills get cut. | A folder with `SKILL.md`. Copy it, your agent reads it. No build step, no lock-in. | Distilled from real projects and recognized expert sources, not vibes. |
+
 ---
 
 ## Contents
@@ -55,11 +59,9 @@ The difference isn't magic. It's just taste, written down.
 
 ### Start here
 
-**I build interfaces** → `taste-skill` + `antislop-core`. The design direction and the slop filter. Add `redesign-skill` if you're fixing something existing, `accessibility` before you ship.
-
-**I write** → `antislop-core` + `humanizer` + `stop-slop`. The filter, the voice fix, the cut. Add `avoid-ai-writing` when you need the process to be repeatable.
-
-**I build backends** → `hexagonal-python` (or `golang-*`) + `docker-compose-patterns` + `output-skill`. Architecture, containers, and the guarantee the code comes out complete.
+| 🖥️ **I build interfaces** | ✍️ **I write** | ⚙️ **I build backends** |
+|---|---|---|
+| `taste-skill` + `antislop-core` — the design direction and the slop filter. Add `redesign-skill` for existing work, `accessibility` before you ship. | `antislop-core` + `humanizer` + `stop-slop` — the filter, the voice fix, the cut. Add `avoid-ai-writing` for a repeatable process. | `hexagonal-python` (or `golang-*`) + `docker-compose-patterns` + `output-skill` — architecture, containers, complete code. |
 
 Then browse [the collection](#the-collection) and take what matches your work. You don't need all 47.
 
@@ -106,10 +108,11 @@ design/taste-skill/
 
 Not every skill on the internet belongs here. A skill makes it into atlys only if:
 
-1. **It changes the output.** Reading it must visibly change what the agent produces — not restate the obvious.
-2. **It's specific.** Concrete rules, real examples, named anti-patterns. Vague advice ("write clean code") doesn't make the cut.
-3. **It's field-tested.** Either proven in real projects or distilled from recognized expert sources.
-4. **It respects the reader.** No filler, no motivational fluff, no 500 lines saying what 50 could.
+| **1 · It changes the output** | **2 · It's specific** |
+|---|---|
+| Reading it must visibly change what the agent produces — not restate the obvious. | Concrete rules, real examples, named anti-patterns. Vague advice ("write clean code") doesn't make the cut. |
+| **3 · It's field-tested** | **4 · It respects the reader** |
+| Either proven in real projects or distilled from recognized expert sources. | No filler, no motivational fluff, no 500 lines saying what 50 could. |
 
 Skills that are thin, generic, or duplicated by a stronger skill already in the collection get cut or merged. The collection is curated, not scraped.
 

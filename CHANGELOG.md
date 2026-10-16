@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.8.1
+
+- Main README visual upgrade: feature strip (curated / drop-in / proven), "Start here" and "The atlys bar" converted from text lists to visual card tables. Text-heavy sections now carry visual weight.
+
 ## 2026-10-16 — v1.8.0
 
 - Main README restructured: table of contents, "Browse" merged into "The collection", "Anatomy" merged into "How it works" (14 → 11 sections). Quick start gained sparse-checkout instructions; FAQ gained a versioning entry.
