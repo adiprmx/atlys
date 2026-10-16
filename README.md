@@ -86,7 +86,7 @@ Skills that are thin, generic, or duplicated by a stronger skill already in the 
 
 ```
 atlys/
-├── assets/                  # brand visuals (hero banner, icon)
+├── assets/                  # brand visuals (hero, icon, category banners)
 ├── design/                  # 🎨 17 frontend & design skills
 │   ├── taste-skill/
 │   ├── redesign-skill/
@@ -102,6 +102,12 @@ atlys/
 ├── CHANGELOG.md
 └── LICENSE
 ```
+
+## Browse the collection
+
+| [![Design — 17 skills](assets/banner-design.webp)](design/) | [![Writing — 12 skills](assets/banner-writing.webp)](writing/) | [![Engineering — 18 skills](assets/banner-engineering.webp)](engineering/) |
+|:---:|:---:|:---:|
+| **Design** — interfaces with taste | **Writing** — prose that reads human | **Engineering** — backends that ship |
 
 ## The collection
 

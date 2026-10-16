@@ -1,3 +1,5 @@
+![Engineering — atlys](../../assets/banner-engineering.webp)
+
 # worker-resource-budgeting
 
 ![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-MIT-16a34a)

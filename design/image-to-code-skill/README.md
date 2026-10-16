@@ -1,3 +1,5 @@
+![Design — atlys](../../assets/banner-design.webp)
+
 # image-to-code-skill
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)

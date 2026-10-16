@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="../assets/icon.webp" width="72" alt="atlys">
-</div>
+![Writing — atlys](../assets/banner-writing.webp)
 
 # ✍️ Anti-AI-slop writing
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.6.0
+
+- Visual identity: custom category banners (Design/Writing/Engineering) now head every category README and every skill README; main README gained clickable banner cards for browsing the collection.
+
 ## 2026-10-16 — v1.5.0
 
 - Main README rewritten in a human voice: visceral "why", Slop-vs-taste comparison tables, and guided "Start here" paths for interface builders, writers, and backend engineers. Every skill README gained a hand-written "Why" hook (47/47) explaining the problem it exists to solve — no slop, no filler.

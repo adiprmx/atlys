@@ -1,3 +1,5 @@
+![Engineering — atlys](../../assets/banner-engineering.webp)
+
 # docker-build-strategies
 
 ![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-Apache--2.0-16a34a)

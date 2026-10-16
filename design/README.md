@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="../assets/icon.webp" width="72" alt="atlys">
-</div>
+![Design — atlys](../assets/banner-design.webp)
 
 # 🎨 Design & frontend
 

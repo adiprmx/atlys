@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="../assets/icon.webp" width="72" alt="atlys">
-</div>
+![Engineering — atlys](../assets/banner-engineering.webp)
 
 # ⚙️ Engineering & QA
 

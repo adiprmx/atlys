@@ -1,3 +1,5 @@
+![Design — atlys](../../assets/banner-design.webp)
+
 # stitch-skill
 
 ![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)

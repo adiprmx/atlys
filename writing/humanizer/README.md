@@ -1,3 +1,5 @@
+![Writing — atlys](../../assets/banner-writing.webp)
+
 # humanizer
 
 ![writing](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
