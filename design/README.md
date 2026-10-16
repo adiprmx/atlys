@@ -6,11 +6,8 @@
 
 These are the taste-makers: brief-reading, audit-first playbooks that push an agent away from the default AI aesthetic — purple gradients, generic cards, lifeless layouts — and toward interfaces with actual intent. Pick by the job: landing pages, redesigns, brand systems, or mobile.
 
-17 skills for interfaces that feel designed, not generated.
 
 > New here? Start with `taste-skill` (the design direction), `impeccable-design` (the full review pass), and `accessibility` (before you ship).
-
-![design skill map](../assets/skillmap-design.svg)
 
 | Skill | What it does |
 |---|---|
@@ -31,5 +28,7 @@ These are the taste-makers: brief-reading, audit-first playbooks that push an ag
 | `impeccable-design` | Full-spectrum frontend improvement — UX review, visual hierarchy, accessibility, responsive behavior, theming, anti-patterns — plus live-browser iteration on real UI. |
 | `accessibility` | Web accessibility and usability QA, especially for users with disabilities. Expert-curated guidance that catches the common pitfalls in AI-generated markup. |
 | `accessibility-testing` | Practical methodology for testing the accessibility of a web project. |
+
+![design skill map](../assets/skillmap-design.svg)
 
 ← Back to [atlys](../)

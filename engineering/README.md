@@ -6,11 +6,8 @@
 
 Backend architecture, containers, Go, Android, databases — plus the QA skills that keep long agent runs honest: no truncated output, no silent regex death, no phantom "done" claims. The unglamorous stuff that decides whether the work actually ships.
 
-18 skills for reliable backends, solid DevOps, and complete, well-resourced agent work.
 
 > New here? Start with `output-skill` (complete code, always), `hexagonal-python` or `golang-concurrency` (your stack's architecture), and `docker-compose-patterns` (containers done right).
-
-![engineering skill map](../assets/skillmap-engineering.svg)
 
 | Skill | What it does |
 |---|---|
@@ -32,5 +29,7 @@ Backend architecture, containers, Go, Android, databases — plus the QA skills 
 | `android-architecture` | Modern Android app architecture with Clean Architecture + Hilt: strict layering, setup and maintenance guidance. |
 | `android-compose-performance` | Audits and improves Jetpack Compose runtime performance — diagnoses slow rendering and jank from code review. |
 | `android-testing` | Comprehensive Android testing strategy: unit, integration, Hilt, and screenshot tests. |
+
+![engineering skill map](../assets/skillmap-engineering.svg)
 
 ← Back to [atlys](../)

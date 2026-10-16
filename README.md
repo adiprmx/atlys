@@ -106,10 +106,6 @@ atlys/
 |:---:|:---:|:---:|
 | **Design** — interfaces with taste<br/><sub>Start with `taste-skill` · `impeccable-design`</sub> | **Writing** — prose that reads human<br/><sub>Start with `antislop-core` · `humanizer`</sub> | **Engineering** — backends that ship<br/><sub>Start with `output-skill` · `hexagonal-python`</sub> |
 
-### Skill map
-
-![atlys skill map — all 47 skills](assets/skillmap.svg)
-
 ## The collection
 
 <details>
@@ -184,6 +180,10 @@ atlys/
 </details>
 
 > **Total: 47 skills.** The collection grows — check back for new additions.
+
+### Skill map
+
+![atlys skill map — all 47 skills](assets/skillmap.svg)
 
 ## Anatomy of a skill
 

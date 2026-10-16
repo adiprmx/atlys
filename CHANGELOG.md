@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.7.5
+
+- Decluttered: skill maps moved below the tables (no more stacked visuals); duplicate intro lines removed from category READMEs. Visuals and text now alternate down the page.
+
 ## 2026-10-16 — v1.7.4
 
 - Skill maps: hand-coded SVG maps of the full 47-skill collection (main README) and per-category maps (each category README). Visuals now distributed across every level. Repo About set: 18 topics.

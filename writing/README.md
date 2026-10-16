@@ -6,11 +6,8 @@
 
 Two jobs here: **de-slopping** (strip the AI tics — em-dashes everywhere, "delve", "moreover", hollow parallelism) and **quality** (structure, clarity, voice). The antislop family is the always-on filter; the rest are specialists you load per task.
 
-12 skills for prose that reads human, not generated.
 
 > New here? Start with `antislop-core` (the always-on filter), `humanizer` (fix the voice), and `stop-slop` (cut the filler).
-
-![writing skill map](../assets/skillmap-writing.svg)
 
 | Skill | What it does |
 |---|---|
@@ -26,5 +23,7 @@ Two jobs here: **de-slopping** (strip the AI tics — em-dashes everywhere, "del
 | `avoid-ai-writing` | A strict editing contract (detect ≠ judge ≠ edit), tiered pattern catalog, voice profiles, and iterate-to-convergence passes. |
 | `crafting-effective-readmes` | README writing matched to your audience — templates and guidance for READMEs that actually get read. |
 | `writing-quality` | Applies to every turn that drafts human-facing prose (chat replies, explanations, emails). Quality from a different angle than de-slopping. |
+
+![writing skill map](../assets/skillmap-writing.svg)
 
 ← Back to [atlys](../)
