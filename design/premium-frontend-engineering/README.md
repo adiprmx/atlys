@@ -23,8 +23,15 @@ premium-frontend-engineering/
 
 ## Pairs well with
 
-- [`taste-skill`](../design/taste-skill/) — for the design direction
-- [`output-skill`](../engineering/output-skill/) — to keep long generations complete
+```mermaid
+flowchart LR
+    me["premium-frontend-engineering"]
+    me -->|"for the design direction"| p0["taste-skill"]
+    me -->|"to keep long generations complete"| p1["output-skill"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`taste-skill`](../design/taste-skill/), [`output-skill`](../engineering/output-skill/)
 
 ## Install
 

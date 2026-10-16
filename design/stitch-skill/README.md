@@ -24,7 +24,14 @@ stitch-skill/
 
 ## Pairs well with
 
-- [`taste-skill`](../design/taste-skill/) — for the underlying taste
+```mermaid
+flowchart LR
+    me["stitch-skill"]
+    me -->|"for the underlying taste"| p0["taste-skill"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`taste-skill`](../design/taste-skill/)
 
 ## Install
 

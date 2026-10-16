@@ -6,7 +6,7 @@
 
 *The full teardown: UX, hierarchy, accessibility, responsive, theming, anti-patterns. Then iterate on the real thing in a live browser, not in theory.*
 
-Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.
+Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states.
 
 ## When to use
 
@@ -25,8 +25,15 @@ impeccable-design/
 
 ## Pairs well with
 
-- [`antislop-ui`](../writing/antislop-ui/) — for the slop filter
-- [`accessibility`](../design/accessibility/) — to cover a11y in the review
+```mermaid
+flowchart LR
+    me["impeccable-design"]
+    me -->|"for the slop filter"| p0["antislop-ui"]
+    me -->|"to cover a11y in the review"| p1["accessibility"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`antislop-ui`](../writing/antislop-ui/), [`accessibility`](../design/accessibility/)
 
 ## Install
 

@@ -22,7 +22,14 @@ accessibility-testing/
 
 ## Pairs well with
 
-- [`accessibility`](../design/accessibility/) — for the QA guidance
+```mermaid
+flowchart LR
+    me["accessibility-testing"]
+    me -->|"for the QA guidance"| p0["accessibility"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`accessibility`](../design/accessibility/)
 
 ## Install
 

@@ -6,7 +6,7 @@
 
 *Redesigns usually fail two ways: they break what worked, or they change nothing that matters. This skill audits first, then upgrades — keeping the bones, fixing the taste.*
 
-Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.
+Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality.
 
 ## When to use
 
@@ -23,8 +23,15 @@ redesign-skill/
 
 ## Pairs well with
 
-- [`taste-skill`](../design/taste-skill/) — for the design direction
-- [`impeccable-design`](../design/impeccable-design/) — for the full review pass
+```mermaid
+flowchart LR
+    me["redesign-skill"]
+    me -->|"for the design direction"| p0["taste-skill"]
+    me -->|"for the full review pass"| p1["impeccable-design"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`taste-skill`](../design/taste-skill/), [`impeccable-design`](../design/impeccable-design/)
 
 ## Install
 

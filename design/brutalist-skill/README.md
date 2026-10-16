@@ -6,7 +6,7 @@
 
 *Some interfaces should feel like machinery, not marketing. Raw grids, terminal honesty, zero pretense. Built for dashboards and tools where clarity beats charm.*
 
-Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.
+Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects.
 
 ## When to use
 
@@ -23,7 +23,14 @@ brutalist-skill/
 
 ## Pairs well with
 
-- [`taste-skill`](../design/taste-skill/) — for brief-reading before styling
+```mermaid
+flowchart LR
+    me["brutalist-skill"]
+    me -->|"for brief-reading before styling"| p0["taste-skill"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`taste-skill`](../design/taste-skill/)
 
 ## Install
 

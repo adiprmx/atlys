@@ -6,7 +6,7 @@
 
 *The classic agent failure: code that trails off into placeholder comments. This bans truncation and placeholders, period.*
 
-Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.
+Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly.
 
 ## When to use
 
@@ -23,8 +23,15 @@ output-skill/
 
 ## Pairs well with
 
-- [`intent-pattern-qa`](../engineering/intent-pattern-qa/) — to verify generated patterns
-- [`batch-run-integrity`](../engineering/batch-run-integrity/) — for long honest runs
+```mermaid
+flowchart LR
+    me["output-skill"]
+    me -->|"to verify generated patterns"| p0["intent-pattern-qa"]
+    me -->|"for long honest runs"| p1["batch-run-integrity"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`intent-pattern-qa`](../engineering/intent-pattern-qa/), [`batch-run-integrity`](../engineering/batch-run-integrity/)
 
 ## Install
 

@@ -27,7 +27,14 @@ crafting-effective-readmes/
 
 ## Pairs well with
 
-- [`writing-quality`](../writing/writing-quality/) — for the prose quality pass
+```mermaid
+flowchart LR
+    me["crafting-effective-readmes"]
+    me -->|"for the prose quality pass"| p0["writing-quality"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`writing-quality`](../writing/writing-quality/)
 
 ## Install
 

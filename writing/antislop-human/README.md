@@ -6,7 +6,7 @@
 
 *Designed for screenshots, broken for people. Contrast ratios, keyboard paths, focus states — the unglamorous checks that decide whether humans can actually use it.*
 
-Human and accessibility skill for antislop. Contrast, keyboard, focus, and states for real people. Includes the contrast checker.
+Human and accessibility skill for antislop. Contrast, keyboard, focus, and states for real people.
 
 > Anti Slop: Rules for AI Coding Agents. Human skill Part of the antislop system. Read together with antislop.md (the core). This skill deep-dives the human concern: the UI must stay usable by people with different eyes, hands, and setups. Contrast, keyboard, focus, states, and the mobile details that exclude people.
 
@@ -26,8 +26,15 @@ antislop-human/
 
 ## Pairs well with
 
-- [`antislop-core`](../writing/antislop-core/) — the base filter
-- [`accessibility`](../design/accessibility/) — for deeper a11y QA
+```mermaid
+flowchart LR
+    me["antislop-human"]
+    me -->|"the base filter"| p0["antislop-core"]
+    me -->|"for deeper a11y QA"| p1["accessibility"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`antislop-core`](../writing/antislop-core/), [`accessibility`](../design/accessibility/)
 
 ## Install
 

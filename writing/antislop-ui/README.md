@@ -6,7 +6,7 @@
 
 *The visual half of the filter. Colors, spacing, components, motion — all the places where 'AI-generated' shows.*
 
-UI and visual skill for antislop. Use when building or editing any interface: color, layout, components, motion. Load with the core.
+UI and visual skill for antislop. Use when building or editing any interface: color, layout, components, motion.
 
 > Anti Slop: Rules for AI Coding Agents. UI & Visual skill Part of the antislop system. Read together with antislop.md (the core). This skill deep-dives the UI/visual concern: color, layout, components, decoration, structural flow, and motion. It references core rules by number and never duplicates or renumbers them. Load it when the task builds or edits a website, web app, or any interface.
 
@@ -24,8 +24,15 @@ antislop-ui/
 
 ## Pairs well with
 
-- [`antislop-core`](../writing/antislop-core/) — the base filter
-- [`taste-skill`](../design/taste-skill/) — for the design direction
+```mermaid
+flowchart LR
+    me["antislop-ui"]
+    me -->|"the base filter"| p0["antislop-core"]
+    me -->|"for the design direction"| p1["taste-skill"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`antislop-core`](../writing/antislop-core/), [`taste-skill`](../design/taste-skill/)
 
 ## Install
 

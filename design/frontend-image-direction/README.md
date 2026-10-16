@@ -23,8 +23,15 @@ frontend-image-direction/
 
 ## Pairs well with
 
-- [`image-to-code-skill`](../design/image-to-code-skill/) — for image-to-code fidelity
-- [`premium-frontend-engineering`](../design/premium-frontend-engineering/) — for hand-coded implementation
+```mermaid
+flowchart LR
+    me["frontend-image-direction"]
+    me -->|"for image-to-code fidelity"| p0["image-to-code-skill"]
+    me -->|"for hand-coded implementation"| p1["premium-frontend-engineering"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`image-to-code-skill`](../design/image-to-code-skill/), [`premium-frontend-engineering`](../design/premium-frontend-engineering/)
 
 ## Install
 

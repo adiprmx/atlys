@@ -6,7 +6,7 @@
 
 *Two tools in one: a careful editor that changes as little as possible, and a detector that points at the exact line and names the pattern.*
 
-No AI Slop: edit draf jadi tajam dan manusiawi sambil menjaga suara penulis, atau deteksi pola AI-slop tanpa menulis ulang. Dua mode: Edit (minimum effective edit + What changed) dan Detect (sebut pola, kutip baris, beri fix singkat). Pakai saat user minta draf lebih jelas, lebih direct, lebih beropini, atau bertanya apakah tulisannya terdengar AI.
+No AI Slop: edit draf jadi tajam dan manusiawi sambil menjaga suara penulis, atau deteksi pola AI-slop tanpa menulis ulang. Dua mode: Edit (minimum effective edit + What changed) dan Detect (sebut pola, kutip baris, beri fix singkat).
 
 > Sumber: petergyang/no-ai-slop (MIT). Diadaptasi ke Bahasa Indonesia; pola Inggris dipertahankan karena spesifik Bahasa Inggris.
 
@@ -24,8 +24,15 @@ no-ai-slop/
 
 ## Pairs well with
 
-- [`humanizer`](../writing/humanizer/) — for the voice pass
-- [`avoid-ai-writing`](../writing/avoid-ai-writing/) — for convergence across passes
+```mermaid
+flowchart LR
+    me["no-ai-slop"]
+    me -->|"for the voice pass"| p0["humanizer"]
+    me -->|"for convergence across passes"| p1["avoid-ai-writing"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`humanizer`](../writing/humanizer/), [`avoid-ai-writing`](../writing/avoid-ai-writing/)
 
 ## Install
 

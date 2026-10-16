@@ -22,8 +22,15 @@ accessibility/
 
 ## Pairs well with
 
-- [`accessibility-testing`](../design/accessibility-testing/) — for the testing methodology
-- [`antislop-human`](../writing/antislop-human/) — for human-first UI checks
+```mermaid
+flowchart LR
+    me["accessibility"]
+    me -->|"for the testing methodology"| p0["accessibility-testing"]
+    me -->|"for human-first UI checks"| p1["antislop-human"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`accessibility-testing`](../design/accessibility-testing/), [`antislop-human`](../writing/antislop-human/)
 
 ## Install
 

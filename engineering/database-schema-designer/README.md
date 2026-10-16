@@ -6,7 +6,7 @@
 
 *Schema mistakes are the most expensive kind — they outlive every refactor. Get normalization, indexing, and migrations right up front.*
 
-Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimization. Ensures data integrity, query performance, and maintainable data models.
+Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimization.
 
 ## When to use
 
@@ -24,8 +24,15 @@ database-schema-designer/
 
 ## Pairs well with
 
-- [`hexagonal-python`](../engineering/hexagonal-python/) — for the repository layer
-- [`c4-architecture`](../engineering/c4-architecture/) — to document it
+```mermaid
+flowchart LR
+    me["database-schema-designer"]
+    me -->|"for the repository layer"| p0["hexagonal-python"]
+    me -->|"to document it"| p1["c4-architecture"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`hexagonal-python`](../engineering/hexagonal-python/), [`c4-architecture`](../engineering/c4-architecture/)
 
 ## Install
 

@@ -6,7 +6,7 @@
 
 *Nobody reads a forty-page architecture doc. Four diagrams — context, container, component, code — that a new hire can absorb in an hour.*
 
-Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 diagrams, or generate context/container/component/deployment diagrams. Triggers include "architecture diagram", "C4 diagram", "system context", "container diagram", "component diagram", "deployment diagram", "document architecture", "visualize architecture".
+Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 diagrams, or generate context/container/component/deployment diagrams.
 
 ## When to use
 
@@ -23,8 +23,15 @@ c4-architecture/
 
 ## Pairs well with
 
-- [`hexagonal-python`](../engineering/hexagonal-python/) — as an architecture to document
-- [`database-schema-designer`](../engineering/database-schema-designer/) — for the data view
+```mermaid
+flowchart LR
+    me["c4-architecture"]
+    me -->|"as an architecture to document"| p0["hexagonal-python"]
+    me -->|"for the data view"| p1["database-schema-designer"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`hexagonal-python`](../engineering/hexagonal-python/), [`database-schema-designer`](../engineering/database-schema-designer/)
 
 ## Install
 

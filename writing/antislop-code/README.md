@@ -24,8 +24,15 @@ antislop-code/
 
 ## Pairs well with
 
-- [`antislop-core`](../writing/antislop-core/) — the base filter
-- [`output-skill`](../engineering/output-skill/) — to keep code complete
+```mermaid
+flowchart LR
+    me["antislop-code"]
+    me -->|"the base filter"| p0["antislop-core"]
+    me -->|"to keep code complete"| p1["output-skill"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`antislop-core`](../writing/antislop-core/), [`output-skill`](../engineering/output-skill/)
 
 ## Install
 

@@ -6,7 +6,7 @@
 
 *Some drafts are correct and still unreadable — you can smell the AI in the rhythm. This keeps every fact and changes the voice into something human.*
 
-Humanizer: ubah tulisan beraroma AI jadi terdengar seperti manusia tanpa mengubah isinya. Pakai saat mengedit/mereview prosa: deteksi pola AI (kontras not-X-but-Y, closer satu baris, triad paksa, dash berlebih, klaim bombastis, kata stok AI, bold dekoratif, sisa chat). Berbasis riset Wikipedia 'Signs of AI writing'. Cocok untuk copy Indonesia yang diterjemahkan/ditulis ulang dari pola Inggris.
+Humanizer: ubah tulisan beraroma AI jadi terdengar seperti manusia tanpa mengubah isinya. Pakai saat mengedit/mereview prosa: deteksi pola AI (kontras not-X-but-Y, closer satu baris, triad paksa, dash berlebih, klaim bombastis, kata stok AI, bold dekoratif, sisa chat).
 
 > Sumber: blader/humanizer (MIT) — pola dari Wikipedia "Signs of AI writing". Diadaptasi ke Bahasa Indonesia; pola dan contoh Inggris dipertahankan karena polanya spesifik Bahasa Inggris.
 
@@ -24,8 +24,15 @@ humanizer/
 
 ## Pairs well with
 
-- [`stop-slop`](../writing/stop-slop/) — to cut filler first
-- [`avoid-ai-writing`](../writing/avoid-ai-writing/) — for the strict editing contract
+```mermaid
+flowchart LR
+    me["humanizer"]
+    me -->|"to cut filler first"| p0["stop-slop"]
+    me -->|"for the strict editing contract"| p1["avoid-ai-writing"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`stop-slop`](../writing/stop-slop/), [`avoid-ai-writing`](../writing/avoid-ai-writing/)
 
 ## Install
 

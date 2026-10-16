@@ -22,8 +22,15 @@ android-architecture/
 
 ## Pairs well with
 
-- [`android-testing`](../engineering/android-testing/) — to test the layers
-- [`android-compose-performance`](../engineering/android-compose-performance/) — for the UI layer
+```mermaid
+flowchart LR
+    me["android-architecture"]
+    me -->|"to test the layers"| p0["android-testing"]
+    me -->|"for the UI layer"| p1["android-compose-performance"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`android-testing`](../engineering/android-testing/), [`android-compose-performance`](../engineering/android-compose-performance/)
 
 ## Install
 

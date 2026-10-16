@@ -6,7 +6,7 @@
 
 *Open any AI-built landing page and you'll recognize it instantly: same hero, same three cards, same purple gradient. This skill exists because good design starts before any code — with reading the brief and choosing a direction on purpose.*
 
-Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.
+Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated.
 
 > Landing pages, portfolios, and redesigns. Not dashboards, not data tables, not multi-step product UI. Every rule below is contextual. None of it fires automatically. First read the brief, then pull only what fits.
 
@@ -26,9 +26,16 @@ taste-skill/
 
 ## Pairs well with
 
-- [`redesign-skill`](../design/redesign-skill/) — for upgrading existing UIs
-- [`antislop-ui`](../writing/antislop-ui/) — to keep the visuals slop-free
-- [`premium-frontend-engineering`](../design/premium-frontend-engineering/) — to hand-code the direction it infers
+```mermaid
+flowchart LR
+    me["taste-skill"]
+    me -->|"for upgrading existing UIs"| p0["redesign-skill"]
+    me -->|"to keep the visuals slop-free"| p1["antislop-ui"]
+    me -->|"to hand-code the direction it infers"| p2["premium-frontend-engineering"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`redesign-skill`](../design/redesign-skill/), [`antislop-ui`](../writing/antislop-ui/), [`premium-frontend-engineering`](../design/premium-frontend-engineering/)
 
 ## Install
 

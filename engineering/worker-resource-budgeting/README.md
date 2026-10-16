@@ -23,7 +23,14 @@ worker-resource-budgeting/
 
 ## Pairs well with
 
-- [`batch-run-integrity`](../engineering/batch-run-integrity/) — for the batch discipline
+```mermaid
+flowchart LR
+    me["worker-resource-budgeting"]
+    me -->|"for the batch discipline"| p0["batch-run-integrity"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`batch-run-integrity`](../engineering/batch-run-integrity/)
 
 ## Install
 

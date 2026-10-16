@@ -28,7 +28,14 @@ docker-build-strategies/
 
 ## Pairs well with
 
-- [`docker-compose-patterns`](../engineering/docker-compose-patterns/) — for the compose side
+```mermaid
+flowchart LR
+    me["docker-build-strategies"]
+    me -->|"for the compose side"| p0["docker-compose-patterns"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`docker-compose-patterns`](../engineering/docker-compose-patterns/)
 
 ## Install
 

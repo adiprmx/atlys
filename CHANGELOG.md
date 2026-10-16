@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.7.2
+
+- Text/visual rebalance: descriptions tightened (max 2 sentences), and "Pairs well with" is now a mermaid relationship mini-map per skill — visual, informative, generated from curated data.
+
 ## 2026-10-16 — v1.7.1
 
 - Layout polish: skill READMEs now open with the human "Why" hook as the lede; category READMEs gained "Start with" flagship picks; main README gained a release badge and richer category cards with starter picks.

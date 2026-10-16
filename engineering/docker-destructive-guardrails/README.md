@@ -6,7 +6,7 @@
 
 *Prune doesn't have undo. This is the pause before the irreversible command — for you and for the agent suggesting it.*
 
-Use this skill before running, or recommending, any Docker command that deletes, wipes, resets, or otherwise irreversibly changes state — even if the user just says to "clean up", "clear the cache", "start fresh", "wipe everything", "nuke it", "reset", "force remove", or "tear down" Docker resources. Covers generic Docker CLI destructive operations not owned by a more specific skill — `docker rm`, `docker rm -f`, `docker container prune`, `docker kill`, `docker system prune`, `docker rmi`/`docker image rm`, `docker image prune -a`, `docker network rm`, `docker network prune`, `docker builder prune`, `docker buildx rm`, `docker context rm`, and standalone (non-Compose) `docker volume rm`/`docker volume prune`. Also indexes destructive commands owned by other Docker skills (Compose, sandbox, Desktop). Core rule — state exactly what will be lost and get explicit confirmation first, except narrow, low-friction Tier 1 container cleanup.
+Use this skill before running, or recommending, any Docker command that deletes, wipes, resets, or otherwise irreversibly changes state — even if the user just says to "clean up", "clear the cache", "start fresh", "wipe everything", "nuke it", "reset", "force remove", or "tear down" Docker resources. Covers generic Docker CLI destructive operations not owned by a more specific skill — `docker rm`, `docker rm -f`, `docker container prune`, `docker kill`, `docker system prune`, `docker rmi`/`docker image rm`, `docker image prune -a`, `docker network rm`, `docker network prune`, `docker builder prune`, `docker buildx rm`, `docker context rm`, and standalone (non-Compose) `docker volume rm`/`docker volume prune`.
 
 ## When to use
 
@@ -26,7 +26,14 @@ docker-destructive-guardrails/
 
 ## Pairs well with
 
-- [`docker-compose-patterns`](../engineering/docker-compose-patterns/) — for the compose side
+```mermaid
+flowchart LR
+    me["docker-destructive-guardrails"]
+    me -->|"for the compose side"| p0["docker-compose-patterns"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`docker-compose-patterns`](../engineering/docker-compose-patterns/)
 
 ## Install
 

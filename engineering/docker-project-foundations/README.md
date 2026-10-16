@@ -28,8 +28,15 @@ docker-project-foundations/
 
 ## Pairs well with
 
-- [`docker-compose-patterns`](../engineering/docker-compose-patterns/) — for compose patterns
-- [`docker-destructive-guardrails`](../engineering/docker-destructive-guardrails/) — before running anything destructive
+```mermaid
+flowchart LR
+    me["docker-project-foundations"]
+    me -->|"for compose patterns"| p0["docker-compose-patterns"]
+    me -->|"before running anything destructive"| p1["docker-destructive-guardrails"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`docker-compose-patterns`](../engineering/docker-compose-patterns/), [`docker-destructive-guardrails`](../engineering/docker-destructive-guardrails/)
 
 ## Install
 

@@ -23,8 +23,15 @@ imagegen-frontend-web/
 
 ## Pairs well with
 
-- [`frontend-image-direction`](../design/frontend-image-direction/) — to implement without drift
-- [`image-to-code-skill`](../design/image-to-code-skill/) — to convert references to code
+```mermaid
+flowchart LR
+    me["imagegen-frontend-web"]
+    me -->|"to implement without drift"| p0["frontend-image-direction"]
+    me -->|"to convert references to code"| p1["image-to-code-skill"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`frontend-image-direction`](../design/frontend-image-direction/), [`image-to-code-skill`](../design/image-to-code-skill/)
 
 ## Install
 

@@ -6,7 +6,7 @@
 
 *Most AI copy is interchangeable: swap the product name and nothing changes. This is about writing that could only be about your thing.*
 
-Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.
+Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns.
 
 > Anti Slop: Rules for AI Coding Agents. Copy & Text skill Part of the antislop system. Read together with antislop.md (the core). This skill deep-dives the copy and text concern: headlines, CTAs, tone, value propositions, and the patterns that make AI-written prose easy to spot. It references core rules by number and never duplicates or renumbers them. Load it when the task writes or edits marketing copy, product copy, landing-page text, or any prose meant for people to read.
 
@@ -24,8 +24,15 @@ antislop-copywriting/
 
 ## Pairs well with
 
-- [`antislop-core`](../writing/antislop-core/) — the base filter
-- [`humanizer`](../writing/humanizer/) — to fix voice after structure
+```mermaid
+flowchart LR
+    me["antislop-copywriting"]
+    me -->|"the base filter"| p0["antislop-core"]
+    me -->|"to fix voice after structure"| p1["humanizer"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`antislop-core`](../writing/antislop-core/), [`humanizer`](../writing/humanizer/)
 
 ## Install
 

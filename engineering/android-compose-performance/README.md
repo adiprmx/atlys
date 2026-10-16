@@ -24,7 +24,14 @@ android-compose-performance/
 
 ## Pairs well with
 
-- [`android-architecture`](../engineering/android-architecture/) — for the app structure
+```mermaid
+flowchart LR
+    me["android-compose-performance"]
+    me -->|"for the app structure"| p0["android-architecture"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`android-architecture`](../engineering/android-architecture/)
 
 ## Install
 

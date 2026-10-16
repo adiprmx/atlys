@@ -23,8 +23,15 @@ go-service-scaffolder/
 
 ## Pairs well with
 
-- [`golang-testing`](../engineering/golang-testing/) — to test the scaffold
-- [`hexagonal-python`](../engineering/hexagonal-python/) — for the architecture inside
+```mermaid
+flowchart LR
+    me["go-service-scaffolder"]
+    me -->|"to test the scaffold"| p0["golang-testing"]
+    me -->|"for the architecture inside"| p1["hexagonal-python"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`golang-testing`](../engineering/golang-testing/), [`hexagonal-python`](../engineering/hexagonal-python/)
 
 ## Install
 

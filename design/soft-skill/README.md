@@ -23,7 +23,14 @@ soft-skill/
 
 ## Pairs well with
 
-- [`taste-skill`](../design/taste-skill/) — for brief-reading before styling
+```mermaid
+flowchart LR
+    me["soft-skill"]
+    me -->|"for brief-reading before styling"| p0["taste-skill"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`taste-skill`](../design/taste-skill/)
 
 ## Install
 

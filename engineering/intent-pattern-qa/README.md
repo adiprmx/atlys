@@ -23,8 +23,15 @@ intent-pattern-qa/
 
 ## Pairs well with
 
-- [`output-skill`](../engineering/output-skill/) — to keep generations complete
-- [`batch-run-integrity`](../engineering/batch-run-integrity/) — for batch verification
+```mermaid
+flowchart LR
+    me["intent-pattern-qa"]
+    me -->|"to keep generations complete"| p0["output-skill"]
+    me -->|"for batch verification"| p1["batch-run-integrity"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`output-skill`](../engineering/output-skill/), [`batch-run-integrity`](../engineering/batch-run-integrity/)
 
 ## Install
 

@@ -28,8 +28,15 @@ docker-compose-patterns/
 
 ## Pairs well with
 
-- [`docker-build-strategies`](../engineering/docker-build-strategies/) — for the images it references
-- [`docker-project-foundations`](../engineering/docker-project-foundations/) — for greenfield setup
+```mermaid
+flowchart LR
+    me["docker-compose-patterns"]
+    me -->|"for the images it references"| p0["docker-build-strategies"]
+    me -->|"for greenfield setup"| p1["docker-project-foundations"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`docker-build-strategies`](../engineering/docker-build-strategies/), [`docker-project-foundations`](../engineering/docker-project-foundations/)
 
 ## Install
 

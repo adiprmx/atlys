@@ -6,7 +6,7 @@
 
 *Minimalism isn't empty. It's confidence — warm monochrome, type doing the heavy lifting, nothing decorative. For when the content deserves the spotlight.*
 
-Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.
+Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels.
 
 ## When to use
 
@@ -23,7 +23,14 @@ minimalist-skill/
 
 ## Pairs well with
 
-- [`taste-skill`](../design/taste-skill/) — for brief-reading before styling
+```mermaid
+flowchart LR
+    me["minimalist-skill"]
+    me -->|"for brief-reading before styling"| p0["taste-skill"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`taste-skill`](../design/taste-skill/)
 
 ## Install
 

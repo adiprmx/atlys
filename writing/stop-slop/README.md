@@ -6,7 +6,7 @@
 
 *First drafts drown in throat-clearing. This cuts with a scalpel and scores what it did, so you can see the before and after.*
 
-Stop Slop: pangkas retorika & basa-basi AI dari prosa. 8 aturan inti (potong filler, hancurkan struktur formulaik, aktif, spesifik, variasi ritme) + daftar frasa yang wajib dibuang + cek kilat + skor 1-10 per dimensi. Pakai saat menulis, mengedit, atau mereview teks agar langsung ke poin.
+Stop Slop: pangkas retorika & basa-basi AI dari prosa. 8 aturan inti (potong filler, hancurkan struktur formulaik, aktif, spesifik, variasi ritme) + daftar frasa yang wajib dibuang + cek kilat + skor 1-10 per dimensi.
 
 > Sumber: hardikpandya/stop-slop (MIT) oleh Hardik Pandya. Diadaptasi ke Bahasa Indonesia; daftar frasa Inggris dipertahankan karena polanya spesifik Bahasa Inggris.
 
@@ -24,8 +24,15 @@ stop-slop/
 
 ## Pairs well with
 
-- [`humanizer`](../writing/humanizer/) — to fix voice after cutting
-- [`no-ai-slop`](../writing/no-ai-slop/) — for detect-then-edit passes
+```mermaid
+flowchart LR
+    me["stop-slop"]
+    me -->|"to fix voice after cutting"| p0["humanizer"]
+    me -->|"for detect-then-edit passes"| p1["no-ai-slop"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`humanizer`](../writing/humanizer/), [`no-ai-slop`](../writing/no-ai-slop/)
 
 ## Install
 

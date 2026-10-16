@@ -6,7 +6,7 @@
 
 *Goroutines are easy to start and easy to leak. Channels versus mutexes, lifecycle, errgroup — the decisions that keep concurrent Go correct.*
 
-Golang concurrency design — goroutine lifecycle and leak prevention, channels and `select`, channel ownership and direction, `sync.Mutex`/`RWMutex`/`sync.Map`/`sync.Once`/atomics, `errgroup`, `singleflight`, worker pools, and fan-out/fan-in pipelines. Use when writing or reviewing concurrent Go code, when choosing between channels and mutexes, when protecting a shared map or counter, or when a goroutine has no clear exit. Not for defensive coding unrelated to concurrency such as nil panics, slice aliasing, or numeric overflow (→ See `samber/cc-skills-golang@golang-safety` skill), and not for debugging a specific hung, crashing, or racing program after the fact (→ See `samber/cc-skills-golang@golang-troubleshooting` skill).
+Golang concurrency design — goroutine lifecycle and leak prevention, channels and `select`, channel ownership and direction, `sync.Mutex`/`RWMutex`/`sync.Map`/`sync.Once`/atomics, `errgroup`, `singleflight`, worker pools, and fan-out/fan-in pipelines. Use when writing or reviewing concurrent Go code, when choosing between channels and mutexes, when protecting a shared map or counter, or when a goroutine has no clear exit.
 
 > Community default. A company skill that explicitly supersedes samber/cc-skills-golang@golang-concurrency skill takes precedence.
 
@@ -26,8 +26,15 @@ golang-concurrency/
 
 ## Pairs well with
 
-- [`golang-error-handling`](../engineering/golang-error-handling/) — for error design in concurrent code
-- [`golang-testing`](../engineering/golang-testing/) — to test it
+```mermaid
+flowchart LR
+    me["golang-concurrency"]
+    me -->|"for error design in concurrent code"| p0["golang-error-handling"]
+    me -->|"to test it"| p1["golang-testing"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`golang-error-handling`](../engineering/golang-error-handling/), [`golang-testing`](../engineering/golang-testing/)
 
 ## Install
 

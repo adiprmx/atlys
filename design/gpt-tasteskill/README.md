@@ -23,8 +23,15 @@ gpt-tasteskill/
 
 ## Pairs well with
 
-- [`taste-skill`](../design/taste-skill/) — for the design read
-- [`premium-frontend-engineering`](../design/premium-frontend-engineering/) — for motion implementation
+```mermaid
+flowchart LR
+    me["gpt-tasteskill"]
+    me -->|"for the design read"| p0["taste-skill"]
+    me -->|"for motion implementation"| p1["premium-frontend-engineering"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`taste-skill`](../design/taste-skill/), [`premium-frontend-engineering`](../design/premium-frontend-engineering/)
 
 ## Install
 

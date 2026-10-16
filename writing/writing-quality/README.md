@@ -6,7 +6,7 @@
 
 *Every chat reply, every explanation, every email the agent drafts — this is the quality bar for all of it.*
 
-Apply on every turn that drafts or edits human-facing prose, even when writing is not the main task. Covers chat replies, explanations, emails, documents, pull request descriptions, issue comments, and review reports. Keep writing natural, direct, plain, and aligned with the user's voice. Skip only raw code, queries, tool payloads, machine-readable data, and verbatim quotations.
+Apply on every turn that drafts or edits human-facing prose, even when writing is not the main task. Covers chat replies, explanations, emails, documents, pull request descriptions, issue comments, and review reports.
 
 ## When to use
 
@@ -25,8 +25,15 @@ writing-quality/
 
 ## Pairs well with
 
-- [`humanizer`](../writing/humanizer/) — to de-slop the draft first
-- [`crafting-effective-readmes`](../writing/crafting-effective-readmes/) — for README structure
+```mermaid
+flowchart LR
+    me["writing-quality"]
+    me -->|"to de-slop the draft first"| p0["humanizer"]
+    me -->|"for README structure"| p1["crafting-effective-readmes"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`humanizer`](../writing/humanizer/), [`crafting-effective-readmes`](../writing/crafting-effective-readmes/)
 
 ## Install
 

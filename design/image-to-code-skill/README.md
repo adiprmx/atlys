@@ -23,8 +23,15 @@ image-to-code-skill/
 
 ## Pairs well with
 
-- [`taste-skill`](../design/taste-skill/) — to judge the result
-- [`premium-frontend-engineering`](../design/premium-frontend-engineering/) — for the implementation pass
+```mermaid
+flowchart LR
+    me["image-to-code-skill"]
+    me -->|"to judge the result"| p0["taste-skill"]
+    me -->|"for the implementation pass"| p1["premium-frontend-engineering"]
+    style me fill:#8b5cf6,color:#fff,stroke:none
+```
+
+Also: [`taste-skill`](../design/taste-skill/), [`premium-frontend-engineering`](../design/premium-frontend-engineering/)
 
 ## Install
 

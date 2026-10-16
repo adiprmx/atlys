@@ -22,7 +22,14 @@ android-testing/
 
 ## Pairs well with
 
-- [`android-architecture`](../engineering/android-architecture/) — for what you're testing
+```mermaid
+flowchart LR
+    me["android-testing"]
+    me -->|"for what you're testing"| p0["android-architecture"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`android-architecture`](../engineering/android-architecture/)
 
 ## Install
 

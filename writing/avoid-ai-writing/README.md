@@ -6,7 +6,7 @@
 
 *For when 'make it sound human' needs to be a repeatable process, not a vibe. Strict contract, tiered patterns, iterate until it converges.*
 
-Avoid AI Writing: audit & rewrite untuk menghapus pola tulisan AI ('AI-isms'). Mode detect-only, edit-in-place, profil suara (casual/professional/technical/warm/blunt), dan pass iterasi-sampai-konvergen. Punya kontrak editing ketat: deteksi bukan vonis, temuan bukan edit otomatis. Dikalibrasi untuk Bahasa Inggris; untuk Bahasa Indonesia pakai sebagai panduan pola struktural.
+Avoid AI Writing: audit & rewrite untuk menghapus pola tulisan AI ('AI-isms'). Mode detect-only, edit-in-place, profil suara (casual/professional/technical/warm/blunt), dan pass iterasi-sampai-konvergen.
 
 > Sumber: conorbronsdon/avoid-ai-writing v3.38.0 (MIT) oleh Conor Bronsdon. Diringkas dan diadaptasi ke Bahasa Indonesia; katalog pola penuh ada di repo sumber (references/patterns.md). Catatan bahasa: aturan dan detektor ini dikalibrasi untuk Bahasa Inggris. Untuk Bahasa Indonesia, pakai sebagai panduan pola STRUKTURAL (kontras biner, triad, staging, inflasi) — bukan daftar kata per kata.
 
@@ -24,8 +24,15 @@ avoid-ai-writing/
 
 ## Pairs well with
 
-- [`humanizer`](../writing/humanizer/) — for the voice pass
-- [`stop-slop`](../writing/stop-slop/) — for the first cut
+```mermaid
+flowchart LR
+    me["avoid-ai-writing"]
+    me -->|"for the voice pass"| p0["humanizer"]
+    me -->|"for the first cut"| p1["stop-slop"]
+    style me fill:#f59e0b,color:#fff,stroke:none
+```
+
+Also: [`humanizer`](../writing/humanizer/), [`stop-slop`](../writing/stop-slop/)
 
 ## Install
 

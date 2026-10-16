@@ -23,8 +23,15 @@ batch-run-integrity/
 
 ## Pairs well with
 
-- [`worker-resource-budgeting`](../engineering/worker-resource-budgeting/) — to size the worker pool
-- [`intent-pattern-qa`](../engineering/intent-pattern-qa/) — to verify patterns
+```mermaid
+flowchart LR
+    me["batch-run-integrity"]
+    me -->|"to size the worker pool"| p0["worker-resource-budgeting"]
+    me -->|"to verify patterns"| p1["intent-pattern-qa"]
+    style me fill:#06b6d4,color:#fff,stroke:none
+```
+
+Also: [`worker-resource-budgeting`](../engineering/worker-resource-budgeting/), [`intent-pattern-qa`](../engineering/intent-pattern-qa/)
 
 ## Install
 
