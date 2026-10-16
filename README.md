@@ -14,10 +14,6 @@
 
 ---
 
-> **On this page:** [Why atlys exists](#why-atlys-exists) · [Quick start](#quick-start) · [The collection](#the-collection) · [The atlys bar](#the-atlys-bar) · [Repository structure](#repository-structure) · [FAQ](#faq) · [Credits](#credits) · [Contributing](#contributing) · [License](#license)
-
----
-
 ## Why atlys exists
 
 You know the look: the centered hero, three feature cards, purple gradient. The paragraph starting "In today's fast-paced digital landscape." The comment `// increment the counter` next to `i++`. That's AI slop — the average of everything, reviewed by no one — and it's the default output of every AI agent.

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.8.4
+
+- Main README: removed the table of contents entirely — section headers carry the navigation, no old-school link list.
+
 ## 2026-10-16 — v1.8.3
 
 - Main README: old-school blue link-list TOC replaced with a single-line nav bar. Cleaner, modern.
