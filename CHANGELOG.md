@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-17 — v1.9.3
+
+- Trust & distribution: LICENSE restored to verbatim MIT (GitHub license detection fixed) + NOTICE.md; skills.sh badge; .claude-plugin/ packaging (plugin.json + marketplace.json, skills/ symlinks for Claude Code discovery); AGENTS.md; CONTRIBUTING.md with skill-authoring guide; CODE_OF_CONDUCT.md; PR template; topics +codex +opencode; subtle star CTA; maintainer avatar in Credits.
+
 ## 2026-10-17 — v1.9.2
 
 - New: humanizer before/after demo (hand-drawn SVG from the skill's real rules) in The bar section. Awesome-list PR prepared (fork + branch ready).

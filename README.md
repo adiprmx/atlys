@@ -8,6 +8,7 @@
 [![Validate](https://github.com/adiprmx/atlys/actions/workflows/validate.yml/badge.svg)](https://github.com/adiprmx/atlys/actions/workflows/validate.yml)
 [![Release](https://img.shields.io/github/v/release/adiprmx/atlys)](https://github.com/adiprmx/atlys/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-16a34a.svg)](LICENSE)
+[![skills.sh](https://skills.sh/b/adiprmx/atlys)](https://skills.sh/adiprmx/atlys)
 
 *Design taste, anti-slop writing, and engineering QA — as drop-in playbooks.*
 
@@ -21,7 +22,7 @@
 npx skills add adiprmx/atlys
 ```
 
-Pick the skills you want, pick your agent (Claude Code, Cursor, Codex, …), done.
+Pick the skills you want, pick your agent (Claude Code, Cursor, Codex, …), done. If atlys saves you an afternoon, a star helps others find it.
 
 ```sh
 npx skills add adiprmx/atlys -s taste-skill   # one skill only
@@ -160,7 +161,7 @@ Every skill here earned its place: it must visibly change the agent's output, be
 <details>
 <summary><strong>Credits & sources</strong></summary>
 
-atlys is curated and maintained by [adiprmx](https://github.com/adiprmx) — skill selection, naming, `skill.yaml` metadata, Indonesian-language adaptations, and ongoing expansion of select skills.
+atlys is curated and maintained by [<img src="https://github.com/adiprmx.png" width="20" height="20" style="border-radius:50%;vertical-align:middle" alt="adiprmx"/> **adiprmx**](https://github.com/adiprmx) — skill selection, naming, `skill.yaml` metadata, Indonesian-language adaptations, and ongoing expansion of select skills.
 
 Several skills are adapted from excellent open-source work. They retain their original licenses (see each skill folder), and this collection wouldn't exist without them:
 
@@ -183,7 +184,7 @@ Several skills are adapted from excellent open-source work. They retain their or
 
 ## Contributing
 
-Open an issue or PR with the skill folder (`SKILL.md` + `skill.yaml`), a paragraph on what makes it non-generic, and its provenance (original or adapted, with source link).
+See [CONTRIBUTING.md](CONTRIBUTING.md) — the bar, the folder layout, and how to author a skill that passes.
 
 ## License
 
