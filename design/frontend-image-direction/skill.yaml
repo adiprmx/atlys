@@ -1,0 +1,24 @@
+name: frontend_image_direction
+title: Frontend image direction
+description: Generate premium website section references, mobile app screen concepts, and brand-consistent image sets with one image per section or screen, locked cross-image consistency, and anti-generic art direction, then implement from the references without design drift.
+category: Creation
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: active
+  needs_review: false
+  evidence_handles:
+  - /home/hatch/workspace/custom-skills/local-imagegen-frontend-web/SKILL.md
+  - /home/hatch/workspace/custom-skills/local-imagegen-frontend-mobile/SKILL.md
+  - /home/hatch/workspace/custom-skills/local-image-to-code-skill/SKILL.md
+  measurement:
+    proxy_metric_id: skill_consolidation_effectiveness
+    success_criterion: active learned skill count drops from 17 to 11 with no task failure attributable to a missing retired skill; the merged skill is discoverable via skill_search for web, mobile, and image-to-code queries
+    window_days: 14
+  rationale: '17 active learned skills triggered the mandatory consolidation rule (wake reason learned_skills_consolidation). Reading the design files showed three near-duplicate image-generation skills sharing verbatim method structure: baseline dial configs, one-image-per-section rules, no-crop rules, consistency bibles, anti-AI-tell lists, and style variation engines. They differ only by channel and phase, which are natural sections of one skill. Merging them removes redundant discovery entries while preserving every distinctive method.'
+  review_after: 2026-10-29T02:39:24.495947+00:00
+  reviewed_at: 2026-10-15T02:39:24.495947+00:00
+  run_id: sirun_7b5a52e23f9e4d9ea5af78953dbac3ea

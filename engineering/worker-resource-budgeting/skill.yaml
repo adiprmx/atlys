@@ -1,0 +1,23 @@
+name: worker_resource_budgeting
+title: Local worker resource budgeting
+description: Budgets RAM before fanning out parallel workers that each load the full intent brain, so verification workers never starve the live bot — use before any parallel verification, dedupe, or probe fan-out.
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:assistant-msg-61744052-e775-4599-ad5f-80f6e06d04c5
+  - message:assistant-msg-56ab2f55-d384-4ca2-9017-01ef727fa69f
+  - ~/AGENTS.md
+  measurement:
+    proxy_metric_id: worker_memory_starvation_incidents
+    success_criterion: 0 incidents where worker RAM pressure killed or starved the live bot; fan-out plans document observed RAM, per-worker estimate, and reserved headroom
+    window_days: 14
+  needs_review: true
+  rationale: 'Post-reboot 2026-10-13 17:06, verification workers consumed ~7GB leaving 644MB free and the live bot died 3x silently at startup (message:assistant-msg-61744052-e775-4599-ad5f-80f6e06d04c5); each worker loads the full 176k-pattern brain at 400–700MB RSS (message:assistant-msg-56ab2f55-d384-4ca2-9017-01ef727fa69f). The pattern of fanning out parallel full-brain workers recurs in every serapan/tumpah-ilmu verification pass. The fix: check free RAM before fan-out, cap concurrency at budget/700MB with 2GB headroom reserved for the bot, prefer slim hash-set workers for dedupe-only tasks, and throttle workers before deploys/restarts.'
+  review_after: 2026-10-28T03:19:26.203064+00:00
+  reviewed_at: 2026-10-14T03:19:26.203064+00:00
+  run_id: sirun_984a7c70af974fea94e757e8b9b14710

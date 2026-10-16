@@ -25,7 +25,7 @@ Each skill is a self-contained folder. No build step, no dependencies, no lock-i
 git clone https://github.com/adiprmx/atlys.git
 
 # copy any skill into your agent's skills directory, e.g.:
-cp -r atlys/design/local-taste-skill ~/.config/your-agent/skills/
+cp -r atlys/design/taste-skill ~/.config/your-agent/skills/
 cp -r atlys/writing/antislop-core   ~/.config/your-agent/skills/
 ```
 
@@ -37,15 +37,15 @@ Then tell your agent to load the skill when relevant — or wire it into your ag
 atlys/
 ├── assets/                  # brand visuals (hero banner, icon)
 ├── design/                  # 🎨 17 frontend & design skills
-│   ├── local-taste-skill/
-│   ├── local-redesign-skill/
+│   ├── taste-skill/
+│   ├── redesign-skill/
 │   └── ...
 ├── writing/                 # ✍️ 12 anti-AI-slop writing skills
 │   ├── antislop-core/
-│   ├── ext-humanizer/
+│   ├── humanizer/
 │   └── ...
 ├── engineering/             # ⚙️ 18 engineering, backend & QA skills
-│   ├── local-output-skill/
+│   ├── output-skill/
 │   └── ...
 ├── README.md
 ├── CHANGELOG.md
@@ -59,23 +59,23 @@ atlys/
 
 | Skill | What it does |
 |---|---|
-| `local-taste-skill` | Anti-slop frontend for landing pages, portfolios, and redesigns. Reads the brief, infers the right design direction, and ships interfaces that don't look templated. Strict pre-flight check included. |
-| `local-taste-skill-v1` | The original v1 of taste-skill, preserved for projects depending on its exact behavior. |
-| `local-redesign-skill` | Upgrades existing websites and apps to premium quality without breaking functionality. Audit-first; hunts down generic AI patterns. |
-| `local-soft-skill` | High-end agency style: exact fonts, spacing, shadows, card structures, and animations that make a site feel expensive. |
-| `local-minimalist-skill` | Clean editorial interfaces — warm monochrome, typographic contrast, flat bento grids. No gradients, no heavy shadows. |
-| `local-brutalist-skill` | Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. For data-heavy dashboards and portfolios that should feel like declassified blueprints. |
-| `local-stitch-skill` | Semantic design-system skill for Google Stitch. Generates agent-friendly `DESIGN.md` files enforcing premium, anti-generic UI standards. |
-| `local-brandkit` | Premium brand-kit image generation: logo systems, identity decks, and brand-guideline boards across minimalist, cinematic, editorial, dark-tech, luxury, and more. |
-| `local-gpt-tasteskill` | Elite UX/UI plus advanced GSAP motion engineering — AIDA page structure, wide editorial typography, gapless bento grids, strict ScrollTriggers. |
-| `local-imagegen-frontend-web` | Generates premium, conversion-aware website design references — one horizontal image per section, one consistent palette. |
-| `local-imagegen-frontend-mobile` | Premium mobile app screen concepts and flows (iOS/Android/cross-platform), presented in phone mockups. Image generation only. |
-| `local_frontend_image_direction` | Section references, mobile screen concepts, and brand-consistent image sets with locked cross-image consistency — then implements from the references without design drift. |
-| `local-image-to-code-skill` | Generates the design images first, analyzes them deeply, then implements the website to match as closely as possible. |
-| `local_premium_frontend_engineering` | Premium hand-coded frontend: brief-driven design dials, bias-corrected typography and color, intentional GSAP/Motion choreography, strict pre-flight check. |
+| `taste-skill` | Anti-slop frontend for landing pages, portfolios, and redesigns. Reads the brief, infers the right design direction, and ships interfaces that don't look templated. Strict pre-flight check included. |
+| `taste-skill-v1` | The original v1 of taste-skill, preserved for projects depending on its exact behavior. |
+| `redesign-skill` | Upgrades existing websites and apps to premium quality without breaking functionality. Audit-first; hunts down generic AI patterns. |
+| `soft-skill` | High-end agency style: exact fonts, spacing, shadows, card structures, and animations that make a site feel expensive. |
+| `minimalist-skill` | Clean editorial interfaces — warm monochrome, typographic contrast, flat bento grids. No gradients, no heavy shadows. |
+| `brutalist-skill` | Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. For data-heavy dashboards and portfolios that should feel like declassified blueprints. |
+| `stitch-skill` | Semantic design-system skill for Google Stitch. Generates agent-friendly `DESIGN.md` files enforcing premium, anti-generic UI standards. |
+| `brandkit` | Premium brand-kit image generation: logo systems, identity decks, and brand-guideline boards across minimalist, cinematic, editorial, dark-tech, luxury, and more. |
+| `gpt-tasteskill` | Elite UX/UI plus advanced GSAP motion engineering — AIDA page structure, wide editorial typography, gapless bento grids, strict ScrollTriggers. |
+| `imagegen-frontend-web` | Generates premium, conversion-aware website design references — one horizontal image per section, one consistent palette. |
+| `imagegen-frontend-mobile` | Premium mobile app screen concepts and flows (iOS/Android/cross-platform), presented in phone mockups. Image generation only. |
+| `frontend-image-direction` | Section references, mobile screen concepts, and brand-consistent image sets with locked cross-image consistency — then implements from the references without design drift. |
+| `image-to-code-skill` | Generates the design images first, analyzes them deeply, then implements the website to match as closely as possible. |
+| `premium-frontend-engineering` | Premium hand-coded frontend: brief-driven design dials, bias-corrected typography and color, intentional GSAP/Motion choreography, strict pre-flight check. |
 | `impeccable-design` | Full-spectrum frontend improvement — UX review, visual hierarchy, accessibility, responsive behavior, theming, anti-patterns — plus live-browser iteration on real UI. |
-| `ext-accessibility` | Web accessibility and usability QA, especially for users with disabilities. Expert-curated guidance that catches the common pitfalls in AI-generated markup. |
-| `ext-accessibility-testing` | Practical methodology for testing the accessibility of a web project. |
+| `accessibility` | Web accessibility and usability QA, especially for users with disabilities. Expert-curated guidance that catches the common pitfalls in AI-generated markup. |
+| `accessibility-testing` | Practical methodology for testing the accessibility of a web project. |
 
 </details>
 
@@ -90,12 +90,12 @@ atlys/
 | `antislop-code` | Code comment hygiene: strip generic AI-slop comments, keep the valuable ones, never touch the code. |
 | `antislop-human` | Human-first and accessible: contrast, keyboard, focus, and states for real people. Ships a contrast checker. |
 | `antislop-layoutmobile` | Layouts that reflow gracefully from phone to desktop: grids, overflow, tap targets. |
-| `ext-humanizer` | Turns AI-scented writing into human-sounding prose without changing the content. Built on Wikipedia's *"Signs of AI writing"* research. |
-| `ext-stop-slop` | Cuts AI rhetoric and filler: 8 core rules, banned-phrase lists, quick checks, and per-dimension scoring. |
-| `ext-no-ai-slop` | Two modes — **Edit** (minimum effective edit, with a changelog) and **Detect** (name the pattern, quote the line, suggest the fix). |
-| `ext-avoid-ai-writing` | A strict editing contract (detect ≠ judge ≠ edit), tiered pattern catalog, voice profiles, and iterate-to-convergence passes. |
-| `ext-crafting-effective-readmes` | README writing matched to your audience — templates and guidance for READMEs that actually get read. |
-| `ext-writing-quality` | Applies to every turn that drafts human-facing prose (chat replies, explanations, emails). Quality from a different angle than de-slopping. |
+| `humanizer` | Turns AI-scented writing into human-sounding prose without changing the content. Built on Wikipedia's *"Signs of AI writing"* research. |
+| `stop-slop` | Cuts AI rhetoric and filler: 8 core rules, banned-phrase lists, quick checks, and per-dimension scoring. |
+| `no-ai-slop` | Two modes — **Edit** (minimum effective edit, with a changelog) and **Detect** (name the pattern, quote the line, suggest the fix). |
+| `avoid-ai-writing` | A strict editing contract (detect ≠ judge ≠ edit), tiered pattern catalog, voice profiles, and iterate-to-convergence passes. |
+| `crafting-effective-readmes` | README writing matched to your audience — templates and guidance for READMEs that actually get read. |
+| `writing-quality` | Applies to every turn that drafts human-facing prose (chat replies, explanations, emails). Quality from a different angle than de-slopping. |
 
 </details>
 
@@ -104,24 +104,24 @@ atlys/
 
 | Skill | What it does |
 |---|---|
-| `local-output-skill` | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. |
-| `local-intent-pattern-qa` | Catches silent regex-pattern death — patterns that compile but never match — via positive-match probes and byte-level asserts. |
-| `local-batch-run-integrity` | Keeps long multi-chunk batch jobs honest and resumable: incremental on-disk checkpoints, completion claims reconciled against artifacts on disk. |
-| `local-worker-resource-budgeting` | Budgets RAM before fanning out parallel workers, so verification workers never starve the live system. |
-| `ext-hexagonal-python` | Hexagonal Architecture (Ports & Adapters) + DDD for Python backends (FastAPI/Flask, SQLAlchemy, pytest): use cases, aggregates, repositories, unit of work, domain events. |
-| `ext-docker-compose-patterns` | Docker Compose done right: service definitions, health checks, dependency ordering, volumes, networks, env vars, dev overrides. |
-| `ext-docker-build-strategies` | Writing, reviewing, and optimizing Dockerfiles: image size, build speed, layer caching, multi-stage builds. |
-| `ext-docker-project-foundations` | Setting up and Dockerizing a project from scratch: scaffolding, configuration, conventions. |
-| `ext-docker-destructive-guardrails` | Guardrails to check before running — or recommending — any Docker command that deletes, wipes, or irreversibly changes state. |
-| `ext-golang-concurrency` | Go concurrency design: goroutine lifecycle and leak prevention, channels and `select`, mutexes, `errgroup`, worker pools, fan-out/fan-in. |
-| `ext-golang-error-handling` | Idiomatic Go error handling: wrapping with `%w`, `errors.Is`/`As`/`Join`, custom types, sentinel errors, panic/recover. |
-| `ext-golang-testing` | Production-ready Go tests: table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures. |
-| `ext-database-schema-designer` | Robust, scalable DB schema design for SQL and NoSQL: normalization, indexing strategies, migration patterns, with examples. |
-| `ext-c4-architecture` | Architecture documentation with C4-model Mermaid diagrams: context, container, component, code. |
-| `ext-go-service-scaffolder` | Scaffolds production-ready Go HTTP services: OpenTelemetry, TLS, lifecycle management, Dockerfile, GitHub Actions CI. |
-| `ext-android-architecture` | Modern Android app architecture with Clean Architecture + Hilt: strict layering, setup and maintenance guidance. |
-| `ext-android-compose-performance` | Audits and improves Jetpack Compose runtime performance — diagnoses slow rendering and jank from code review. |
-| `ext-android-testing` | Comprehensive Android testing strategy: unit, integration, Hilt, and screenshot tests. |
+| `output-skill` | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. |
+| `intent-pattern-qa` | Catches silent regex-pattern death — patterns that compile but never match — via positive-match probes and byte-level asserts. |
+| `batch-run-integrity` | Keeps long multi-chunk batch jobs honest and resumable: incremental on-disk checkpoints, completion claims reconciled against artifacts on disk. |
+| `worker-resource-budgeting` | Budgets RAM before fanning out parallel workers, so verification workers never starve the live system. |
+| `hexagonal-python` | Hexagonal Architecture (Ports & Adapters) + DDD for Python backends (FastAPI/Flask, SQLAlchemy, pytest): use cases, aggregates, repositories, unit of work, domain events. |
+| `docker-compose-patterns` | Docker Compose done right: service definitions, health checks, dependency ordering, volumes, networks, env vars, dev overrides. |
+| `docker-build-strategies` | Writing, reviewing, and optimizing Dockerfiles: image size, build speed, layer caching, multi-stage builds. |
+| `docker-project-foundations` | Setting up and Dockerizing a project from scratch: scaffolding, configuration, conventions. |
+| `docker-destructive-guardrails` | Guardrails to check before running — or recommending — any Docker command that deletes, wipes, or irreversibly changes state. |
+| `golang-concurrency` | Go concurrency design: goroutine lifecycle and leak prevention, channels and `select`, mutexes, `errgroup`, worker pools, fan-out/fan-in. |
+| `golang-error-handling` | Idiomatic Go error handling: wrapping with `%w`, `errors.Is`/`As`/`Join`, custom types, sentinel errors, panic/recover. |
+| `golang-testing` | Production-ready Go tests: table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures. |
+| `database-schema-designer` | Robust, scalable DB schema design for SQL and NoSQL: normalization, indexing strategies, migration patterns, with examples. |
+| `c4-architecture` | Architecture documentation with C4-model Mermaid diagrams: context, container, component, code. |
+| `go-service-scaffolder` | Scaffolds production-ready Go HTTP services: OpenTelemetry, TLS, lifecycle management, Dockerfile, GitHub Actions CI. |
+| `android-architecture` | Modern Android app architecture with Clean Architecture + Hilt: strict layering, setup and maintenance guidance. |
+| `android-compose-performance` | Audits and improves Jetpack Compose runtime performance — diagnoses slow rendering and jank from code review. |
+| `android-testing` | Comprehensive Android testing strategy: unit, integration, Hilt, and screenshot tests. |
 
 </details>
 
@@ -130,7 +130,7 @@ atlys/
 ## Anatomy of a skill
 
 ```
-design/local-taste-skill/
+design/taste-skill/
 ├── SKILL.md        # the playbook: when to load it, how to apply it
 ├── skill.yaml      # machine-readable metadata (name, description)
 └── scripts/        # optional helper scripts (only some skills)
@@ -145,19 +145,19 @@ atlys is **curated and maintained by [adiprmx](https://github.com/adiprmx)** —
 Several skills are adapted from excellent open-source work. They retain their original licenses (see each skill folder), and this collection wouldn't exist without them:
 
 - `antislop-*` family — [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop)
-- `local-*` design skills — [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
-- `ext-humanizer` — [blader/humanizer](https://github.com/blader/humanizer)
-- `ext-stop-slop` — [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)
-- `ext-no-ai-slop` — [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)
-- `ext-avoid-ai-writing` — [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing)
+- `taste-skill` family (`taste-skill`, `redesign-skill`, `soft-skill`, `minimalist-skill`, `brutalist-skill`, `stitch-skill`, `brandkit`, `gpt-tasteskill`, `imagegen-frontend-web`, `imagegen-frontend-mobile`, `frontend-image-direction`, `image-to-code-skill`, `premium-frontend-engineering`, `output-skill`) — [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+- `humanizer` — [blader/humanizer](https://github.com/blader/humanizer)
+- `stop-slop` — [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)
+- `no-ai-slop` — [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)
+- `avoid-ai-writing` — [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing)
 - `impeccable-design` — originally [pbakaus/impeccable](https://github.com/pbakaus/impeccable), significantly expanded
-- `ext-hexagonal-python` — [Remy349/skills](https://github.com/Remy349/skills) (MIT)
-- `ext-docker-*` — [docker/skills](https://github.com/docker/skills) (Apache-2.0)
-- `ext-golang-*` — [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) (MIT)
-- `ext-accessibility`, `ext-accessibility-testing` — [KreerC/ACCESSIBILITY.md](https://github.com/KreerC/ACCESSIBILITY.md) (MIT)
-- `ext-database-schema-designer`, `ext-c4-architecture`, `ext-crafting-effective-readmes` — [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) (MIT)
-- `ext-go-service-scaffolder`, `ext-writing-quality` — [ItalyPaleAle/skills](https://github.com/ItalyPaleAle/skills) (MIT)
-- `ext-android-*` — [new-silvermoon/awesome-android-agent-skills](https://github.com/new-silvermoon/awesome-android-agent-skills) (Apache-2.0)
+- `hexagonal-python` — [Remy349/skills](https://github.com/Remy349/skills) (MIT)
+- `docker-*` family — [docker/skills](https://github.com/docker/skills) (Apache-2.0)
+- `golang-*` family — [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) (MIT)
+- `accessibility`, `accessibility-testing` — [KreerC/ACCESSIBILITY.md](https://github.com/KreerC/ACCESSIBILITY.md) (MIT)
+- `database-schema-designer`, `c4-architecture`, `crafting-effective-readmes` — [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) (MIT)
+- `go-service-scaffolder`, `writing-quality` — [ItalyPaleAle/skills](https://github.com/ItalyPaleAle/skills) (MIT)
+- `android-*` family — [new-silvermoon/awesome-android-agent-skills](https://github.com/new-silvermoon/awesome-android-agent-skills) (Apache-2.0)
 
 ## Contributing
 

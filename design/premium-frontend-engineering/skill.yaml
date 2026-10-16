@@ -1,0 +1,23 @@
+name: premium_frontend_engineering
+title: Premium frontend engineering
+description: Build premium, non-generic coded frontend with brief-driven design dials, bias-corrected typography and color, intentional GSAP or Motion choreography, and a strict pre-flight check before shipping.
+category: Creation
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: active
+  needs_review: false
+  evidence_handles:
+  - /home/hatch/workspace/custom-skills/local-gpt-tasteskill/SKILL.md
+  - /home/hatch/workspace/custom-skills/local-soft-skill/SKILL.md
+  measurement:
+    proxy_metric_id: skill_consolidation_effectiveness
+    success_criterion: active learned skill count drops from 17 to 11 with no task failure attributable to a missing retired skill; the merged skill is discoverable via skill_search for premium frontend and GSAP motion queries
+    window_days: 14
+  rationale: 'local-gpt-tasteskill and local-soft-skill teach the same reusable method under different names: Awwwards-tier non-generic web implementation driven by design, motion, and density dials, bias correction against LLM defaults, GSAP or Motion choreography, and pre-flight verification. Their dial baselines are identical, their banned lists overlap heavily, and their motion rules share the same spring-physics plus transform-only discipline. Merging them removes a redundant discovery entry while keeping both distinctive mechanics.'
+  review_after: 2026-10-29T02:39:24.495947+00:00
+  reviewed_at: 2026-10-15T02:39:24.495947+00:00
+  run_id: sirun_7b5a52e23f9e4d9ea5af78953dbac3ea

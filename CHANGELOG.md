@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.3.0
+
+- Renamed all 47 skill folders to one clean convention: dropped `local-`/`ext-` prefixes, dashes everywhere, no more underscores. `local-taste-skill` → `taste-skill`, `ext-docker-compose-patterns` → `docker-compose-patterns`, `local_frontend_image_direction` → `frontend-image-direction`, and so on. SKILL.md frontmatter and skill.yaml names synced; per-skill READMEs, category READMEs, main README, and Credits all updated to match.
+
 ## 2026-10-16 — v1.2.0
 
 - Expanded to 47 skills (+18): backend architecture, DevOps, Go, Android, databases, accessibility
