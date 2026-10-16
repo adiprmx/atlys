@@ -12,10 +12,6 @@
 
 </div>
 
-| 🎯 **Curated, not scraped** | 📦 **Drop-in by design** | 🧪 **Proven in the field** |
-|:---:|:---:|:---:|
-| Every skill earned its place. Thin, generic, or duplicated skills get cut. | A folder with `SKILL.md`. Copy it, your agent reads it. No build step, no lock-in. | Distilled from real projects and recognized expert sources, not vibes. |
-
 ---
 
 ## Contents
@@ -59,9 +55,11 @@ The difference isn't magic. It's just taste, written down.
 
 ### Start here
 
-| 🖥️ **I build interfaces** | ✍️ **I write** | ⚙️ **I build backends** |
-|---|---|---|
-| `taste-skill` + `antislop-core` — the design direction and the slop filter. Add `redesign-skill` for existing work, `accessibility` before you ship. | `antislop-core` + `humanizer` + `stop-slop` — the filter, the voice fix, the cut. Add `avoid-ai-writing` for a repeatable process. | `hexagonal-python` (or `golang-*`) + `docker-compose-patterns` + `output-skill` — architecture, containers, complete code. |
+**I build interfaces** — `taste-skill` + `antislop-core`. The design direction and the slop filter. Add `redesign-skill` if you're fixing something existing, `accessibility` before you ship.
+
+**I write** — `antislop-core` + `humanizer` + `stop-slop`. The filter, the voice fix, the cut. Add `avoid-ai-writing` when you need the process to be repeatable.
+
+**I build backends** — `hexagonal-python` (or `golang-*`) + `docker-compose-patterns` + `output-skill`. Architecture, containers, and the guarantee the code comes out complete.
 
 Then browse [the collection](#the-collection) and take what matches your work. You don't need all 47.
 
@@ -108,28 +106,27 @@ design/taste-skill/
 
 Not every skill on the internet belongs here. A skill makes it into atlys only if:
 
-| **1 · It changes the output** | **2 · It's specific** |
-|---|---|
-| Reading it must visibly change what the agent produces — not restate the obvious. | Concrete rules, real examples, named anti-patterns. Vague advice ("write clean code") doesn't make the cut. |
-| **3 · It's field-tested** | **4 · It respects the reader** |
-| Either proven in real projects or distilled from recognized expert sources. | No filler, no motivational fluff, no 500 lines saying what 50 could. |
+1. **It changes the output.** Reading it must visibly change what the agent produces — not restate the obvious.
+2. **It's specific.** Concrete rules, real examples, named anti-patterns. Vague advice ("write clean code") doesn't make the cut.
+3. **It's field-tested.** Either proven in real projects or distilled from recognized expert sources.
+4. **It respects the reader.** No filler, no motivational fluff, no 500 lines saying what 50 could.
 
-Skills that are thin, generic, or duplicated by a stronger skill already in the collection get cut or merged. The collection is curated, not scraped.
+Skills that are thin, generic, or duplicated by a stronger skill already in the collection get cut or merged. That's the whole curation policy.
 
 ## Repository structure
 
 ```
 atlys/
 ├── assets/                  # brand visuals (hero, icon, banners, skill maps)
-├── design/                  # 🎨 17 frontend & design skills
+├── design/                  # 17 frontend & design skills
 │   ├── taste-skill/
 │   ├── redesign-skill/
 │   └── ...
-├── writing/                 # ✍️ 12 anti-AI-slop writing skills
+├── writing/                 # 12 anti-AI-slop writing skills
 │   ├── antislop-core/
 │   ├── humanizer/
 │   └── ...
-├── engineering/             # ⚙️ 18 engineering, backend & QA skills
+├── engineering/             # 18 engineering, backend & QA skills
 │   ├── output-skill/
 │   └── ...
 ├── README.md
@@ -144,24 +141,24 @@ atlys/
 | **Design** — interfaces with taste<br/><sub>Start with `taste-skill` · `impeccable-design`</sub> | **Writing** — prose that reads human<br/><sub>Start with `antislop-core` · `humanizer`</sub> | **Engineering** — backends that ship<br/><sub>Start with `output-skill` · `hexagonal-python`</sub> |
 
 <details>
-<summary><strong>🎨 Design & frontend</strong> — <a href="design/">design/</a> · 17 skills</summary>
+<summary><strong>Design & frontend</strong> — <a href="design/">design/</a> · 17 skills</summary>
 
 | Skill | What it does |
 |---|---|
 | `taste-skill` | Anti-slop frontend for landing pages, portfolios, and redesigns. Reads the brief, infers the right design direction, and ships interfaces that don't look templated. Strict pre-flight check included. |
 | `taste-skill-v1` | The original v1 of taste-skill, preserved for projects depending on its exact behavior. |
 | `redesign-skill` | Upgrades existing websites and apps to premium quality without breaking functionality. Audit-first; hunts down generic AI patterns. |
-| `soft-skill` | High-end agency style: exact fonts, spacing, shadows, card structures, and animations that make a site feel expensive. |
+| `soft-skill` | Agency-grade polish: exact fonts, spacing, shadows, card structures, and animations that make a site feel expensive. |
 | `minimalist-skill` | Clean editorial interfaces — warm monochrome, typographic contrast, flat bento grids. No gradients, no heavy shadows. |
 | `brutalist-skill` | Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. For data-heavy dashboards and portfolios that should feel like declassified blueprints. |
 | `stitch-skill` | Semantic design-system skill for Google Stitch. Generates agent-friendly `DESIGN.md` files enforcing premium, anti-generic UI standards. |
-| `brandkit` | Premium brand-kit image generation: logo systems, identity decks, and brand-guideline boards across minimalist, cinematic, editorial, dark-tech, luxury, and more. |
-| `gpt-tasteskill` | Elite UX/UI plus advanced GSAP motion engineering — AIDA page structure, wide editorial typography, gapless bento grids, strict ScrollTriggers. |
-| `imagegen-frontend-web` | Generates premium, conversion-aware website design references — one horizontal image per section, one consistent palette. |
-| `imagegen-frontend-mobile` | Premium mobile app screen concepts and flows (iOS/Android/cross-platform), presented in phone mockups. Image generation only. |
+| `brandkit` | Brand-kit image generation: logo systems, identity decks, and brand-guideline boards across minimalist, cinematic, editorial, dark-tech, luxury, and more. |
+| `gpt-tasteskill` | UX/UI plus advanced GSAP motion engineering — AIDA page structure, wide editorial typography, gapless bento grids, strict ScrollTriggers. |
+| `imagegen-frontend-web` | Generates conversion-aware website design references — one horizontal image per section, one consistent palette. |
+| `imagegen-frontend-mobile` | Mobile app screen concepts and flows (iOS/Android/cross-platform), presented in phone mockups. Image generation only. |
 | `frontend-image-direction` | Section references, mobile screen concepts, and brand-consistent image sets with locked cross-image consistency — then implements from the references without design drift. |
 | `image-to-code-skill` | Generates the design images first, analyzes them deeply, then implements the website to match as closely as possible. |
-| `premium-frontend-engineering` | Premium hand-coded frontend: brief-driven design dials, bias-corrected typography and color, intentional GSAP/Motion choreography, strict pre-flight check. |
+| `premium-frontend-engineering` | Hand-coded frontend: brief-driven design dials, bias-corrected typography and color, intentional GSAP/Motion choreography, strict pre-flight check. |
 | `impeccable-design` | Full-spectrum frontend improvement — UX review, visual hierarchy, accessibility, responsive behavior, theming, anti-patterns — plus live-browser iteration on real UI. |
 | `accessibility` | Web accessibility and usability QA, especially for users with disabilities. Expert-curated guidance that catches the common pitfalls in AI-generated markup. |
 | `accessibility-testing` | Practical methodology for testing the accessibility of a web project. |
@@ -169,7 +166,7 @@ atlys/
 </details>
 
 <details>
-<summary><strong>✍️ Anti-AI-slop writing</strong> — <a href="writing/">writing/</a> · 12 skills</summary>
+<summary><strong>Anti-AI-slop writing</strong> — <a href="writing/">writing/</a> · 12 skills</summary>
 
 | Skill | What it does |
 |---|---|
@@ -189,7 +186,7 @@ atlys/
 </details>
 
 <details>
-<summary><strong>⚙️ Engineering & QA</strong> — <a href="engineering/">engineering/</a> · 18 skills</summary>
+<summary><strong>Engineering & QA</strong> — <a href="engineering/">engineering/</a> · 18 skills</summary>
 
 | Skill | What it does |
 |---|---|
@@ -205,16 +202,16 @@ atlys/
 | `golang-concurrency` | Go concurrency design: goroutine lifecycle and leak prevention, channels and `select`, mutexes, `errgroup`, worker pools, fan-out/fan-in. |
 | `golang-error-handling` | Idiomatic Go error handling: wrapping with `%w`, `errors.Is`/`As`/`Join`, custom types, sentinel errors, panic/recover. |
 | `golang-testing` | Production-ready Go tests: table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures. |
-| `database-schema-designer` | Robust, scalable DB schema design for SQL and NoSQL: normalization, indexing strategies, migration patterns, with examples. |
+| `database-schema-designer` | DB schema design for SQL and NoSQL: normalization, indexing strategies, migration patterns, with examples. |
 | `c4-architecture` | Architecture documentation with C4-model Mermaid diagrams: context, container, component, code. |
 | `go-service-scaffolder` | Scaffolds production-ready Go HTTP services: OpenTelemetry, TLS, lifecycle management, Dockerfile, GitHub Actions CI. |
 | `android-architecture` | Modern Android app architecture with Clean Architecture + Hilt: strict layering, setup and maintenance guidance. |
 | `android-compose-performance` | Audits and improves Jetpack Compose runtime performance — diagnoses slow rendering and jank from code review. |
-| `android-testing` | Comprehensive Android testing strategy: unit, integration, Hilt, and screenshot tests. |
+| `android-testing` | Android testing strategy: unit, integration, Hilt, and screenshot tests. |
 
 </details>
 
-> **Total: 47 skills.** The collection grows — check back for new additions.
+> **47 skills so far.** The list grows when something new earns its place.
 
 ### Skill map
 

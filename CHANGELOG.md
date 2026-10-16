@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.8.2
+
+- Main README de-slopped: emoji removed from section headers and structure block; hype words (Premium, Elite, High-end, Robust, Comprehensive) stripped from skill descriptions; template-y card tables reverted to human prose. Reads like a person wrote it.
+
 ## 2026-10-16 — v1.8.1
 
 - Main README visual upgrade: feature strip (curated / drop-in / proven), "Start here" and "The atlys bar" converted from text lists to visual card tables. Text-heavy sections now carry visual weight.
