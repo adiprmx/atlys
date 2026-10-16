@@ -52,11 +52,20 @@ Then browse [the collection](#the-collection) and take what matches your work. Y
 ## Quick start
 
 ```sh
-git clone https://github.com/adiprmx/atlys.git
+npx skills add adiprmx/atlys
+```
 
-# copy any skill into your agent's skills directory, e.g. for Claude Code:
+That's it. Pick the skills you want, pick your agent (Claude Code, Cursor, Codex, …), done. Just one skill? Add `-s`:
+
+```sh
+npx skills add adiprmx/atlys -s taste-skill
+```
+
+Prefer manual? Clone and copy:
+
+```sh
+git clone https://github.com/adiprmx/atlys.git
 cp -r atlys/design/taste-skill ~/.claude/skills/
-cp -r atlys/writing/antislop-core ~/.claude/skills/
 ```
 
 Only want one category? Clone it sparsely:

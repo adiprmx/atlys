@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.8.5
+
+- Quick start simplified: `npx skills add adiprmx/atlys` is now the primary install path (verified: the skills CLI discovers all 47 skills in this repo's layout). Manual clone+copy kept as the alternative.
+
 ## 2026-10-16 — v1.8.4
 
 - Main README: removed the table of contents entirely — section headers carry the navigation, no old-school link list.
