@@ -14,17 +14,7 @@
 
 ---
 
-## Contents
-
-- [Why atlys exists](#why-atlys-exists)
-- [Quick start](#quick-start)
-- [The collection](#the-collection)
-- [The atlys bar](#the-atlys-bar)
-- [Repository structure](#repository-structure)
-- [FAQ](#faq)
-- [Credits](#credits)
-- [Contributing](#contributing)
-- [License](#license)
+> **On this page:** [Why atlys exists](#why-atlys-exists) · [Quick start](#quick-start) · [The collection](#the-collection) · [The atlys bar](#the-atlys-bar) · [Repository structure](#repository-structure) · [FAQ](#faq) · [Credits](#credits) · [Contributing](#contributing) · [License](#license)
 
 ---
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.8.3
+
+- Main README: old-school blue link-list TOC replaced with a single-line nav bar. Cleaner, modern.
+
 ## 2026-10-16 — v1.8.2
 
 - Main README de-slopped: emoji removed from section headers and structure block; hype words (Premium, Elite, High-end, Robust, Comprehensive) stripped from skill descriptions; template-y card tables reverted to human prose. Reads like a person wrote it.
