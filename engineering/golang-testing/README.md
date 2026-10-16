@@ -1,28 +1,30 @@
-<div align="center">
-  <img src="../../assets/icon.webp" width="72" alt="atlys">
-</div>
-
 # golang-testing
 
-![category](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-MIT-16a34a)
+![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-> Production-ready Golang tests — table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures, goroutine leak detection with goleak, snapshot testing, code coverage, integration tests, idiomatic test naming. Use when writing or reviewing Go tests, choosing a testing approach, setting up Go test CI, or debugging flaky/slow tests. For testify-specific APIs see `samber/cc-skills-golang@golang-stretchr-testify`; for measurement methodology see `samber/cc-skills-golang@golang-benchmark`.
+Production-ready Golang tests — table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures, goroutine leak detection with goleak, snapshot testing, code coverage, integration tests, idiomatic test naming. Use when writing or reviewing Go tests, choosing a testing approach, setting up Go test CI, or debugging flaky/slow tests. For testify-specific APIs see `samber/cc-skills-golang@golang-stretchr-testify`; for measurement methodology see `samber/cc-skills-golang@golang-benchmark`.
 
-## 📂 What's inside
+> Community default. A company skill that explicitly supersedes samber/cc-skills-golang@golang-testing skill takes precedence.
+
+## Contents
 
 ```
 golang-testing/
-├── evals/
-├── references/
-└── SKILL.md
+├── evals/  # evaluation cases
+├── references/  # reference docs
+└── SKILL.md  # the playbook — when to load, how to apply
 ```
 
-**`SKILL.md`** is the full playbook — when to load this skill and how to apply it. Copy this whole folder into your agent's skills directory to install it.
+## Install
 
-## 📜 Source
+```sh
+cp -r engineering/golang-testing ~/.claude/skills/  # or your agent's skills directory
+```
 
-Adapted from [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) (MIT). Curated into atlys by [adiprmx](https://github.com/adiprmx).
+## Source
+
+Adapted from [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) (MIT), curated into atlys by [adiprmx](https://github.com/adiprmx).
 
 ---
 
-Part of [**atlys**](../../) — a curated collection of skills for AI coding agents.
+Part of [atlys](../../) — a curated collection of skills for AI coding agents.

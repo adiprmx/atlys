@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.3.1
+
+- README overhaul: all 47 skill READMEs rewritten — no more emoji-soup headers or filler boilerplate; each now carries real extracted content (scope quotes and "When to use" bullets pulled from its own SKILL.md), annotated contents, and a per-skill install command. Main README gained "The atlys bar" (curation philosophy) and FAQ. Category READMEs gained intro paragraphs.
+
 ## 2026-10-16 — v1.3.0
 
 - Renamed all 47 skill folders to one clean convention: dropped `local-`/`ext-` prefixes, dashes everywhere, no more underscores. `local-taste-skill` → `taste-skill`, `ext-docker-compose-patterns` → `docker-compose-patterns`, `local_frontend_image_direction` → `frontend-image-direction`, and so on. SKILL.md frontmatter and skill.yaml names synced; per-skill READMEs, category READMEs, main README, and Credits all updated to match.

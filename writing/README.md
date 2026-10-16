@@ -6,6 +6,10 @@
 
 12 skills for prose that reads human, not generated.
 
+Two jobs here: **de-slopping** (strip the AI tics — em-dashes everywhere, "delve", "moreover", hollow parallelism) and **quality** (structure, clarity, voice). The antislop family is the always-on filter; the rest are specialists you load per task.
+
+12 skills for prose that reads human, not generated.
+
 | Skill | What it does |
 |---|---|
 | `antislop-core` | The core filter. Rules every AI coding agent should follow to stop generic AI slop. Load always. |

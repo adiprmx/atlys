@@ -1,32 +1,39 @@
-<div align="center">
-  <img src="../../assets/icon.webp" width="72" alt="atlys">
-</div>
-
 # docker-build-strategies
 
-![category](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-Apache--2.0-16a34a)
+![engineering](https://img.shields.io/badge/engineering-0d9488) ![license](https://img.shields.io/badge/license-Apache--2.0-16a34a)
 
-> Use this skill when writing, reviewing, or optimizing Dockerfiles, even if the user just says their image is too large, their build is slow, or they need to harden a container for production. Covers multi-stage builds, layer caching, .dockerignore, non-root users, and image size optimization.
+Use this skill when writing, reviewing, or optimizing Dockerfiles, even if the user just says their image is too large, their build is slow, or they need to harden a container for production. Covers multi-stage builds, layer caching, .dockerignore, non-root users, and image size optimization.
 
-## 📂 What's inside
+## When to use
+
+- Creating a new Dockerfile for any language or framework
+- Optimizing an existing Dockerfile for size, speed, or security
+- Reviewing a Dockerfile for best-practice compliance
+- Adding a .dockerignore file to a project
+
+## Contents
 
 ```
 docker-build-strategies/
-├── agents/
-├── assets/
-├── checks/
-├── references/
-├── scripts/
-├── SKILL.md
-└── skill.yaml
+├── agents/  # subagent definitions
+├── assets/  # assets
+├── checks/  # check scripts
+├── references/  # reference docs
+├── scripts/  # helper scripts
+├── SKILL.md  # the playbook — when to load, how to apply
+└── skill.yaml  # machine-readable metadata
 ```
 
-**`SKILL.md`** is the full playbook — when to load this skill and how to apply it. Copy this whole folder into your agent's skills directory to install it.
+## Install
 
-## 📜 Source
+```sh
+cp -r engineering/docker-build-strategies ~/.claude/skills/  # or your agent's skills directory
+```
 
-Adapted from [docker/skills](https://github.com/docker/skills) (Apache-2.0). Curated into atlys by [adiprmx](https://github.com/adiprmx).
+## Source
+
+Adapted from [docker/skills](https://github.com/docker/skills) (Apache-2.0), curated into atlys by [adiprmx](https://github.com/adiprmx).
 
 ---
 
-Part of [**atlys**](../../) — a curated collection of skills for AI coding agents.
+Part of [atlys](../../) — a curated collection of skills for AI coding agents.

@@ -1,26 +1,26 @@
-<div align="center">
-  <img src="../../assets/icon.webp" width="72" alt="atlys">
-</div>
-
 # accessibility-testing
 
-![category](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
+![design](https://img.shields.io/badge/design-2563eb) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-> Use for testing the accessibility of a web project
+Use for testing the accessibility of a web project
 
-## 📂 What's inside
+## Contents
 
 ```
 accessibility-testing/
-└── SKILL.md
+└── SKILL.md  # the playbook — when to load, how to apply
 ```
 
-**`SKILL.md`** is the full playbook — when to load this skill and how to apply it. Copy this whole folder into your agent's skills directory to install it.
+## Install
 
-## 📜 Source
+```sh
+cp -r design/accessibility-testing ~/.claude/skills/  # or your agent's skills directory
+```
 
-Adapted from [KreerC/ACCESSIBILITY.md](https://github.com/KreerC/ACCESSIBILITY.md) (MIT). Curated into atlys by [adiprmx](https://github.com/adiprmx).
+## Source
+
+Adapted from [KreerC/ACCESSIBILITY.md](https://github.com/KreerC/ACCESSIBILITY.md) (MIT), curated into atlys by [adiprmx](https://github.com/adiprmx).
 
 ---
 
-Part of [**atlys**](../../) — a curated collection of skills for AI coding agents.
+Part of [atlys](../../) — a curated collection of skills for AI coding agents.

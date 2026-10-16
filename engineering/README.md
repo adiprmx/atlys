@@ -6,6 +6,10 @@
 
 18 skills for reliable backends, solid DevOps, and complete, well-resourced agent work.
 
+Backend architecture, containers, Go, Android, databases — plus the QA skills that keep long agent runs honest: no truncated output, no silent regex death, no phantom "done" claims. The unglamorous stuff that decides whether the work actually ships.
+
+18 skills for reliable backends, solid DevOps, and complete, well-resourced agent work.
+
 | Skill | What it does |
 |---|---|
 | `output-skill` | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. |

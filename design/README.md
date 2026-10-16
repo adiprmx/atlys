@@ -6,6 +6,10 @@
 
 17 skills for interfaces that feel designed, not generated.
 
+These are the taste-makers: brief-reading, audit-first playbooks that push an agent away from the default AI aesthetic — purple gradients, generic cards, lifeless layouts — and toward interfaces with actual intent. Pick by the job: landing pages, redesigns, brand systems, or mobile.
+
+17 skills for interfaces that feel designed, not generated.
+
 | Skill | What it does |
 |---|---|
 | `taste-skill` | Anti-slop frontend for landing pages, portfolios, and redesigns. Reads the brief, infers the right design direction, and ships interfaces that don't look templated. Strict pre-flight check included. |

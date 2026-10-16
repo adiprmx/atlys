@@ -1,26 +1,28 @@
-<div align="center">
-  <img src="../../assets/icon.webp" width="72" alt="atlys">
-</div>
-
 # antislop-copywriting
 
-![category](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
+![writing](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-> Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.
+Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.
 
-## 📂 What's inside
+> Anti Slop: Rules for AI Coding Agents. Copy & Text skill Part of the antislop system. Read together with antislop.md (the core). This skill deep-dives the copy and text concern: headlines, CTAs, tone, value propositions, and the patterns that make AI-written prose easy to spot. It references core rules by number and never duplicates or renumbers them. Load it when the task writes or edits marketing copy, product copy, landing-page text, or any prose meant for people to read.
+
+## Contents
 
 ```
 antislop-copywriting/
-└── SKILL.md
+└── SKILL.md  # the playbook — when to load, how to apply
 ```
 
-**`SKILL.md`** is the full playbook — when to load this skill and how to apply it. Copy this whole folder into your agent's skills directory to install it.
+## Install
 
-## 📜 Source
+```sh
+cp -r writing/antislop-copywriting ~/.claude/skills/  # or your agent's skills directory
+```
 
-Adapted from [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) (MIT). Curated into atlys by [adiprmx](https://github.com/adiprmx).
+## Source
+
+Adapted from [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) (MIT), curated into atlys by [adiprmx](https://github.com/adiprmx).
 
 ---
 
-Part of [**atlys**](../../) — a curated collection of skills for AI coding agents.
+Part of [atlys](../../) — a curated collection of skills for AI coding agents.

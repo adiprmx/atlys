@@ -1,26 +1,28 @@
-<div align="center">
-  <img src="../../assets/icon.webp" width="72" alt="atlys">
-</div>
-
 # antislop-code
 
-![category](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
+![writing](https://img.shields.io/badge/writing-7c3aed) ![license](https://img.shields.io/badge/license-MIT-16a34a)
 
-> Code comment hygiene for AI coding agents: remove generic AI-slop comments, keep the valuable ones, never touch the code.
+Code comment hygiene for AI coding agents: remove generic AI-slop comments, keep the valuable ones, never touch the code.
 
-## 📂 What's inside
+> Anti Slop: Rules for AI Coding Agents. Code Comments skill Part of the antislop system. Read together with antislop.md (the core). This skill filters comments that read as generically AI (decorative, restating the obvious, stiff, loud) while preserving the comments that carry real information. It references core rules by number and never duplicates or renumbers them. Load it when the task writes or edits code comments.
+
+## Contents
 
 ```
 antislop-code/
-└── SKILL.md
+└── SKILL.md  # the playbook — when to load, how to apply
 ```
 
-**`SKILL.md`** is the full playbook — when to load this skill and how to apply it. Copy this whole folder into your agent's skills directory to install it.
+## Install
 
-## 📜 Source
+```sh
+cp -r writing/antislop-code ~/.claude/skills/  # or your agent's skills directory
+```
 
-Adapted from [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) (MIT). Curated into atlys by [adiprmx](https://github.com/adiprmx).
+## Source
+
+Adapted from [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) (MIT), curated into atlys by [adiprmx](https://github.com/adiprmx).
 
 ---
 
-Part of [**atlys**](../../) — a curated collection of skills for AI coding agents.
+Part of [atlys](../../) — a curated collection of skills for AI coding agents.

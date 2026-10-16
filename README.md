@@ -24,12 +24,23 @@ Each skill is a self-contained folder. No build step, no dependencies, no lock-i
 ```sh
 git clone https://github.com/adiprmx/atlys.git
 
-# copy any skill into your agent's skills directory, e.g.:
-cp -r atlys/design/taste-skill ~/.config/your-agent/skills/
-cp -r atlys/writing/antislop-core   ~/.config/your-agent/skills/
+# copy any skill into your agent's skills directory, e.g. for Claude Code:
+cp -r atlys/design/taste-skill ~/.claude/skills/
+cp -r atlys/writing/antislop-core ~/.claude/skills/
 ```
 
-Then tell your agent to load the skill when relevant — or wire it into your agent's skill discovery so it's picked up automatically. See [Anatomy of a skill](#anatomy-of-a-skill).
+Then tell your agent to load the skill when relevant — or wire it into your agent's skill discovery so it's picked up automatically. Every skill ships with `SKILL.md` frontmatter (`name`, `description`) so agents that auto-index skills just work. See [Anatomy of a skill](#anatomy-of-a-skill).
+
+## The atlys bar
+
+Not every skill on the internet belongs here. A skill makes it into atlys only if:
+
+1. **It changes the output.** Reading it must visibly change what the agent produces — not restate the obvious.
+2. **It's specific.** Concrete rules, real examples, named anti-patterns. Vague advice ("write clean code") doesn't make the cut.
+3. **It's field-tested.** Either proven in real projects or distilled from recognized expert sources.
+4. **It respects the reader.** No filler, no motivational fluff, no 500 lines saying what 50 could.
+
+Skills that are thin, generic, or duplicated by a stronger skill already in the collection get cut or merged. The collection is curated, not scraped.
 
 ## Repository structure
 
@@ -137,6 +148,26 @@ design/taste-skill/
 ```
 
 `SKILL.md` starts with frontmatter (`name`, `description`, `allowed-tools`) so agents can index and auto-load it. Everything else is plain markdown written to be read by both humans and models.
+
+## FAQ
+
+**Do I need all 47 skills?**
+No. Copy the ones matching your work. A frontend agent might take `taste-skill` + `antislop-core`; a backend agent `hexagonal-python` + `docker-compose-patterns` + `output-skill`. Each folder is self-contained.
+
+**Are these tied to a specific AI agent?**
+No. A skill is just a folder with `SKILL.md` (markdown + YAML frontmatter) — the open Agent Skills convention. Any agent that reads markdown can use them: Claude Code, Cursor, Windsurf, Copilot, or your own harness.
+
+**Can I use these commercially?**
+The collection itself is MIT. Individual skills adapted from external sources keep their original licenses (MIT or Apache-2.0 — both permissive for commercial use). Check the Source section in each skill's README.
+
+**Some descriptions are in Indonesian — why?**
+A few skills were adapted and translated for Indonesian-speaking builders. The technical content stays in English where the source was English; the adaptation notes say what changed.
+
+**How do I know what's new?**
+See [CHANGELOG.md](CHANGELOG.md). Every addition, rename, or removal is recorded there.
+
+**I found a bug or a better skill.**
+Open an issue or PR — see [Contributing](#contributing).
 
 ## Credits
 
