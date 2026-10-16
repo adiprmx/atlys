@@ -1,6 +1,6 @@
-<div align="center">
+![atlys — a curated collection of skills for AI coding agents](assets/hero.webp)
 
-# atlys
+<div align="center">
 
 **A curated collection of skills for AI coding agents.**
 
@@ -15,7 +15,7 @@
 
 ## Why atlys exists
 
-Most AI-generated output looks AI-generated: templated layouts, filler prose, placeholder comments, lifeless copy. atlys is a hand-picked arsenal against that — 28 field-tested skill playbooks that make agents produce work with **taste**: interfaces that feel designed, prose that reads human, and code that ships complete.
+Most AI-generated output looks AI-generated: templated layouts, filler prose, placeholder comments, lifeless copy. atlys is a hand-picked arsenal against that — 29 field-tested skill playbooks that make agents produce work with **taste**: interfaces that feel designed, prose that reads human, and code that ships complete.
 
 Each skill is a self-contained folder. No build step, no dependencies, no lock-in — just markdown (plus a few helper scripts) your agent reads when the task calls for it.
 
@@ -25,16 +25,37 @@ Each skill is a self-contained folder. No build step, no dependencies, no lock-i
 git clone https://github.com/adiprmx/atlys.git
 
 # copy any skill into your agent's skills directory, e.g.:
-cp -r atlys/local-taste-skill ~/.config/your-agent/skills/
-cp -r atlys/antislop-core  ~/.config/your-agent/skills/
+cp -r atlys/design/local-taste-skill ~/.config/your-agent/skills/
+cp -r atlys/writing/antislop-core   ~/.config/your-agent/skills/
 ```
 
 Then tell your agent to load the skill when relevant — or wire it into your agent's skill discovery so it's picked up automatically. See [Anatomy of a skill](#anatomy-of-a-skill).
 
+## Repository structure
+
+```
+atlys/
+├── assets/                  # brand visuals (hero banner, icon)
+├── design/                  # 🎨 15 frontend & design skills
+│   ├── local-taste-skill/
+│   ├── local-redesign-skill/
+│   └── ...
+├── writing/                 # ✍️ 10 anti-AI-slop writing skills
+│   ├── antislop-core/
+│   ├── ext-humanizer/
+│   └── ...
+├── engineering/             # ⚙️ 4 engineering & QA skills
+│   ├── local-output-skill/
+│   └── ...
+├── README.md
+├── CHANGELOG.md
+└── LICENSE
+```
+
 ## The collection
 
 <details>
-<summary><strong>🎨 Design & frontend</strong> — 15 skills</summary>
+<summary><strong>🎨 Design & frontend</strong> — <a href="design/">design/</a> · 15 skills</summary>
 
 | Skill | What it does |
 |---|---|
@@ -57,7 +78,7 @@ Then tell your agent to load the skill when relevant — or wire it into your ag
 </details>
 
 <details>
-<summary><strong>✍️ Anti-AI-slop writing</strong> — 10 skills</summary>
+<summary><strong>✍️ Anti-AI-slop writing</strong> — <a href="writing/">writing/</a> · 10 skills</summary>
 
 | Skill | What it does |
 |---|---|
@@ -75,7 +96,7 @@ Then tell your agent to load the skill when relevant — or wire it into your ag
 </details>
 
 <details>
-<summary><strong>⚙️ Engineering & QA</strong> — 4 skills</summary>
+<summary><strong>⚙️ Engineering & QA</strong> — <a href="engineering/">engineering/</a> · 4 skills</summary>
 
 | Skill | What it does |
 |---|---|
@@ -91,7 +112,7 @@ Then tell your agent to load the skill when relevant — or wire it into your ag
 ## Anatomy of a skill
 
 ```
-local-taste-skill/
+design/local-taste-skill/
 ├── SKILL.md        # the playbook: when to load it, how to apply it
 ├── skill.yaml      # machine-readable metadata (name, description)
 └── scripts/        # optional helper scripts (only some skills)
@@ -117,7 +138,7 @@ Several skills are adapted from excellent open-source work. They retain their or
 
 Found a skill worth including, or improved one that's here? Open an issue or PR with:
 
-1. The skill folder (`SKILL.md` + `skill.yaml` required)
+1. The skill folder (`SKILL.md` + `skill.yaml` required) under the right category (`design/`, `writing/`, or `engineering/`)
 2. A one-paragraph description of what makes it non-generic
 3. Its provenance — original work or adapted (with source link)
 
