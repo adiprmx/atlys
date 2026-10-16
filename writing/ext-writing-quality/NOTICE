@@ -1,0 +1,5 @@
+This skill is adapted from the writing-quality skill in vercel-labs/eve-software-factory-template at commit 0d630a284b84e5be38fe7eceec7b231a7e79bfd0:
+
+https://github.com/vercel-labs/eve-software-factory-template/tree/0d630a284b84e5be38fe7eceec7b231a7e79bfd0/agent/skills/writing-quality
+
+Changes in this standalone version include required name metadata, automatic invocation metadata, broader every-response routing, a concise final-pass checklist, conditional reference loading, and context-sensitive wording for the phrase lists.

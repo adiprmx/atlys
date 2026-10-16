@@ -1,6 +1,6 @@
 # ✍️ Anti-AI-slop writing
 
-10 skills for prose that reads human, not generated.
+12 skills for prose that reads human, not generated.
 
 | Skill | What it does |
 |---|---|
@@ -14,5 +14,7 @@
 | `ext-stop-slop` | Cuts AI rhetoric and filler: 8 core rules, banned-phrase lists, quick checks, and per-dimension scoring. |
 | `ext-no-ai-slop` | Two modes — **Edit** (minimum effective edit, with a changelog) and **Detect** (name the pattern, quote the line, suggest the fix). |
 | `ext-avoid-ai-writing` | A strict editing contract (detect ≠ judge ≠ edit), tiered pattern catalog, voice profiles, and iterate-to-convergence passes. |
+| `ext-crafting-effective-readmes` | README writing matched to your audience — templates and guidance for READMEs that actually get read. |
+| `ext-writing-quality` | Applies to every turn that drafts human-facing prose (chat replies, explanations, emails). Quality from a different angle than de-slopping. |
 
 ← Back to [atlys](../)

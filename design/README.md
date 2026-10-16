@@ -1,6 +1,6 @@
 # 🎨 Design & frontend
 
-15 skills for interfaces that feel designed, not generated.
+17 skills for interfaces that feel designed, not generated.
 
 | Skill | What it does |
 |---|---|
@@ -19,5 +19,7 @@
 | `local-image-to-code-skill` | Generates the design images first, analyzes them deeply, then implements the website to match as closely as possible. |
 | `local_premium_frontend_engineering` | Premium hand-coded frontend: brief-driven design dials, bias-corrected typography and color, intentional GSAP/Motion choreography, strict pre-flight check. |
 | `impeccable-design` | Full-spectrum frontend improvement — UX review, visual hierarchy, accessibility, responsive behavior, theming, anti-patterns — plus live-browser iteration on real UI. |
+| `ext-accessibility` | Web accessibility and usability QA, especially for users with disabilities. Expert-curated guidance that catches the common pitfalls in AI-generated markup. |
+| `ext-accessibility-testing` | Practical methodology for testing the accessibility of a web project. |
 
 ← Back to [atlys](../)

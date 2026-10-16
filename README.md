@@ -4,7 +4,7 @@
 
 **A curated collection of skills for AI coding agents.**
 
-[![Skills](https://img.shields.io/badge/skills-29-2563eb)](https://github.com/adiprmx/atlys)
+[![Skills](https://img.shields.io/badge/skills-47-2563eb)](https://github.com/adiprmx/atlys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-16a34a.svg)](LICENSE)
 
 *Design taste, anti-slop writing, and engineering QA — as drop-in playbooks.*
@@ -15,7 +15,7 @@
 
 ## Why atlys exists
 
-Most AI-generated output looks AI-generated: templated layouts, filler prose, placeholder comments, lifeless copy. atlys is a hand-picked arsenal against that — 29 field-tested skill playbooks that make agents produce work with **taste**: interfaces that feel designed, prose that reads human, and code that ships complete.
+Most AI-generated output looks AI-generated: templated layouts, filler prose, placeholder comments, lifeless copy. atlys is a hand-picked arsenal against that — 47 field-tested skill playbooks that make agents produce work with **taste**: interfaces that feel designed, prose that reads human, and code that ships complete.
 
 Each skill is a self-contained folder. No build step, no dependencies, no lock-in — just markdown (plus a few helper scripts) your agent reads when the task calls for it.
 
@@ -36,15 +36,15 @@ Then tell your agent to load the skill when relevant — or wire it into your ag
 ```
 atlys/
 ├── assets/                  # brand visuals (hero banner, icon)
-├── design/                  # 🎨 15 frontend & design skills
+├── design/                  # 🎨 17 frontend & design skills
 │   ├── local-taste-skill/
 │   ├── local-redesign-skill/
 │   └── ...
-├── writing/                 # ✍️ 10 anti-AI-slop writing skills
+├── writing/                 # ✍️ 12 anti-AI-slop writing skills
 │   ├── antislop-core/
 │   ├── ext-humanizer/
 │   └── ...
-├── engineering/             # ⚙️ 4 engineering & QA skills
+├── engineering/             # ⚙️ 18 engineering, backend & QA skills
 │   ├── local-output-skill/
 │   └── ...
 ├── README.md
@@ -55,7 +55,7 @@ atlys/
 ## The collection
 
 <details>
-<summary><strong>🎨 Design & frontend</strong> — <a href="design/">design/</a> · 15 skills</summary>
+<summary><strong>🎨 Design & frontend</strong> — <a href="design/">design/</a> · 17 skills</summary>
 
 | Skill | What it does |
 |---|---|
@@ -74,11 +74,13 @@ atlys/
 | `local-image-to-code-skill` | Generates the design images first, analyzes them deeply, then implements the website to match as closely as possible. |
 | `local_premium_frontend_engineering` | Premium hand-coded frontend: brief-driven design dials, bias-corrected typography and color, intentional GSAP/Motion choreography, strict pre-flight check. |
 | `impeccable-design` | Full-spectrum frontend improvement — UX review, visual hierarchy, accessibility, responsive behavior, theming, anti-patterns — plus live-browser iteration on real UI. |
+| `ext-accessibility` | Web accessibility and usability QA, especially for users with disabilities. Expert-curated guidance that catches the common pitfalls in AI-generated markup. |
+| `ext-accessibility-testing` | Practical methodology for testing the accessibility of a web project. |
 
 </details>
 
 <details>
-<summary><strong>✍️ Anti-AI-slop writing</strong> — <a href="writing/">writing/</a> · 10 skills</summary>
+<summary><strong>✍️ Anti-AI-slop writing</strong> — <a href="writing/">writing/</a> · 12 skills</summary>
 
 | Skill | What it does |
 |---|---|
@@ -92,11 +94,13 @@ atlys/
 | `ext-stop-slop` | Cuts AI rhetoric and filler: 8 core rules, banned-phrase lists, quick checks, and per-dimension scoring. |
 | `ext-no-ai-slop` | Two modes — **Edit** (minimum effective edit, with a changelog) and **Detect** (name the pattern, quote the line, suggest the fix). |
 | `ext-avoid-ai-writing` | A strict editing contract (detect ≠ judge ≠ edit), tiered pattern catalog, voice profiles, and iterate-to-convergence passes. |
+| `ext-crafting-effective-readmes` | README writing matched to your audience — templates and guidance for READMEs that actually get read. |
+| `ext-writing-quality` | Applies to every turn that drafts human-facing prose (chat replies, explanations, emails). Quality from a different angle than de-slopping. |
 
 </details>
 
 <details>
-<summary><strong>⚙️ Engineering & QA</strong> — <a href="engineering/">engineering/</a> · 4 skills</summary>
+<summary><strong>⚙️ Engineering & QA</strong> — <a href="engineering/">engineering/</a> · 18 skills</summary>
 
 | Skill | What it does |
 |---|---|
@@ -104,10 +108,24 @@ atlys/
 | `local-intent-pattern-qa` | Catches silent regex-pattern death — patterns that compile but never match — via positive-match probes and byte-level asserts. |
 | `local-batch-run-integrity` | Keeps long multi-chunk batch jobs honest and resumable: incremental on-disk checkpoints, completion claims reconciled against artifacts on disk. |
 | `local-worker-resource-budgeting` | Budgets RAM before fanning out parallel workers, so verification workers never starve the live system. |
+| `ext-hexagonal-python` | Hexagonal Architecture (Ports & Adapters) + DDD for Python backends (FastAPI/Flask, SQLAlchemy, pytest): use cases, aggregates, repositories, unit of work, domain events. |
+| `ext-docker-compose-patterns` | Docker Compose done right: service definitions, health checks, dependency ordering, volumes, networks, env vars, dev overrides. |
+| `ext-docker-build-strategies` | Writing, reviewing, and optimizing Dockerfiles: image size, build speed, layer caching, multi-stage builds. |
+| `ext-docker-project-foundations` | Setting up and Dockerizing a project from scratch: scaffolding, configuration, conventions. |
+| `ext-docker-destructive-guardrails` | Guardrails to check before running — or recommending — any Docker command that deletes, wipes, or irreversibly changes state. |
+| `ext-golang-concurrency` | Go concurrency design: goroutine lifecycle and leak prevention, channels and `select`, mutexes, `errgroup`, worker pools, fan-out/fan-in. |
+| `ext-golang-error-handling` | Idiomatic Go error handling: wrapping with `%w`, `errors.Is`/`As`/`Join`, custom types, sentinel errors, panic/recover. |
+| `ext-golang-testing` | Production-ready Go tests: table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures. |
+| `ext-database-schema-designer` | Robust, scalable DB schema design for SQL and NoSQL: normalization, indexing strategies, migration patterns, with examples. |
+| `ext-c4-architecture` | Architecture documentation with C4-model Mermaid diagrams: context, container, component, code. |
+| `ext-go-service-scaffolder` | Scaffolds production-ready Go HTTP services: OpenTelemetry, TLS, lifecycle management, Dockerfile, GitHub Actions CI. |
+| `ext-android-architecture` | Modern Android app architecture with Clean Architecture + Hilt: strict layering, setup and maintenance guidance. |
+| `ext-android-compose-performance` | Audits and improves Jetpack Compose runtime performance — diagnoses slow rendering and jank from code review. |
+| `ext-android-testing` | Comprehensive Android testing strategy: unit, integration, Hilt, and screenshot tests. |
 
 </details>
 
-> **Total: 29 skills.** The collection grows — check back for new additions.
+> **Total: 47 skills.** The collection grows — check back for new additions.
 
 ## Anatomy of a skill
 
@@ -133,6 +151,13 @@ Several skills are adapted from excellent open-source work. They retain their or
 - `ext-no-ai-slop` — [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)
 - `ext-avoid-ai-writing` — [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing)
 - `impeccable-design` — originally [pbakaus/impeccable](https://github.com/pbakaus/impeccable), significantly expanded
+- `ext-hexagonal-python` — [Remy349/skills](https://github.com/Remy349/skills) (MIT)
+- `ext-docker-*` — [docker/skills](https://github.com/docker/skills) (Apache-2.0)
+- `ext-golang-*` — [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) (MIT)
+- `ext-accessibility`, `ext-accessibility-testing` — [KreerC/ACCESSIBILITY.md](https://github.com/KreerC/ACCESSIBILITY.md) (MIT)
+- `ext-database-schema-designer`, `ext-c4-architecture`, `ext-crafting-effective-readmes` — [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit) (MIT)
+- `ext-go-service-scaffolder`, `ext-writing-quality` — [ItalyPaleAle/skills](https://github.com/ItalyPaleAle/skills) (MIT)
+- `ext-android-*` — [new-silvermoon/awesome-android-agent-skills](https://github.com/new-silvermoon/awesome-android-agent-skills) (Apache-2.0)
 
 ## Contributing
 

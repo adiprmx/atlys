@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-16 — v1.2.0
+
+- Expanded to 47 skills (+18): backend architecture, DevOps, Go, Android, databases, accessibility
+  - engineering/: hexagonal-python, 4× docker, 3× golang, database-schema-designer, c4-architecture, go-service-scaffolder, 3× android
+  - design/: accessibility, accessibility-testing
+  - writing/: crafting-effective-readmes, writing-quality
+
 ## 2026-10-16 — v1.1.0
 
 - Restructured the repo into category folders: `design/`, `writing/`, `engineering/`
