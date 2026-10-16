@@ -14,6 +14,20 @@
 
 ---
 
+## Contents
+
+- [Why atlys exists](#why-atlys-exists)
+- [Quick start](#quick-start)
+- [The collection](#the-collection)
+- [The atlys bar](#the-atlys-bar)
+- [Repository structure](#repository-structure)
+- [FAQ](#faq)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
 ## Why atlys exists
 
 You know the look: the centered hero, three feature cards, purple gradient. The paragraph starting "In today's fast-paced digital landscape." The comment `// increment the counter` next to `i++`. That's AI slop — the average of everything, reviewed by no one — and it's the default output of every AI agent.
@@ -59,7 +73,16 @@ cp -r atlys/design/taste-skill ~/.claude/skills/
 cp -r atlys/writing/antislop-core ~/.claude/skills/
 ```
 
-Then tell your agent to load the skill when relevant — or wire it into your agent's skill discovery so it's picked up automatically. Every skill ships with `SKILL.md` frontmatter (`name`, `description`) so agents that auto-index skills just work. See [Anatomy of a skill](#anatomy-of-a-skill).
+Only want one category? Clone it sparsely:
+
+```sh
+git clone --filter=blob:none --sparse https://github.com/adiprmx/atlys.git
+cd atlys && git sparse-checkout set design
+```
+
+Then tell your agent to load the skill when relevant — or wire it into your agent's skill discovery so it's picked up automatically. Every skill ships with `SKILL.md` frontmatter (`name`, `description`) so agents that auto-index skills just work.
+
+### How it works
 
 ```mermaid
 flowchart LR
@@ -67,6 +90,17 @@ flowchart LR
     B --> C["Agent reads SKILL.md<br/>when the task matches"]
     C --> D["Output with taste:<br/>designed UI, human prose,<br/>complete code"]
 ```
+
+A skill is a self-contained folder:
+
+```
+design/taste-skill/
+├── SKILL.md        # the playbook: when to load it, how to apply it
+├── skill.yaml      # machine-readable metadata (name, description)
+└── scripts/        # optional helper scripts (only some skills)
+```
+
+`SKILL.md` starts with frontmatter (`name`, `description`, `allowed-tools`) so agents can index and auto-load it. Everything else is plain markdown written to be read by both humans and models.
 
 ## The atlys bar
 
@@ -100,13 +134,11 @@ atlys/
 └── LICENSE
 ```
 
-## Browse the collection
+## The collection
 
 | [![Design — 17 skills](assets/banner-design.svg)](design/) | [![Writing — 12 skills](assets/banner-writing.svg)](writing/) | [![Engineering — 18 skills](assets/banner-engineering.svg)](engineering/) |
 |:---:|:---:|:---:|
 | **Design** — interfaces with taste<br/><sub>Start with `taste-skill` · `impeccable-design`</sub> | **Writing** — prose that reads human<br/><sub>Start with `antislop-core` · `humanizer`</sub> | **Engineering** — backends that ship<br/><sub>Start with `output-skill` · `hexagonal-python`</sub> |
-
-## The collection
 
 <details>
 <summary><strong>🎨 Design & frontend</strong> — <a href="design/">design/</a> · 17 skills</summary>
@@ -185,17 +217,6 @@ atlys/
 
 ![atlys skill map — all 47 skills](assets/skillmap.svg)
 
-## Anatomy of a skill
-
-```
-design/taste-skill/
-├── SKILL.md        # the playbook: when to load it, how to apply it
-├── skill.yaml      # machine-readable metadata (name, description)
-└── scripts/        # optional helper scripts (only some skills)
-```
-
-`SKILL.md` starts with frontmatter (`name`, `description`, `allowed-tools`) so agents can index and auto-load it. Everything else is plain markdown written to be read by both humans and models.
-
 ## FAQ
 
 **Do I need all 47 skills?**
@@ -212,6 +233,9 @@ A few skills were adapted and translated for Indonesian-speaking builders. The t
 
 **How do I know what's new?**
 See [CHANGELOG.md](CHANGELOG.md). Every addition, rename, or removal is recorded there.
+
+**How is this versioned?**
+With GitHub Releases. New skills and improvements bump the minor version; renames and removals are called out in the release notes and CHANGELOG so you can update your copies.
 
 **I found a bug or a better skill.**
 Open an issue or PR — see [Contributing](#contributing).

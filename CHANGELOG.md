@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-16 — v1.8.0
+
+- Main README restructured: table of contents, "Browse" merged into "The collection", "Anatomy" merged into "How it works" (14 → 11 sections). Quick start gained sparse-checkout instructions; FAQ gained a versioning entry.
+
 ## 2026-10-16 — v1.7.5
 
 - Decluttered: skill maps moved below the tables (no more stacked visuals); duplicate intro lines removed from category READMEs. Visuals and text now alternate down the page.
