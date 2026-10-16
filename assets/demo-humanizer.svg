@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 490" width="760" height="490">
+<rect width="760" height="490" rx="14" fill="#0b0b0d"/>
+<rect x="1" y="1" width="758" height="488" rx="13" fill="none" stroke="#27272a" stroke-width="1"/>
+<text x="28" y="58" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#f87171" letter-spacing="2">BEFORE — raw AI output</text>
+<text x="28" y="76" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#a1a1aa">In today&#x27;s fast-paced digital landscape, it&#x27;s not just</text>
+<text x="28" y="100" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#a1a1aa">about writing code — it&#x27;s about crafting experiences.</text>
+<text x="28" y="124" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#a1a1aa">Our revolutionary platform leverages cutting-edge AI</text>
+<text x="28" y="148" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#a1a1aa">to deliver unparalleled results. Moreover, it&#x27;s worth</text>
+<text x="28" y="172" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#a1a1aa">noting that developers can seamlessly integrate</text>
+<text x="28" y="196" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#a1a1aa">robust features with minimal effort.</text>
+<text x="28" y="244" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#a1a1aa">The difference is clear. This is the future.</text>
+<text x="28" y="268" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#a1a1aa">Don&#x27;t get left behind.</text>
+<text x="28" y="298" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12.5" fill="#71717a">tells: not-X-but-Y, em dashes, throat-clearing, stock AI words, one-line closers</text>
+<line x1="28" y1="332" x2="732" y2="332" stroke="#27272a" stroke-width="1"/>
+<text x="28" y="362" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#4ade80" letter-spacing="2">AFTER — humanizer skill applied</text>
+<text x="28" y="380" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#e4e4e7">Most dev tools make you fight the setup. Ours doesn&#x27;t.</text>
+<text x="28" y="404" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#e4e4e7">One command installs it, you pick your skills, and your</text>
+<text x="28" y="428" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#e4e4e7">agent starts writing better code the same day.</text>
+<text x="28" y="462" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#71717a">rewritten following atlys/writing/humanizer — same facts, no new claims</text>
+</svg>

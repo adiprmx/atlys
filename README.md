@@ -72,6 +72,8 @@ design/taste-skill/
 
 Every skill here earned its place: it must visibly change the agent's output, be specific (rules and examples, not vague advice), and respect the reader (no filler). Thin or duplicated skills get cut.
 
+![humanizer skill: before/after](assets/demo-humanizer.svg)
+
 ## What's inside
 
 | [![Design — 17 skills](assets/banner-design.svg)](design/) | [![Writing — 12 skills](assets/banner-writing.svg)](writing/) | [![Engineering — 18 skills](assets/banner-engineering.svg)](engineering/) |

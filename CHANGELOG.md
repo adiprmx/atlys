@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-17 — v1.9.2
+
+- New: humanizer before/after demo (hand-drawn SVG from the skill's real rules) in The bar section. Awesome-list PR prepared (fork + branch ready).
+
 ## 2026-10-16 — v1.9.1
 
 - CI: GitHub Actions validates every push (47 frontmatters, skill counts, badge count, 81 relative links — the link checker caught and fixed 81 broken "Also" links). Install demo: real `npx skills add` terminal output as a hand-drawn SVG.
