@@ -19,154 +19,154 @@
     },
     {
       "name": "brandkit",
-      "description": "'Brand-kit image generation: logo systems, identity decks, and brand-guideline",
+      "description": "Brand-kit image generation: logo systems, identity decks, and brand-guideline boards across minimalist, cinematic, editorial, dark-tech, luxury, and more.",
       "category": "design",
       "path": "design/brandkit",
       "install": "npx skills add adiprmx/atlys -s brandkit -y"
     },
     {
       "name": "brutalist-skill",
-      "description": "Raw mechanical interfaces fusing Swiss typographic print with military",
+      "description": "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. For data-heavy dashboards and portfolios that should feel like declassified blueprints.",
       "category": "design",
       "path": "design/brutalist-skill",
       "install": "npx skills add adiprmx/atlys -s brutalist-skill -y"
     },
     {
       "name": "frontend-image-direction",
-      "description": "Section references, mobile screen concepts, and brand-consistent image",
+      "description": "Section references, mobile screen concepts, and brand-consistent image sets with locked cross-image consistency, then implements from the references without design drift.",
       "category": "design",
       "path": "design/frontend-image-direction",
       "install": "npx skills add adiprmx/atlys -s frontend-image-direction -y"
     },
     {
       "name": "gpt-tasteskill",
-      "description": "'UX/UI plus advanced GSAP motion engineering: AIDA page structure, wide",
+      "description": "UX/UI plus advanced GSAP motion engineering: AIDA page structure, wide editorial typography, gapless bento grids, strict ScrollTriggers.",
       "category": "design",
       "path": "design/gpt-tasteskill",
       "install": "npx skills add adiprmx/atlys -s gpt-tasteskill -y"
     },
     {
       "name": "image-to-code-skill",
-      "description": "Generates the design images first, analyzes them deeply, then implements",
+      "description": "Generates the design images first, analyzes them deeply, then implements the website to match as closely as possible.",
       "category": "design",
       "path": "design/image-to-code-skill",
       "install": "npx skills add adiprmx/atlys -s image-to-code-skill -y"
     },
     {
       "name": "imagegen-frontend-mobile",
-      "description": "Mobile app screen concepts and flows (iOS/Android/cross-platform), presented",
+      "description": "Mobile app screen concepts and flows (iOS/Android/cross-platform), presented in phone mockups. Image generation only.",
       "category": "design",
       "path": "design/imagegen-frontend-mobile",
       "install": "npx skills add adiprmx/atlys -s imagegen-frontend-mobile -y"
     },
     {
       "name": "imagegen-frontend-web",
-      "description": "'Generates conversion-aware website design references: one horizontal",
+      "description": "Generates conversion-aware website design references: one horizontal image per section, one consistent palette.",
       "category": "design",
       "path": "design/imagegen-frontend-web",
       "install": "npx skills add adiprmx/atlys -s imagegen-frontend-web -y"
     },
     {
       "name": "impeccable-design",
-      "description": "\"Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.\"",
+      "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
       "category": "design",
       "path": "design/impeccable-design",
       "install": "npx skills add adiprmx/atlys -s impeccable-design -y"
     },
     {
       "name": "minimalist-skill",
-      "description": "'Clean editorial interfaces: warm monochrome, typographic contrast, flat",
+      "description": "Clean editorial interfaces: warm monochrome, typographic contrast, flat bento grids. No gradients, no heavy shadows.",
       "category": "design",
       "path": "design/minimalist-skill",
       "install": "npx skills add adiprmx/atlys -s minimalist-skill -y"
     },
     {
       "name": "premium-frontend-engineering",
-      "description": "'Hand-coded frontend: brief-driven design dials, bias-corrected typography",
+      "description": "Hand-coded frontend: brief-driven design dials, bias-corrected typography and color, intentional GSAP/Motion choreography, strict pre-flight check.",
       "category": "design",
       "path": "design/premium-frontend-engineering",
       "install": "npx skills add adiprmx/atlys -s premium-frontend-engineering -y"
     },
     {
       "name": "redesign-skill",
-      "description": "Upgrades existing websites and apps without breaking functionality. Audit-first;",
+      "description": "Upgrades existing websites and apps without breaking functionality. Audit-first; hunts down generic AI patterns.",
       "category": "design",
       "path": "design/redesign-skill",
       "install": "npx skills add adiprmx/atlys -s redesign-skill -y"
     },
     {
       "name": "soft-skill",
-      "description": "'Agency-grade polish: exact fonts, spacing, shadows, card structures,",
+      "description": "Agency-grade polish: exact fonts, spacing, shadows, card structures, and animations that make a site feel expensive.",
       "category": "design",
       "path": "design/soft-skill",
       "install": "npx skills add adiprmx/atlys -s soft-skill -y"
     },
     {
       "name": "stitch-skill",
-      "description": "Semantic design-system skill for Google Stitch. Generates agent-friendly",
+      "description": "Semantic design-system skill for Google Stitch. Generates agent-friendly DESIGN.md files enforcing anti-generic UI standards.",
       "category": "design",
       "path": "design/stitch-skill",
       "install": "npx skills add adiprmx/atlys -s stitch-skill -y"
     },
     {
       "name": "taste-skill",
-      "description": "Anti-slop frontend for landing pages, portfolios, and redesigns. Reads",
+      "description": "Anti-slop frontend for landing pages, portfolios, and redesigns. Reads the brief, infers the right design direction, and ships interfaces that do not look templated. Strict pre-flight check included.",
       "category": "design",
       "path": "design/taste-skill",
       "install": "npx skills add adiprmx/atlys -s taste-skill -y"
     },
     {
       "name": "taste-skill-v1",
-      "description": "The original v1 of taste-skill, preserved for projects depending on its",
+      "description": "The original v1 of taste-skill, preserved for projects depending on its exact behavior.",
       "category": "design",
       "path": "design/taste-skill-v1",
       "install": "npx skills add adiprmx/atlys -s taste-skill-v1 -y"
     },
     {
       "name": "antislop-code",
-      "description": "\"Code comment hygiene for AI coding agents: remove generic AI-slop comments, keep the valuable ones, never touch the code.\"",
+      "description": "Code comment hygiene for AI coding agents: remove generic AI-slop comments, keep the valuable ones, never touch the code.",
       "category": "writing",
       "path": "writing/antislop-code",
       "install": "npx skills add adiprmx/atlys -s antislop-code -y"
     },
     {
       "name": "antislop-copywriting",
-      "description": "\"Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.\"",
+      "description": "Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.",
       "category": "writing",
       "path": "writing/antislop-copywriting",
       "install": "npx skills add adiprmx/atlys -s antislop-copywriting -y"
     },
     {
       "name": "antislop-core",
-      "description": "\"Anti Slop: Rules for AI Coding Agents. The core filter. Load always to stop generic AI slop.\"",
+      "description": "Anti Slop: Rules for AI Coding Agents. The core filter. Load always to stop generic AI slop.",
       "category": "writing",
       "path": "writing/antislop-core",
       "install": "npx skills add adiprmx/atlys -s antislop-core -y"
     },
     {
       "name": "antislop-human",
-      "description": "\"Human and accessibility skill for antislop. Contrast, keyboard, focus, and states for real people. Includes the contrast checker.\"",
+      "description": "Human and accessibility skill for antislop. Contrast, keyboard, focus, and states for real people. Includes the contrast checker.",
       "category": "writing",
       "path": "writing/antislop-human",
       "install": "npx skills add adiprmx/atlys -s antislop-human -y"
     },
     {
       "name": "antislop-layoutmobile",
-      "description": "\"Mobile layout skill for antislop. Use for layouts that reflow across screen sizes, phone to desktop: grids, overflow, tap targets. Load with the core.\"",
+      "description": "Mobile layout skill for antislop. Use for layouts that reflow across screen sizes, phone to desktop: grids, overflow, tap targets. Load with the core.",
       "category": "writing",
       "path": "writing/antislop-layoutmobile",
       "install": "npx skills add adiprmx/atlys -s antislop-layoutmobile -y"
     },
     {
       "name": "antislop-ui",
-      "description": "\"UI and visual skill for antislop. Use when building or editing any interface: color, layout, components, motion. Load with the core.\"",
+      "description": "UI and visual skill for antislop. Use when building or editing any interface: color, layout, components, motion. Load with the core.",
       "category": "writing",
       "path": "writing/antislop-ui",
       "install": "npx skills add adiprmx/atlys -s antislop-ui -y"
     },
     {
       "name": "avoid-ai-writing",
-      "description": "\"Avoid AI Writing: audit & rewrite untuk menghapus pola tulisan AI ('AI-isms'). Mode detect-only, edit-in-place, profil suara (casual/professional/technical/warm/blunt), dan pass iterasi-sampai-konvergen. Punya kontrak editing ketat: deteksi bukan vonis, temuan bukan edit otomatis. Dikalibrasi untuk Bahasa Inggris; untuk Bahasa Indonesia pakai sebagai panduan pola struktural.\"",
+      "description": "Avoid AI Writing: audit & rewrite untuk menghapus pola tulisan AI ('AI-isms'). Mode detect-only, edit-in-place, profil suara (casual/professional/technical/warm/blunt), dan pass iterasi-sampai-konvergen. Punya kontrak editing ketat: deteksi bukan vonis, temuan bukan edit otomatis. Dikalibrasi untuk Bahasa Inggris; untuk Bahasa Indonesia pakai sebagai panduan pola struktural.",
       "category": "writing",
       "path": "writing/avoid-ai-writing",
       "install": "npx skills add adiprmx/atlys -s avoid-ai-writing -y"
@@ -180,21 +180,21 @@
     },
     {
       "name": "humanizer",
-      "description": "\"Humanizer: ubah tulisan beraroma AI jadi terdengar seperti manusia tanpa mengubah isinya. Pakai saat mengedit/mereview prosa: deteksi pola AI (kontras not-X-but-Y, closer satu baris, triad paksa, dash berlebih, klaim bombastis, kata stok AI, bold dekoratif, sisa chat). Berbasis riset Wikipedia 'Signs of AI writing'. Cocok untuk copy Indonesia yang diterjemahkan/ditulis ulang dari pola Inggris.\"",
+      "description": "Humanizer: ubah tulisan beraroma AI jadi terdengar seperti manusia tanpa mengubah isinya. Pakai saat mengedit/mereview prosa: deteksi pola AI (kontras not-X-but-Y, closer satu baris, triad paksa, dash berlebih, klaim bombastis, kata stok AI, bold dekoratif, sisa chat). Berbasis riset Wikipedia 'Signs of AI writing'. Cocok untuk copy Indonesia yang diterjemahkan/ditulis ulang dari pola Inggris.",
       "category": "writing",
       "path": "writing/humanizer",
       "install": "npx skills add adiprmx/atlys -s humanizer -y"
     },
     {
       "name": "no-ai-slop",
-      "description": "\"No AI Slop: edit draf jadi tajam dan manusiawi sambil menjaga suara penulis, atau deteksi pola AI-slop tanpa menulis ulang. Dua mode: Edit (minimum effective edit + What changed) dan Detect (sebut pola, kutip baris, beri fix singkat). Pakai saat user minta draf lebih jelas, lebih direct, lebih beropini, atau bertanya apakah tulisannya terdengar AI.\"",
+      "description": "No AI Slop: edit draf jadi tajam dan manusiawi sambil menjaga suara penulis, atau deteksi pola AI-slop tanpa menulis ulang. Dua mode: Edit (minimum effective edit + What changed) dan Detect (sebut pola, kutip baris, beri fix singkat). Pakai saat user minta draf lebih jelas, lebih direct, lebih beropini, atau bertanya apakah tulisannya terdengar AI.",
       "category": "writing",
       "path": "writing/no-ai-slop",
       "install": "npx skills add adiprmx/atlys -s no-ai-slop -y"
     },
     {
       "name": "stop-slop",
-      "description": "\"Stop Slop: pangkas retorika & basa-basi AI dari prosa. 8 aturan inti (potong filler, hancurkan struktur formulaik, aktif, spesifik, variasi ritme) + daftar frasa yang wajib dibuang + cek kilat + skor 1-10 per dimensi. Pakai saat menulis, mengedit, atau mereview teks agar langsung ke poin.\"",
+      "description": "Stop Slop: pangkas retorika & basa-basi AI dari prosa. 8 aturan inti (potong filler, hancurkan struktur formulaik, aktif, spesifik, variasi ritme) + daftar frasa yang wajib dibuang + cek kilat + skor 1-10 per dimensi. Pakai saat menulis, mengedit, atau mereview teks agar langsung ke poin.",
       "category": "writing",
       "path": "writing/stop-slop",
       "install": "npx skills add adiprmx/atlys -s stop-slop -y"
@@ -229,7 +229,7 @@
     },
     {
       "name": "batch-run-integrity",
-      "description": "'Keeps long multi-chunk batch jobs honest and resumable: incremental",
+      "description": "Keeps long multi-chunk batch jobs honest and resumable: incremental on-disk checkpoints, completion claims reconciled against artifacts on disk.",
       "category": "engineering",
       "path": "engineering/batch-run-integrity",
       "install": "npx skills add adiprmx/atlys -s batch-run-integrity -y"
@@ -285,21 +285,21 @@
     },
     {
       "name": "golang-concurrency",
-      "description": "\"Golang concurrency design — goroutine lifecycle and leak prevention, channels and `select`, channel ownership and direction, `sync.Mutex`/`RWMutex`/`sync.Map`/`sync.Once`/atomics, `errgroup`, `singleflight`, worker pools, and fan-out/fan-in pipelines. Use when writing or reviewing concurrent Go code, when choosing between channels and mutexes, when protecting a shared map or counter, or when a goroutine has no clear exit. Not for defensive coding unrelated to concurrency such as nil panics, slice aliasing, or numeric overflow (→ See `samber/cc-skills-golang@golang-safety` skill), and not for debugging a specific hung, crashing, or racing program after the fact (→ See `samber/cc-skills-golang@golang-troubleshooting` skill).\"",
+      "description": "Golang concurrency design — goroutine lifecycle and leak prevention, channels and `select`, channel ownership and direction, `sync.Mutex`/`RWMutex`/`sync.Map`/`sync.Once`/atomics, `errgroup`, `singleflight`, worker pools, and fan-out/fan-in pipelines. Use when writing or reviewing concurrent Go code, when choosing between channels and mutexes, when protecting a shared map or counter, or when a goroutine has no clear exit. Not for defensive coding unrelated to concurrency such as nil panics, slice aliasing, or numeric overflow (→ See `samber/cc-skills-golang@golang-safety` skill), and not for debugging a specific hung, crashing, or racing program after the fact (→ See `samber/cc-skills-golang@golang-troubleshooting` skill).",
       "category": "engineering",
       "path": "engineering/golang-concurrency",
       "install": "npx skills add adiprmx/atlys -s golang-concurrency -y"
     },
     {
       "name": "golang-error-handling",
-      "description": "\"Idiomatic Golang error handling — creation, wrapping with %w, errors.Is/As, errors.Join, custom error types, sentinel errors, panic/recover, the single handling rule, structured logging with slog, HTTP request logging middleware, and samber/oops for production errors. Built to make logs usable at scale with log aggregation 3rd-party tools. Apply when creating, wrapping, inspecting, or logging errors in Go code. For samber/oops specifics → See `samber/cc-skills-golang@golang-samber-oops` skill; for slog handler ecosystem → See `samber/cc-skills-golang@golang-samber-slog` skill.\"",
+      "description": "Idiomatic Golang error handling — creation, wrapping with %w, errors.Is/As, errors.Join, custom error types, sentinel errors, panic/recover, the single handling rule, structured logging with slog, HTTP request logging middleware, and samber/oops for production errors. Built to make logs usable at scale with log aggregation 3rd-party tools. Apply when creating, wrapping, inspecting, or logging errors in Go code. For samber/oops specifics → See `samber/cc-skills-golang@golang-samber-oops` skill; for slog handler ecosystem → See `samber/cc-skills-golang@golang-samber-slog` skill.",
       "category": "engineering",
       "path": "engineering/golang-error-handling",
       "install": "npx skills add adiprmx/atlys -s golang-error-handling -y"
     },
     {
       "name": "golang-testing",
-      "description": "\"Production-ready Golang tests — table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures, goroutine leak detection with goleak, snapshot testing, code coverage, integration tests, idiomatic test naming. Use when writing or reviewing Go tests, choosing a testing approach, setting up Go test CI, or debugging flaky/slow tests. For testify-specific APIs see `samber/cc-skills-golang@golang-stretchr-testify`; for measurement methodology see `samber/cc-skills-golang@golang-benchmark`.\"",
+      "description": "Production-ready Golang tests — table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures, goroutine leak detection with goleak, snapshot testing, code coverage, integration tests, idiomatic test naming. Use when writing or reviewing Go tests, choosing a testing approach, setting up Go test CI, or debugging flaky/slow tests. For testify-specific APIs see `samber/cc-skills-golang@golang-stretchr-testify`; for measurement methodology see `samber/cc-skills-golang@golang-benchmark`.",
       "category": "engineering",
       "path": "engineering/golang-testing",
       "install": "npx skills add adiprmx/atlys -s golang-testing -y"
@@ -313,21 +313,21 @@
     },
     {
       "name": "intent-pattern-qa",
-      "description": "Catches silent regex-pattern death (patterns that compile but never match)",
+      "description": "Catches silent regex-pattern death (patterns that compile but never match) via positive-match probes and byte-level asserts.",
       "category": "engineering",
       "path": "engineering/intent-pattern-qa",
       "install": "npx skills add adiprmx/atlys -s intent-pattern-qa -y"
     },
     {
       "name": "output-skill",
-      "description": "Overrides default LLM truncation behavior. Enforces complete code generation,",
+      "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly.",
       "category": "engineering",
       "path": "engineering/output-skill",
       "install": "npx skills add adiprmx/atlys -s output-skill -y"
     },
     {
       "name": "worker-resource-budgeting",
-      "description": "Budgets RAM before fanning out parallel workers, so verification workers",
+      "description": "Budgets RAM before fanning out parallel workers, so verification workers never starve the live system.",
       "category": "engineering",
       "path": "engineering/worker-resource-budgeting",
       "install": "npx skills add adiprmx/atlys -s worker-resource-budgeting -y"
